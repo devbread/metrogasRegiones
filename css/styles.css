@@ -80,22 +80,6 @@ h1 {
 
 body {
   background-color: #fff; }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 h1 {
-  color: redpurple;
-  text-align: center;
-  font-size: 4em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+  color: yellow; }
