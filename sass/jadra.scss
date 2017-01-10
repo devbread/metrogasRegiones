@@ -1,0 +1,47 @@
+.antetitulo{
+	font-family:'montserratblack',sans-serif;
+	color:$color-antetitulo;
+	font-size:12px;
+	border-bottom: 1px solid $color-antetitulo;
+	margin: 15px 0 30px 0;
+	padding-bottom:10px;
+}
+.antetitulo-foto{
+	font-family:'montserratblack',sans-serif;
+	color:$blanco;
+	font-size:12px;
+	border-bottom: 1px solid $blanco;
+	margin: 15px 0 30px 0;
+	padding-bottom:10px;
+}
+
+.metroplan,.header,.concept,.video,.mapa,.video-left,.seguridad,.contacto{
+	.texto-primario{
+		font-family:'montserratlight',sans-serif;
+		color:$color-texto-parrafos;
+		margin-bottom:25px;
+		font-size: 12px;
+	}
+	.titulo-fondo-verde{
+		font-family:'montserratbold',sans-serif;
+		color:#fff;
+		padding:10px 5px;
+		background-color: $color-verde-claro;
+		margin-bottom:35px;
+		span{
+			background-color: $color-celeste;
+		}
+	}
+}
+.mapa{
+	.texto-primario{
+		color:$color-texto-titulos;
+		font-size: 15px;
+		font-family:'montserratbold',sans-serif;
+	}
+}
+.nubes{
+	color:$blanco;
+	font-family:'Montserrat';
+	font-size:13px;
+}

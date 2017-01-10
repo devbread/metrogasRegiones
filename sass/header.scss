@@ -5,6 +5,11 @@ html {
   box-sizing: inherit;
 }
 
+ //clearfix
+
+ .clearfix {
+ 	clear: both;
+ }
 
 body {
 	font-family: 'montserratblack';
@@ -17,9 +22,14 @@ h1 {
 
 .contenido {
 	width: 960px;
+	height: 356px;
 	margin: 0 auto;
 }
 .header {
 	width: 960px;
+	height: 356px;
 	background:url(../img/01.jpg) no-repeat;
+	padding: 30px 57px;
 }
+
+

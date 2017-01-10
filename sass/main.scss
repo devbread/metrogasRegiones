@@ -1,0 +1,152 @@
+.concept {
+	width: 960px;
+	overflow: hidden;
+	.concept-foto, 
+	.section-texto {
+		width: 480px;
+		height: auto;
+		float: left;
+	} 
+	.concept-foto {
+		img {
+			display: block;
+		}
+	}
+	.section-texto {
+		padding: 10px 57px;
+		.sector {
+			margin-top:80px
+		} 
+	}
+} 
+
+.nubes {
+	background: $color-footer url(../img/bg-nubes.png) no-repeat;
+	.nubes-block{
+		width: 850px;
+		height: auto;
+		margin:0 auto;
+		padding-top: 55px;
+		padding-bottom: 90px;
+	}
+
+	.line-box-box {
+		margin-top: 77px;
+		.line-box,.line-box.nb {
+			width: 250px;
+			height: auto;
+			float: left;
+			.line-box-item-titulo{
+				background-color: $color-verde-claro;
+				color:$blanco;
+				text-align: center;
+				height: 45px;
+				line-height: 45px;
+			}
+		} 
+		.line-box {
+			margin-right:40px; 
+		}
+		.line-box.nb {
+			margin-right: 0;
+		}
+
+		.line-box-item-texto {
+			background-color: $color-azul-caja;
+			padding: 24px 22px;
+		}
+	} 
+} 
+
+
+
+.video{
+	.texto-caja,
+	.caja-video {
+		width: 480px;
+		float: left;
+	}	
+	.texto-caja {
+		.texto-caja-center {
+			width: 355px;
+			margin: 0 auto;
+			padding-top: 75px;
+		}
+	}
+} 
+
+
+.mapa {
+	#mapa {
+		margin: 55px auto 30px auto;
+		width: 876px;
+		height: 602px;
+	}
+}
+
+.video-left {
+	.video-left-video,
+	.video-left-texto {
+		width: 480px;
+		height: auto;
+		float: left;
+	}
+	.video-left-texto {
+		.video-left-texto-center {
+			width: 352px;
+			margin: 55px auto 0 auto;
+		} 
+	} 
+}
+
+
+.seguridad {
+	background: $color-footer url(../img/bg-nubes.png) no-repeat;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	.seguridad-block {
+		width: 850px;
+		height: auto;
+		margin:0 auto;
+
+		.texto-seguridad,
+		.texto-seguridad-img {
+			width: 398px;
+			height: auto;
+			float: left;
+		}
+		.texto-seguridad {
+			margin-right: 54px;
+		}
+		.texto-seguridad-img {
+			text-align: right;
+		}
+	}
+}
+
+.metroplan {
+	width: 850px;
+	height: auto;
+	margin: 0 auto;
+
+	.metroplanes {
+		background-color: $color-footer;
+		float: left;
+		padding: 55px 70px;
+		width: 425px;
+		position: relative;
+		.box-metroplanes{
+			&:after{
+				content: "";
+				width: 1px;
+				height: 80%;
+				position: absolute;
+				right: 0;
+				left: 0;
+				background: rgba($line, .5);
+				top: 30px;
+			}
+		}
+	}
+
+}

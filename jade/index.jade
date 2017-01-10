@@ -18,88 +18,133 @@ html(lang='en')
   body
     .contenido
         section.header
-            p.antetitulo Metrogas en la zona sur
-            h1 En Puerto Montt
-                span Metrogas te conviene
+            .caja
+                p.antetitulo-foto Metrogas en la zona sur
+                h1.titulo-fondo-verde En Puerto Montt
+                    span Metrogas te conviene
         section.concept
+            .concept-foto
+                img(src="img/02.jpg", alt="Desde hace 20 años expertos en gas natural")
             .section-texto
-                p.antetitulo ¿Quiénes somos?
-                h1 Desde hace 20 años 
-                    span expertos en gas natural   
-                p Hoy abastecemos a más de <span>3 millones</span> de personas en la zona central. 
-                p Y por 13 años consecutivos hemos sido distinguidos por nuestros clientes con el premio <span>Calidad de Servicio.</span> 
-                p Estamos comprometidos con la calidad de vida de nuestros clientes. 
-        section.concept
-            p.subtitle En Metrogas queremos un nuevo aire para el sur de Chile
+                .sector
+                    p.antetitulo ¿Quiénes somos?
+                    h1.titulo-fondo-verde Desde hace 20 años 
+                        span expertos en gas natural   
+                    p.texto-primario Hoy abastecemos a más de <span>3 millones</span> de personas en la zona central. 
+                    p.texto-primario Y por 13 años consecutivos hemos sido distinguidos por nuestros clientes con el premio <span>Calidad de Servicio.</span> 
+                    p.texto-primario Estamos comprometidos con la calidad de vida de nuestros clientes. 
+        .clearfix 
+        section.nubes
+            .nubes-block
+                p.antetitulo-foto En Metrogas queremos un nuevo aire para el sur de Chile
 
-            h2 Conéctate y disfruta los beneficios y conveniencia del gas natural:
-            .beneficios
-                .beneficios-item
-                    img(src="img/continuo.png", alt="")
-                    h3 continuo
-                    p Contarás con gas natural los 365 días del año. Olvídate de quedarte sin gas, esperar o llamar para que te lo lleven.
-                .beneficios-item
-                    img(src="img/conveniente.png", alt="")
-                    h3 conveniente
-                    p Contamos con distintos planes que te permiten pagar un precio fijo mensual y disfrutar de todos sus beneficios.
-                .beneficios-item
-                    img(src="img/natural.png", alt="")
-                    h3 natural
-                    p Es una energía menos contaminante que otros combustibles y además es libre de contaminación intradomiciliaria.
-            h3 El gas natural mejora tu calidad de vida y el aire de tu ciudad
-            p El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
-            
-            .line-box
-                .line-box-item
-                    .line-box-item-titulo
-                        p Más liviano que el aire
-                        .line-box-item-texto
-                            p En caso de fuga se disipa en la atmósfera disminuyendo el peligro de explosión y es menos inflamable.
-            .line-box
-                .line-box-item
-                    .line-box-item-titulo
-                        p Puro
-                        .line-box-item-texto
-                            p Alarga la vida útil de los artefactos ya que su combustión completa no deja residuo.
-            .line-box
-                .line-box-item
-                    .line-box-item-titulo
-                        p No es tóxico
-                        .line-box-item-texto
-                            p No produce intoxicación en caso de escape.
+                h2 Conéctate y disfruta los beneficios y conveniencia del gas natural:
+                .beneficios
+                    .beneficios-item
+                        img(src="img/continuo.png", alt="")
+                        h3 continuo
+                        p Contarás con gas natural los 365 días del año. Olvídate de quedarte sin gas, esperar o llamar para que te lo lleven.
+                    .beneficios-item
+                        img(src="img/conveniente.png", alt="")
+                        h3 conveniente
+                        p Contamos con distintos planes que te permiten pagar un precio fijo mensual y disfrutar de todos sus beneficios.
+                    .beneficios-item
+                        img(src="img/natural.png", alt="")
+                        h3 natural
+                        p Es una energía menos contaminante que otros combustibles y además es libre de contaminación intradomiciliaria.
+                h3 El gas natural mejora tu calidad de vida y el aire de tu ciudad
+                p.texto-primario El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
+                .line-box-box
+                    .line-box
+                        .line-box-item
+                            .line-box-item-titulo
+                                p Más liviano que el aire
+                            .line-box-item-texto
+                                p En caso de fuga se disipa en la atmósfera disminuyendo el peligro de explosión y es menos inflamable.
+                    .line-box
+                        .line-box-item
+                            .line-box-item-titulo
+                                p Puro
+                            .line-box-item-texto
+                                p Alarga la vida útil de los artefactos ya que su combustión completa no deja residuo.
+                    .line-box.nb
+                        .line-box-item
+                            .line-box-item-titulo
+                                p No es tóxico
+                            .line-box-item-texto
+                                p No produce intoxicación en caso de escape.
+                .clearfix 
         section.video
             .texto-caja
-                h1 ¿Cómo llega el gas natural de 
-                    span metrogas a puerto montt?
-                p El gas natural que llega a Chile proviene de distintas partes del mundo, para lo cual se utiliza tecnología de vanguardia que permite su traslado por mar y tierra hasta tu ciudad. 
+<<<<<<< HEAD
+                .texto-caja-center
+                    h1.titulo-fondo-verde ¿Cómo llega el gas natural de 
+                        span metrogas a puerto montt?
+                    p El gas natural que llega a Chile proviene de distintas partes del mundo, para lo cual se utiliza tecnología de vanguardia que permite su traslado por mar y tierra hasta tu ciudad. 
 
-                p Revisa en este video para conocer más sobre el viaje el gas natural. 
+                    p Revisa en este video para conocer más sobre el viaje el gas natural. 
+=======
+                h1.titulo-fondo-verde ¿Cómo llega el gas natural de 
+                    span metrogas a puerto montt?
+                p.texto-primario El gas natural que llega a Chile proviene de distintas partes del mundo, para lo cual se utiliza tecnología de vanguardia que permite su traslado por mar y tierra hasta tu ciudad. 
+
+                p.texto-primario Revisa en este video para conocer más sobre el viaje el gas natural. 
+>>>>>>> Jadra
             .caja-video
-                video 
+                img(src="img/play.jpg", alt="") 
+            .clearfix
         section.mapa
             p.antetitulo Más cerca de ti
 
-            h1 Zonas donde se encontrará disponible la conexión a       
+            h1.titulo-fondo-verde Zonas donde se encontrará disponible la conexión a       
                 span nuestra red de gas natural
-            p En una primera etapa los  sectores beneficiados con la llegada del gas natural de Metrogas serán <span>Valle Los Volcanes y Mirador de Bahía.</span>
+            p.texto-primario En una primera etapa los  sectores beneficiados con la llegada del gas natural de Metrogas serán <span>Valle Los Volcanes y Mirador de Bahía.</span>
 
             #mapa
                 img(src="img/mapa.jpg", alt="Poligonos Puerto Montt")
         section.video-left
             .video-left-video
+                img(src="img/play.jpg", alt="")
             .video-left-texto
-                h1 ¿Cómo trabajamos en tu 
+<<<<<<< HEAD
+                .video-left-texto-center
+                    h1.titulo-fondo-verde ¿Cómo trabajamos en tu 
+                        span sector y en tu casa?
+                    p Tras la obtención de la concesión y los respectivos permisos municipales, se realiza una inspección del terreno para conocer su estado y la existencia de otros servicios. 
+
+                    p Al iniciar las obras civiles de construcción, comienza la instalación red de gas natural con empalmes a clientes contratados. Luego,  se realizan los arreglos de todas las zonas intervenidas,  para que queden en similares condiciones a como se encontraba antes del inicio de los trabajos.
+
+                    p Con el fin de garantizar la seguridad, se realizan prueba de hermeticidad y gasificación, lo que permite comenzar el suministro de gas natural. 
+            .clearfix
+        section.seguridad
+            .seguridad-block
+                p.antetitulo Metrogas es seguridad
+
+                .texto-seguridad
+                    p Velamos por el bienestar de nuestros clientes y de la toda la comunidad, por ello la seguridad es una de las prioridades de nuestra empresa.
+
+                    ul.texto-seguridad-lista
+                        li Todas las redes y válvulas se instalan de forma subterránea. Estos materiales cumplen los <span>estándares a nivel mundial.</span> Prueba de ello es que en el terremoto de la zona central en 2010 no se produjeron problemas de fuga.
+                        li El gas natural no <span>requiere almacenamiento</span>, lo que evita pérdida de espacio y la entrada de extraños al hogar para el despacho de cilindros o relleno de estanques.
+                        li Una casa con gas natural es <span>más segura</span>, ya que al conectarse a nuestra red cumple con la normativa que establece la Superintendencia de Electricidad y Combustible (SEC).
+                        li Ubicamos la planta satélite de regasificación (PSR) en una zona industrial segura, no inundable en caso de Tsunami. 
+                        li Contamos con <span>protocolos de emergencia con Bomberos y Carabineros</span> con un canal de comunicación, con el fin de dar prioridad a dichos llamados en caso de emergencia.
+                .texto-seguridad-img
+                    img(src="img/seguridad.jpg", alt="Metrogas es Seguridad")
+            .clearfix
+=======
+                h1.titulo-fondo-verde ¿Cómo trabajamos en tu 
                     span sector y en tu casa?
-                p Tras la obtención de la concesión y los respectivos permisos municipales, se realiza una inspección del terreno para conocer su estado y la existencia de otros servicios. 
+                p.texto-primario Tras la obtención de la concesión y los respectivos permisos municipales, se realiza una inspección del terreno para conocer su estado y la existencia de otros servicios. 
 
-                p Al iniciar las obras civiles de construcción, comienza la instalación red de gas natural con empalmes a clientes contratados. Luego,  se realizan los arreglos de todas las zonas intervenidas,  para que queden en similares condiciones a como se encontraba antes del inicio de los trabajos.
+                p.texto-primario Al iniciar las obras civiles de construcción, comienza la instalación red de gas natural con empalmes a clientes contratados. Luego,  se realizan los arreglos de todas las zonas intervenidas,  para que queden en similares condiciones a como se encontraba antes del inicio de los trabajos.
 
-                p Con el fin de garantizar la seguridad, se realizan prueba de hermeticidad y gasificación, lo que permite comenzar el suministro de gas natural. 
+                p.texto-primario Con el fin de garantizar la seguridad, se realizan prueba de hermeticidad y gasificación, lo que permite comenzar el suministro de gas natural. 
         section.seguridad
             p.antetitulo Metrogas es seguridad
 
             .texto-seguridad
-                p Velamos por el bienestar de nuestros clientes y de la toda la comunidad, por ello la seguridad es una de las prioridades de nuestra empresa.
+                p.texto-primario Velamos por el bienestar de nuestros clientes y de la toda la comunidad, por ello la seguridad es una de las prioridades de nuestra empresa.
 
                 ul.texto-seguridad-lista
                     li Todas las redes y válvulas se instalan de forma subterránea. Estos materiales cumplen los <span>estándares a nivel mundial.</span> Prueba de ello es que en el terremoto de la zona central en 2010 no se produjeron problemas de fuga.
@@ -110,11 +155,12 @@ html(lang='en')
             .texto-seguridad-img
                 img(src="img/02.jpg", alt="Metrogas es Seguridad")
 
+>>>>>>> Jadra
 
      
         section.metroplan
-            p.subtitle-blue Conéctate a la conveniencia del gas natural Metrogas.
-            h1 Conoce nuestros planes
+            p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
+            h1.titulo-fondo-verde Conoce nuestros planes
                 span Tenemos la mejor alternativa para tu hogar
             .metroplanes
                 .box-metroplanes
@@ -124,37 +170,39 @@ html(lang='en')
                     p Al contratarlo aprovecha esta increíble promoción.
                     
                     .box-metroplanes-planes
-                    p Incluye
-                    ul.plans
-                        li Conexión Gratis <span>hasta</span> $510.000
-                        li
-                            img(src="", alt="") 
-                            p eco<span>wood</span> 
-                        li giftcard <span>calefacción</span> $89.700
-                    a.btn-see(href="#") Conoce Metroplanes
-
+                        p Incluye
+                        ul.plans
+                            li Conexión Gratis <span>hasta</span> $510.000
+                            li
+                                img(src="", alt="") 
+                                p eco<span>wood</span> 
+                            li giftcard <span>calefacción</span> $89.700
+                        a.btn-see(href="#") Conoce Metroplanes
+            .metroplanes
                 .box-metroplanes
                     h1 plan
                         span flexible
                     p Con este plan pagas lo que consumes con tarifa residencial. Es ideal para familias que no tienen un gasto fijo en gas natural.
                     p Al contratarlo aprovecha esta increíble promoción.
+
                     
                     .box-metroplanes-planes
-                    p Incluye
-                    ul.plans
-                        li Conexión Gratis <span>hasta</span> $510.000
-                        li
-                            img(src="", alt="") 
-                            p eco<span>wood</span> 
-                        li giftcard <span>calefacción</span> $89.700
-                    a.btn-see(href="#") Conoce Metroplanes
+                        p Incluye
+                        ul.plans
+                            li Conexión Gratis <span>hasta</span> $510.000
+                            li
+                                img(src="", alt="") 
+                                p eco<span>wood</span> 
+                            li giftcard <span>calefacción</span> $89.700
+                        a.btn-see(href="#") Conoce Metroplanes
+            .clearfix
 
         section.metroplan
-            p.subtitle-blue Metroplanes
+            p.antetitulo Metroplanes
 
             .metroplanes
                 .box-metroplanes
-                    h1 Descubre los Metroplanes
+                    h1.titulo-fondo-verde Descubre los Metroplanes
                         span y elige el que más te acomode
                     p Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados, que además vienen con metros cúbicos adicionales de regalo, por si te pasas del plan.
                     p Existen varios Metroplanes para que elijas el que más se ajuste a tu consumo y no te salgas de tu presupuesto para el gas
@@ -210,9 +258,9 @@ html(lang='en')
 
         section.contacto
             p.antetitulo Contáctanos
-            h1 Si estás interesado en alguno de nuestros planes o quieres más información
+            h1.titulo-fondo-verde Si estás interesado en alguno de nuestros planes o <span>quieres más información</span>
 
-            p Si estas interesado en cambiarte a Metrogas y quieres mas información ingresa tus datos y te contactaremos a la brevedad
+            p.texto-primario Si estas interesado en cambiarte a Metrogas y quieres mas información ingresa tus datos y te contactaremos a la brevedad
 
             form
                 input(type="text", placeholder="Nombre")
