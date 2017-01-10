@@ -200,9 +200,16 @@ h1 {
   color: #fff;
   padding: 10px 5px;
   background-color: #BDD44D;
-  margin-bottom: 35px; }
-  .metroplan .titulo-fondo-verde span, .header .titulo-fondo-verde span, .concept .titulo-fondo-verde span, .video .titulo-fondo-verde span, .mapa .titulo-fondo-verde span, .video-left .titulo-fondo-verde span, .seguridad .titulo-fondo-verde span, .contacto .titulo-fondo-verde span {
-    background-color: #46A1DB; }
+  font-size: 20px;
+  display: inline; }
+.metroplan .titulo-fondo-cyan, .header .titulo-fondo-cyan, .concept .titulo-fondo-cyan, .video .titulo-fondo-cyan, .mapa .titulo-fondo-cyan, .video-left .titulo-fondo-cyan, .seguridad .titulo-fondo-cyan, .contacto .titulo-fondo-cyan {
+  font-family: 'montserratbold',sans-serif;
+  color: #fff;
+  padding: 10px 5px;
+  margin-bottom: 35px;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #46A1DB; }
 
 .mapa .texto-primario {
   color: #3669A3;
