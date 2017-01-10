@@ -108,10 +108,33 @@ h1 {
     width: 480px;
     height: auto;
     float: left; }
+  .concept .concept-foto img {
+    display: block; }
   .concept .section-texto {
     padding: 10px 57px; }
     .concept .section-texto .sector {
       margin-top: 80px; }
+
+.nubes {
+  background: #3669A3 url(../img/nubes.png) no-repeat; }
+  .nubes .nubes-block {
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 90px; }
+  .nubes .line-box, .nubes .line-box.nb {
+    width: 250px;
+    height: auto;
+    float: left; }
+    .nubes .line-box .line-box-item-titulo, .nubes .line-box.nb .line-box-item-titulo {
+      background-color: #BDD44D;
+      color: blanco;
+      text-align: center; }
+  .nubes .line-box {
+    margin-right: 40px; }
+  .nubes .line-box.nb {
+    margin-right: 0; }
 
 .subtitle-blue {
   font-family: 'montserratblack',sans-serif;
