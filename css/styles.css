@@ -98,6 +98,16 @@ h1 {
   height: 356px;
   background: url(../img/01.jpg) no-repeat;
   padding: 30px 57px; }
-  .header .caja .antetitulo {
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff; }
+
+.concept {
+  width: 960px;
+  overflow: hidden; }
+  .concept .concept-foto,
+  .concept .section-texto {
+    width: 480px;
+    height: auto;
+    float: left; }
+  .concept .section-texto {
+    padding: 10px 57px; }
+    .concept .section-texto .sector {
+      margin-top: 80px; }

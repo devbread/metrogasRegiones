@@ -1,0 +1,16 @@
+.concept {
+	width: 960px;
+	overflow: hidden;
+	.concept-foto, 
+	.section-texto {
+		width: 480px;
+		height: auto;
+		float: left;
+	} 
+	.section-texto {
+		padding: 10px 57px;
+		.sector {
+			margin-top:80px
+		} 
+	}
+} 
