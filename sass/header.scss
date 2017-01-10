@@ -7,11 +7,19 @@ html {
 
 
 body {
-	background-color: red;
 	font-family: 'montserratblack';
 }
 
 h1 {
 	font-family: 'montserratblack';
 	font-size: 2em;
+}
+
+.contenido {
+	width: 960px;
+	margin: 0 auto;
+}
+.header {
+	width: 960px;
+	background:url(../img/01.jpg) no-repeat;
 }

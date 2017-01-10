@@ -83,31 +83,16 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: red;
   font-family: 'montserratblack'; }
 
 h1 {
   font-family: 'montserratblack';
   font-size: 2em; }
 
-.main {
+.contenido {
   width: 960px;
   margin: 0 auto; }
-  .main p {
-    color: #ccc;
-    font-size: 1em;
-    padding: 10px;
-    text-align: left;
-    -webkit-transition: .3s all;
-    transition: .3s all; }
-    .main p:hover {
-      color: white;
-      background-color: green; }
 
-body {
-  background-color: #fff; }
-
-h1 {
-  color: yellow;
-  text-align: center;
-  font-size: 4em; }
+.header {
+  width: 960px;
+  background: url(../img/01.jpg) no-repeat; }
