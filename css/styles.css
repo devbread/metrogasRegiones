@@ -142,6 +142,9 @@ h1 {
       margin-right: 40px; }
     .nubes .line-box-box .line-box.nb {
       margin-right: 0; }
+    .nubes .line-box-box .line-box-item-texto {
+      background-color: #305D91;
+      padding: 24px 22px; }
 
 .subtitle-blue {
   font-family: 'montserratblack',sans-serif;
