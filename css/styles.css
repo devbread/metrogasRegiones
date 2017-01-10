@@ -146,7 +146,7 @@ h1 {
       background-color: #305D91;
       padding: 24px 22px; }
 
-.subtitle-blue {
+.antetitulo {
   font-family: 'montserratblack',sans-serif;
   color: #3669A3;
   font-size: 12px;
@@ -159,3 +159,5 @@ h1 {
   color: #fff;
   padding: 10px 5px;
   background-color: #BDD44D; }
+  .metroplan .titulo-fondo-verde span {
+    background-color: #46A1DB; }

@@ -1,4 +1,4 @@
-.subtitle-blue{
+.antetitulo{
 	font-family:'montserratblack',sans-serif;
 	color:$color-texto-titulos;
 	font-size:12px;
@@ -12,5 +12,8 @@
 		color:#fff;
 		padding:10px 5px;
 		background-color: $color-verde-claro;
+		span{
+			background-color: $color-celeste;
+		}
 	}
 }
