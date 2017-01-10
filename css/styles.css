@@ -95,6 +95,29 @@ h1 {
 
 .header {
   width: 960px;
+<<<<<<< HEAD
+  height: 356px;
+  background: url(../img/01.jpg) no-repeat;
+  padding: 30px 57px; }
+<<<<<<< Updated upstream
+
+.concept {
+  width: 960px;
+  overflow: hidden; }
+  .concept .concept-foto,
+  .concept .section-texto {
+    width: 480px;
+    height: auto;
+    float: left; }
+  .concept .section-texto {
+    padding: 10px 57px; }
+    .concept .section-texto .sector {
+      margin-top: 80px; }
+=======
+  .header .caja .antetitulo {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff; }
+=======
   background: url(../img/01.jpg) no-repeat; }
 
 .subtitle-blue {
