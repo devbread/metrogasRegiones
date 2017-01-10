@@ -95,9 +95,11 @@ h1 {
 
 .header {
   width: 960px;
+<<<<<<< HEAD
   height: 356px;
   background: url(../img/01.jpg) no-repeat;
   padding: 30px 57px; }
+<<<<<<< Updated upstream
 
 .concept {
   width: 960px;
@@ -111,3 +113,23 @@ h1 {
     padding: 10px 57px; }
     .concept .section-texto .sector {
       margin-top: 80px; }
+=======
+  .header .caja .antetitulo {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff; }
+=======
+  background: url(../img/01.jpg) no-repeat; }
+
+.subtitle-blue {
+  font-family: 'montserratblack',sans-serif;
+  color: #3669A3;
+  font-size: 12px;
+  border-bottom: 1px solid #3669A3;
+  margin: 15px 0;
+  padding-bottom: 10px; }
+
+.metroplan .titulo-fondo-verde {
+  font-family: 'montserratblack',sans-serif;
+  color: #fff;
+  padding: 10px 5px;
+  background-color: #BDD44D; }
