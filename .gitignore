@@ -1,11 +1,14 @@
+*config.codekit
 
-*.codekit
+config.codekit
+
 <<<<<<< HEAD
-
 *.codekit
 =======
 >>>>>>> Jadra
 
 *.codekit
 
+=======
+>>>>>>> master
 config.codekit
