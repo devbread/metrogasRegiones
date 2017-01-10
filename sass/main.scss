@@ -1,0 +1,54 @@
+.concept {
+	width: 960px;
+	overflow: hidden;
+	.concept-foto, 
+	.section-texto {
+		width: 480px;
+		height: auto;
+		float: left;
+	} 
+	.concept-foto {
+		img {
+			display: block;
+		}
+	}
+	.section-texto {
+		padding: 10px 57px;
+		.sector {
+			margin-top:80px
+		} 
+	}
+} 
+
+.nubes {
+	background: $color-footer url(../img/nubes.png) no-repeat;
+	.nubes-block{
+		width: 850px;
+		height: auto;
+		margin:0 auto;
+		padding-top: 55px;
+		padding-bottom: 90px;
+	}
+
+	.line-box-box {
+		margin-top: 77px;
+		.line-box,.line-box.nb {
+			width: 250px;
+			height: auto;
+			float: left;
+			.line-box-item-titulo{
+				background-color: $color-verde-claro;
+				color:$blanco;
+				text-align: center;
+				height: 45px;
+				line-height: 45px;
+			}
+		} 
+		.line-box {
+			margin-right:40px; 
+		}
+		.line-box.nb {
+			margin-right: 0;
+		}
+	} 
+} 

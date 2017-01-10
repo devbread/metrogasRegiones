@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Khand|Roboto|Source+Sans+Pro");
+@font-face {
+  font-family: 'montserratblack';
+  src: url("../fonts/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat-black-webfont.woff") format("woff"), url("../fonts/montserrat-black-webfont.ttf") format("truetype"), url("../fonts/montserrat-black-webfont.svg#montserratblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratbold';
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../fonts/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratthin';
+  src: url("../fonts/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat-thin-webfont.woff") format("woff"), url("../fonts/montserrat-thin-webfont.ttf") format("truetype"), url("../fonts/montserrat-thin-webfont.svg#montserratthin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'dk_lemon_yellow_sunregular';
+  src: url("../fonts/dk_lemon_yellow_sun-webfont.woff2") format("woff2"), url("../fonts/dk_lemon_yellow_sun-webfont.woff") format("woff"), url("../fonts/dk_lemon_yellow_sun-webfont.ttf") format("truetype"), url("../fonts/dk_lemon_yellow_sun-webfont.svg#dk_lemon_yellow_sunregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.clearfix {
+  clear: both; }
+
+body {
+  font-family: 'montserratblack'; }
+
+h1 {
+  font-family: 'montserratblack';
+  font-size: 2em; }
+
+.contenido {
+  width: 960px;
+  height: 356px;
+  margin: 0 auto; }
+
+.header {
+  width: 960px;
+  height: 356px;
+  background: url(../img/01.jpg) no-repeat;
+  padding: 30px 57px; }
+
+.concept {
+  width: 960px;
+  overflow: hidden; }
+  .concept .concept-foto,
+  .concept .section-texto {
+    width: 480px;
+    height: auto;
+    float: left; }
+  .concept .concept-foto img {
+    display: block; }
+  .concept .section-texto {
+    padding: 10px 57px; }
+    .concept .section-texto .sector {
+      margin-top: 80px; }
+
+.nubes {
+  background: #3669A3 url(../img/nubes.png) no-repeat; }
+  .nubes .nubes-block {
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 90px; }
+  .nubes .line-box-box {
+    margin-top: 77px; }
+    .nubes .line-box-box .line-box, .nubes .line-box-box .line-box.nb {
+      width: 250px;
+      height: auto;
+      float: left; }
+      .nubes .line-box-box .line-box .line-box-item-titulo, .nubes .line-box-box .line-box.nb .line-box-item-titulo {
+        background-color: #BDD44D;
+        color: #ffffff;
+        text-align: center;
+        height: 45px;
+        line-height: 45px; }
+    .nubes .line-box-box .line-box {
+      margin-right: 40px; }
+    .nubes .line-box-box .line-box.nb {
+      margin-right: 0; }
+
+.antetitulo {
+  font-family: 'montserratblack',sans-serif;
+  color: #3669A3;
+  font-size: 12px;
+  border-bottom: 1px solid #3669A3;
+  margin: 15px 0;
+  padding-bottom: 10px; }
+
+.metroplan .titulo-fondo-verde {
+  font-family: 'montserratblack',sans-serif;
+  color: #fff;
+  padding: 10px 5px;
+  background-color: #BDD44D; }
+  .metroplan .titulo-fondo-verde span {
+    background-color: #46A1DB; }
