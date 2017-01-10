@@ -123,19 +123,22 @@ h1 {
     margin: 0 auto;
     padding-top: 55px;
     padding-bottom: 90px; }
-  .nubes .line-box, .nubes .line-box.nb {
-    width: 250px;
-    height: auto;
-    float: left; }
-    .nubes .line-box .line-box-item-titulo, .nubes .line-box.nb .line-box-item-titulo {
-      background-color: #BDD44D;
-      color: blanco;
-      text-align: center;
-      height: 150px; }
-  .nubes .line-box {
-    margin-right: 40px; }
-  .nubes .line-box.nb {
-    margin-right: 0; }
+  .nubes .line-box-box {
+    margin-top: 77px; }
+    .nubes .line-box-box .line-box, .nubes .line-box-box .line-box.nb {
+      width: 250px;
+      height: auto;
+      float: left; }
+      .nubes .line-box-box .line-box .line-box-item-titulo, .nubes .line-box-box .line-box.nb .line-box-item-titulo {
+        background-color: #BDD44D;
+        color: #ffffff;
+        text-align: center;
+        height: 45px;
+        line-height: 45px; }
+    .nubes .line-box-box .line-box {
+      margin-right: 40px; }
+    .nubes .line-box-box .line-box.nb {
+      margin-right: 0; }
 
 .subtitle-blue {
   font-family: 'montserratblack',sans-serif;
