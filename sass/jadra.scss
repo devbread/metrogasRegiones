@@ -1,0 +1,16 @@
+.subtitle-blue{
+	font-family:'montserratblack',sans-serif;
+	color:$color-texto-titulos;
+	font-size:12px;
+	border-bottom: 1px solid $color-texto-titulos;
+	margin: 15px 0;
+	padding-bottom:10px;
+}
+.metroplan{
+	h1{
+		font-family:'montserratblack',sans-serif;
+		color:#fff;
+		padding:10px 5px;
+		background-color: $color-verde-claro;
+	}
+}
