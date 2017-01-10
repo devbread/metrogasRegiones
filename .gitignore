@@ -28,3 +28,7 @@ sass/header.scss
 sass/main.scss
 
 styles.scss
+
+jade/index.jade
+
+index.html
