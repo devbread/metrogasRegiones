@@ -130,7 +130,8 @@ h1 {
     .nubes .line-box .line-box-item-titulo, .nubes .line-box.nb .line-box-item-titulo {
       background-color: #BDD44D;
       color: blanco;
-      text-align: center; }
+      text-align: center;
+      height: 150px; }
   .nubes .line-box {
     margin-right: 40px; }
   .nubes .line-box.nb {
