@@ -119,7 +119,7 @@ h1 {
       margin-top: 80px; }
 
 .nubes {
-  background: #3669A3 url(../img/nubes.png) no-repeat; }
+  background: #3669A3 url(../img/bg-nubes.png) no-repeat; }
   .nubes .nubes-block {
     width: 850px;
     height: auto;
@@ -145,6 +145,67 @@ h1 {
     .nubes .line-box-box .line-box-item-texto {
       background-color: #305D91;
       padding: 24px 22px; }
+
+.video .texto-caja,
+.video .caja-video {
+  width: 480px;
+  float: left; }
+.video .texto-caja .texto-caja-center {
+  width: 355px;
+  margin: 0 auto;
+  padding-top: 75px; }
+
+.mapa #mapa {
+  margin: 55px auto 30px auto;
+  width: 876px;
+  height: 602px; }
+
+.video-left .video-left-video,
+.video-left .video-left-texto {
+  width: 480px;
+  height: auto;
+  float: left; }
+.video-left .video-left-texto .video-left-texto-center {
+  width: 352px;
+  margin: 55px auto 0 auto; }
+
+.seguridad {
+  background: #3669A3 url(../img/bg-nubes.png) no-repeat;
+  padding-top: 55px;
+  padding-bottom: 45px; }
+  .seguridad .seguridad-block {
+    width: 850px;
+    height: auto;
+    margin: 0 auto; }
+    .seguridad .seguridad-block .texto-seguridad,
+    .seguridad .seguridad-block .texto-seguridad-img {
+      width: 398px;
+      height: auto;
+      float: left; }
+    .seguridad .seguridad-block .texto-seguridad {
+      margin-right: 54px; }
+    .seguridad .seguridad-block .texto-seguridad-img {
+      text-align: right; }
+
+.metroplan {
+  width: 850px;
+  height: auto;
+  margin: 0 auto; }
+  .metroplan .metroplanes {
+    background-color: #3669A3;
+    float: left;
+    padding: 55px 70px;
+    width: 425px;
+    position: relative; }
+    .metroplan .metroplanes .box-metroplanes:after {
+      content: "";
+      width: 1px;
+      height: 80%;
+      position: absolute;
+      right: 0;
+      left: 0;
+      background: rgba(35, 69, 107, 0.5);
+      top: 30px; }
 
 .antetitulo {
   font-family: 'montserratblack',sans-serif;
