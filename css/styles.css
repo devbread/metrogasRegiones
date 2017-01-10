@@ -82,6 +82,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+.clearfix {
+  clear: both; }
+
 body {
   font-family: 'montserratblack'; }
 

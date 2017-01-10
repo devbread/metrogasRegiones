@@ -5,7 +5,11 @@ html {
   box-sizing: inherit;
 }
 
- 
+ //clearfix
+
+ .clearfix {
+ 	clear: both;
+ }
 
 body {
 	font-family: 'montserratblack';
