@@ -100,112 +100,79 @@ h1 {
 .header {
   width: 960px;
   height: 356px;
-  background: url(../img/01.jpg) no-repeat;
-  padding: 30px 57px; }
+  background: url(../img/01.jpg) no-repeat; }
+  .header .caja {
+    padding: 30px 55px; }
 
-.concept {
-  width: 960px;
-  overflow: hidden; }
-  .concept .concept-foto,
-  .concept .section-texto {
-    width: 480px;
-    height: auto;
-    float: left; }
-  .concept .concept-foto img {
-    display: block; }
-  .concept .section-texto {
-    padding: 10px 57px; }
-    .concept .section-texto .sector {
-      margin-top: 80px; }
+.concept .concept-foto,
+.concept .section-texto {
+  height: auto;
+  float: left; }
+.concept .concept-foto img {
+  display: block; }
+.concept .section-texto {
+  padding: 10px 57px; }
+  .concept .section-texto .sector {
+    margin-top: 80px; }
 
 .nubes {
   background: #3669A3 url(../img/bg-nubes.png) no-repeat; }
   .nubes .nubes-block {
-    width: 850px;
-    height: auto;
-    margin: 0 auto;
-    padding-top: 55px;
-    padding-bottom: 90px; }
+    padding: 55px; }
   .nubes .line-box-box {
     margin-top: 77px; }
-    .nubes .line-box-box .line-box, .nubes .line-box-box .line-box.nb {
-      width: 250px;
-      height: auto;
-      float: left; }
-      .nubes .line-box-box .line-box .line-box-item-titulo, .nubes .line-box-box .line-box.nb .line-box-item-titulo {
-        background-color: #BDD44D;
-        color: #ffffff;
-        text-align: center;
-        height: 45px;
-        line-height: 45px; }
-    .nubes .line-box-box .line-box {
-      margin-right: 40px; }
+    .nubes .line-box-box .line-box .line-box-item-titulo, .nubes .line-box-box .line-box.nb .line-box-item-titulo {
+      background-color: #BDD44D;
+      color: #ffffff;
+      text-align: center;
+      height: 45px;
+      line-height: 45px; }
     .nubes .line-box-box .line-box.nb {
       margin-right: 0; }
     .nubes .line-box-box .line-box-item-texto {
       background-color: #305D91;
       padding: 24px 22px; }
 
-.video .texto-caja,
-.video .caja-video {
-  width: 480px;
-  float: left; }
-.video .texto-caja .texto-caja-center {
-  width: 355px;
-  margin: 0 auto;
-  padding-top: 75px; }
+.video img {
+  width: 100%; }
+.video .texto-caja {
+  padding: 10px 57px;
+  margin-top: 70px; }
 
-.mapa #mapa {
-  margin: 55px auto 30px auto;
-  width: 876px;
-  height: 602px; }
+.mapa #mapa img {
+  width: 100%; }
 
-.video-left .video-left-video,
-.video-left .video-left-texto {
-  width: 480px;
-  height: auto;
-  float: left; }
-.video-left .video-left-texto .video-left-texto-center {
-  width: 352px;
-  margin: 55px auto 0 auto; }
+.video-left img {
+  width: 100%; }
+.video-left .video-left-texto-center {
+  padding: 10px 45px 10px 31px;
+  margin-top: 50px; }
 
 .seguridad {
-  background: #3669A3 url(../img/bg-nubes.png) no-repeat;
-  padding-top: 55px;
-  padding-bottom: 45px; }
+  background: #3669A3 url(../img/bg-nubes.png) no-repeat; }
   .seguridad .seguridad-block {
-    width: 850px;
-    height: auto;
-    margin: 0 auto; }
-    .seguridad .seguridad-block .texto-seguridad,
-    .seguridad .seguridad-block .texto-seguridad-img {
-      width: 398px;
-      height: auto;
-      float: left; }
-    .seguridad .seguridad-block .texto-seguridad {
-      margin-right: 54px; }
+    padding: 55px; }
     .seguridad .seguridad-block .texto-seguridad-img {
       text-align: right; }
 
-.metroplan {
-  width: 850px;
-  height: auto;
-  margin: 0 auto; }
-  .metroplan .metroplanes {
-    background-color: #3669A3;
-    float: left;
-    padding: 55px 70px;
-    width: 425px;
-    position: relative; }
-    .metroplan .metroplanes .box-metroplanes:after {
-      content: "";
-      width: 1px;
-      height: 80%;
-      position: absolute;
-      right: 0;
-      left: 0;
-      background: rgba(35, 69, 107, 0.5);
-      top: 30px; }
+.metroplanes {
+  padding: 55px; }
+  .metroplanes .bgc {
+    background-color: #3669A3; }
+  .metroplanes .metroplanes-box {
+    padding: 55px 50px; }
+    .metroplanes .metroplanes-box .box-metroplanes {
+      position: relative; }
+      .metroplanes .metroplanes-box .box-metroplanes:after {
+        content: "";
+        width: 1px;
+        position: absolute;
+        background: red;
+        height: 100%;
+        top: 10px;
+        left: 50%; }
+  .metroplanes .data-metroplan {
+    margin-top: 55px; }
 
 .antetitulo {
   font-family: 'montserratblack',sans-serif;
@@ -246,3 +213,6 @@ h1 {
   color: #ffffff;
   font-family: 'Montserrat';
   font-size: 13px; }
+
+.container {
+  width: 960px !important; }
