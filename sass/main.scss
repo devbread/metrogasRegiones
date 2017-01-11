@@ -199,9 +199,11 @@
 	}
 	.metroplanes-box {
 		padding: 55px 50px;
+
 		.box-metroplanes {
 			position: relative;
 			text-align: center;
+
 			// &:after {
 			// 	content: "";
 			// 	width: 1px;
@@ -216,6 +218,15 @@
 				margin-bottom: 48px;
 			}
 			.box-metroplanes-planes{
+				.btn-primario{
+					margin-top: 20px;
+					font-family: 'Roboto', sans-serif;
+					font-weight: 700 !important;
+				}
+				p {
+					font-family: 'montserratblack';
+					margin-bottom: 15px;
+				}
 				.plans {
 					margin: 0;
 					padding: 0;
@@ -226,8 +237,8 @@
 						float: left;
 						background-color: $color-azul;
 						padding: 10px 8px;
-						font-size: 12px;
-						height: 85px;
+						font-size: 14px;
+						height: 100px;
 						font-family: 'montserratblack', arial;
 						position: relative;
 						text-transform: uppercase;
@@ -248,6 +259,14 @@
 								display: inline-block;
 							}
 						}
+					}
+					.gifcardL{
+						padding-top: 24px;
+					}
+					span.calefa {
+						font-size: 11px;
+						position: relative;
+						top: -10px;
 					}
 					.arrow {
 						&:after {
@@ -270,6 +289,7 @@
 						}
 					}
 					.arrowB{
+						padding-top: 20px;
 						&:after {
 							left: 100%;
 							top: 50%;
