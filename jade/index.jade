@@ -3,7 +3,7 @@ html(lang='en')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //-meta(name='viewport', content='width=device-width, initial-scale=1')
     //- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
     title Bootstrap
     //- Bootstrap
@@ -179,30 +179,137 @@ html(lang='en')
                 .row
                     .col-md-6  
                         h1.titulo-fondo-verde Descubre los Metroplanes
-                            span y elige el que más te acomode
-                        p Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados, que además vienen con metros cúbicos adicionales de regalo, por si te pasas del plan.
-                        p Existen varios Metroplanes para que elijas el que más se ajuste a tu consumo y no te salgas de tu presupuesto para el gas
+                        h1.titulo-fondo-cyan y elige el que más te acomode
+                        p.texto-primario Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados, que además vienen con metros cúbicos adicionales de regalo, por si te pasas del plan.
+
+                        p.texto-primario Existen varios Metroplanes para que elijas el que más se ajuste a tu consumo y no te salgas de tu presupuesto para el gas
+
+
+
                             
                     .col-md-6  
                        ul.items-metroplanes
-                        li Ahorra hasta un 30% en comparación al gas licuado medidor (GLM).
-                        li Controlas tu gasto en gas, sabiendo lo que vas a pagar.
-                        li Obtén un plan fijo durante 12 meses.
-                        li Recibes m3 gratis por si te pasas del plan.
-                        li No pagas cargo fijo por 12 meses.
-            .container-fluid(style="background:grey")
+                        li.ico-1 Ahorra hasta un 30% en comparación al gas licuado medidor (GLM).
+                        li.ico-2 Controlas tu gasto en gas, sabiendo lo que vas a pagar.
+                        li.ico-3 Obtén un plan fijo durante 12 meses.
+                        li.ico-4 Recibes m3 gratis por si te pasas del plan.
+                        li.ico-5 No pagas cargo fijo por 12 meses.
+            .container-fluid.fluid-gray
                 .row.tabla-metroplanes
                     .col-md-12
-                        
+                        .caja-tabla
                             h2 Elige y contrata el Metroplan que más te acomode
-                            table
+                            table.table
+                                tr.cab
+                                    th Metroplanes
+                                    th m<sup>3</sup>
+                                    th Valor
+                                    th Valor x m<sup>3</sup> Plan
+                                    th Aporte m<sup>3</sup> <span> anuales</span>
+                                    th Valor <sup>3</sup> adicional <span>al Plan</span>
                                 tr
-                                    td Metroplanes
-                                    td m<sup>3</sup>
-                                    td Valor
-                                    td Valor x m<sup>3</sup> Plan
-                                    td Aporte m<sup>3</sup> <span> anuales</span>
-                                    td Valor <sup>3</sup> adicional <span>al Plan</span>
+                                    td Metroplan 20
+                                    td 20
+                                    td $ 15.900
+                                    td $ 765
+                                    td 20
+                                    td $ 765
+                            h3.texto-prevolante Contrata ahora tu Metroplan y aprovecha esta increíble promoción.
+                            .volante
+                                img(src="img/volante.jpg", alt="")
+        section.contacto
+            p.antetitulo-foto
+            h1.titulo-fondo-verde
+            h1.titulo-fondo-cyan
+            p.texto-primario-blanco
+            form
+                input(type="text", placeholder="Nombre")
+                input(type="text", placeholder="Apellido")
+                input(type="text", placeholder="Teléfono")
+                input(type="text", placeholder="Email")
+                input(type="text", placeholder="Dirección")
+                input(type="submit", value="enviar")
+
+        section.tarifas
+            p.antetitulo
+            h1.titulo-fondo-verde
+            h1.titulo-fondo-cyan
+            .caja-tablas
+                .row
+                    .col-md-4
+                        table.table
+                            tr
+                                th Tramos en m3
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+                            tr
+                                td de 0 a5
+
+                    .col-md-4
+                        table.table
+                            tr
+                                th Valor por m3S
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146
+                            tr
+                                td $ 1.146 
+
+                    .col-md-4
+                        table.table
+                            tr
+                                th Costo por Tramo
+
+                            tr
+                                td de $33.000 a $38.880
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+                            tr
+                                td de $33.000 a $38.8
+
+            p.texto-legal La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.
+
         //-                 h3 Contrata ahora tu Metroplan y aprovecha esta increíble promoción.
         //-                 .data
         //-                     h1 obtén <span>CONEXIÓN GRATIS</span>

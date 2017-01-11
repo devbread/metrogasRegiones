@@ -118,7 +118,7 @@
 }
 
 .metroplanes {
-	padding: 55px;
+	padding: 55px 55px 0px 55px;
 	.bgc {
 		background-color: $color-footer;
 	}
@@ -145,3 +145,73 @@
 	}
 
 }//fin
+
+
+.contenido-metroplanes{
+	ul.items-metroplanes{
+		margin: 0;
+		padding: 0;
+		width: 80%;
+		float: right;
+		li {
+			display: block;
+			color:$color-texto-parrafos;
+			font-size: 12px;
+			font-family: 'montserratregular', arial;
+			margin-bottom: 16px;
+		}
+		.ico-1 {
+			background: url(../img/icon-1.jpg) no-repeat left center;
+			padding-left: 48px;
+			height: 38px;
+			line-height: 16px;
+		}
+		.ico-2 {
+			background: url(../img/icon-2.jpg) no-repeat left center;
+			padding-left: 48px;
+			height: 38px;
+			line-height: 38px;
+		}
+		.ico-3 {
+			background: url(../img/icon-3.jpg) no-repeat left center;
+			padding-left: 48px;
+			height: 38px;
+			line-height: 38px;
+		}
+		.ico-4 {
+			background: url(../img/icon-4.jpg) no-repeat left center;
+			padding-left: 48px;
+			height: 38px;
+			line-height: 38px;
+		}
+		.ico-5 {
+			background: url(../img/icon-5.jpg) no-repeat left center;
+			padding-left: 48px;
+			height: 38px;
+			line-height: 38px;
+		}
+	}
+} 
+
+.fluid-gray{
+	background-color: $bg-gray;
+	.caja-tabla{
+		border:3px solid $blanco;
+		h2{
+			color:$color-footer;
+			font-family: 'montserratbold', arial;
+			text-align: center;
+			font-size: 25px;
+			margin: 45px auto;
+			width: 50%;
+		}
+		table {
+			width: 95%;
+			margin: 0 auto;
+			border-radius: 10px;
+			.cab{
+				background-color:$color-verde;
+			}
+		}
+	}
+} 
