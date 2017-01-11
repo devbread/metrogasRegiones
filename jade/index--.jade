@@ -3,7 +3,7 @@ html(lang='en')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    //-meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     //- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
     title Bootstrap
     //- Bootstrap
@@ -115,12 +115,12 @@ html(lang='en')
                         p.texto-primario Con el fin de garantizar la seguridad, se realizan prueba de hermeticidad y gasificación, lo que permite comenzar el suministro de gas natural. 
         section.seguridad
             .seguridad-block.row
-                p.antetitulo-foto Metrogas es seguridad
+                p.antetitulo Metrogas es seguridad
 
-                .col-md-6
-                    p.texto-seguridad Velamos por el bienestar de nuestros clientes y de la toda la comunidad, por ello la seguridad es una de las prioridades de nuestra empresa.
+                .texto-seguridad.col-md-6
+                    p.texto-primario Velamos por el bienestar de nuestros clientes y de la toda la comunidad, por ello la seguridad es una de las prioridades de nuestra empresa.
 
-                    ul.texto-primario-blanco
+                    ul.texto-seguridad-lista
                         li Todas las redes y válvulas se instalan de forma subterránea. Estos materiales cumplen los <span>estándares a nivel mundial.</span> Prueba de ello es que en el terremoto de la zona central en 2010 no se produjeron problemas de fuga.
                         li El gas natural no <span>requiere almacenamiento</span>, lo que evita pérdida de espacio y la entrada de extraños al hogar para el despacho de cilindros o relleno de estanques.
                         li Una casa con gas natural es <span>más segura</span>, ya que al conectarse a nuestra red cumple con la normativa que establece la Superintendencia de Electricidad y Combustible (SEC).
@@ -133,10 +133,9 @@ html(lang='en')
      
         section.metroplanes
             .row
-                .col-md-8
-                    p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
-                    h1.titulo-fondo-verde Conoce nuestros planes
-                    h1.titulo-fondo-cyan Tenemos la mejor alternativa para tu hogar
+                p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
+                h1.titulo-fondo-verde Conoce nuestros planes
+                h1.titulo-fondo-cyan Tenemos la mejor alternativa para tu hogar
 
             .row.bgc
                 .metroplanes-box.col-md-6
@@ -178,172 +177,61 @@ html(lang='en')
                     .data-metroplan
                         p.antetitulo Metroplanes
                 .row
-                    .col-md-6  
-                        h1.titulo-fondo-verde Descubre los Metroplanes
-                        h1.titulo-fondo-cyan y elige el que más te acomode
-                        p.texto-primario Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados, que además vienen con metros cúbicos adicionales de regalo, por si te pasas del plan.
+                    p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
+                    h1.titulo-fondo-verde Conoce nuestros planes
+                        span Tenemos la mejor alternativa para tu hogar
+                .row.bgc
+                    .metroplanes-box.col-md-6
+                        .box-metroplanes
+                            h1 metro
+                             span plan
+                            p Con los Metroplanes pagas un plan fijo mensual, además incluye m3 adicionales por si te pasas del plan. Es ideal para quienes no quieren gastar de más.
+                            p Al contratarlo aprovecha esta increíble promoción.
+                            .box-metroplanes-planes
+                                p Incluye
+                                ul.plans
+                                    li Conexión Gratis <span>hasta</span> $510.000
+                                    li
+                                        img(src="", alt="") 
+                                        p eco<span>wood</span> 
+                                    li giftcard <span>calefacción</span> $89.700
+                                a.btn-see(href="#") Conoce Metroplanes
+                    .metroplanes-box.col-md-6
+                        .box-metroplanes
+                            h1 plan
+                                span flexible
+                            p Con este plan pagas lo que consumes con tarifa residencial. Es ideal para familias que no tienen un gasto fijo en gas natural.
+                            p Al contratarlo aprovecha esta increíble promoción.
 
-                        p.texto-primario Existen varios Metroplanes para que elijas el que más se ajuste a tu consumo y no te salgas de tu presupuesto para el gas
-
-                            
+                            .box-metroplanes-planes
+                                p Incluye
+                                ul.plans
+                                    li Conexión Gratis <span>hasta</span> $510.000
+                                    li
+                                        img(src="", alt="") 
+                                        p eco<span>wood</span> 
+                                    li giftcard <span>calefacción</span> $89.700
+                                a.btn-see(href="#") Conoce Metroplanes
                     .col-md-6  
                        ul.items-metroplanes
-                        li.ico-1 Ahorra hasta un 30% en comparación al gas licuado medidor (GLM).
-                        li.ico-2 Controlas tu gasto en gas, sabiendo lo que vas a pagar.
-                        li.ico-3 Obtén un plan fijo durante 12 meses.
-                        li.ico-4 Recibes m3 gratis por si te pasas del plan.
-                        li.ico-5 No pagas cargo fijo por 12 meses.
-            .container-fluid.fluid-gray
+                        li Ahorra hasta un 30% en comparación al gas licuado medidor (GLM).
+                        li Controlas tu gasto en gas, sabiendo lo que vas a pagar.
+                        li Obtén un plan fijo durante 12 meses.
+                        li Recibes m3 gratis por si te pasas del plan.
+                        li No pagas cargo fijo por 12 meses.
+            .container-fluid(style="background:grey")
                 .row.tabla-metroplanes
                     .col-md-12
-                        .caja-tabla
+                        
                             h2 Elige y contrata el Metroplan que más te acomode
-                            table.table
-                                tr.cab
-                                    th Metroplanes
-                                    th m<sup>3</sup>
-                                    th Valor
-                                    th Valor x m<sup>3</sup> Plan
-                                    th Aporte m<sup>3</sup> <span> anuales</span>
-                                    th Valor <sup>3</sup> adicional <span>al Plan</span>
+                            table
                                 tr
-                                    td Metroplan 20
-                                    td 20
-                                    td $ 15.900
-                                    td $ 765
-                                    td 20
-                                    td $ 765
-                            h3.texto-prevolante Contrata ahora tu Metroplan y aprovecha esta increíble promoción.
-                            .volante
-                                img(src="img/volante.jpg", alt="")
-        section.contacto
-            p.antetitulo-foto
-            h1.titulo-fondo-verde
-            h1.titulo-fondo-cyan
-            p.texto-primario-blanco
-            form
-                input(type="text", placeholder="Nombre")
-                input(type="text", placeholder="Apellido")
-                input(type="text", placeholder="Teléfono")
-                input(type="text", placeholder="Email")
-                input(type="text", placeholder="Dirección")
-                input(type="submit", value="enviar", class="btn-primario")
-
-        section.tarifas
-            p.antetitulo
-            h1.titulo-fondo-verde
-            h1.titulo-fondo-cyan
-            .caja-tablas
-                .row
-                    .col-md-4
-                        table.table
-                            tr
-                                th Tramos en m3
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-
-                    .col-md-4
-                        table.table
-                            tr
-                                th Valor por m3S
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146 
-
-                    .col-md-4
-                        table.table
-                            tr
-                                th Costo por Tramo
-
-                            tr
-                                td de $33.000 a $38.880
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-
-            p.texto-legal La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.
-
-        section.pagos
-            p.antetitulo Nuestras tarifas
-            .row
-                .col-md-4
-                    .listas-pago
-                        p.titulo-lista PAGO PRESENCIAL
-                        ul.presencial
-                            li Oficina comercial de Metrogas
-                            li ServiEstado y Caja Vecina (2) 
-                            li Unired (Caja Unimarc) (4)
-                            li Servipag Express (4)
-                            li Sencillito (4)
-                            li Servipag Ventanillas (5)
-                            li Servifácil (Cajas Líder) (6)
-                        ul.listarespuesta
-                            li (1) Pago con efectivo, tarjetas de crédito y débito bancarias
-                            li (2) ServiEstado: Pago con cheque o efectivo y medios de pago BancoEstado. Caja Vecina: Pago solo con efectivo y medios de pago BancoEstado
-                            li (3) Pago con cheque, tarjeta de crédito y débito bancarias
-                            li (4) Pago sólo con efectivo 
-                            li (5) Pago efectivo - Cheque - Tarjetas Cencosud- Johnsons
-                            li (6) Pago efectivo - Tarjetas Presto.
-                .col-md-4
-                    .listas-pago
-                        p.titulo-lista PAGO POR INTERNET
-                        ul.internet
-                            li: a(href="#") www.metrogas.cl<sup>*</sup>
-                            li: a(href="#") www.santander.cl<sup>*</sup>
-                            li: a(href="#") www.bancoestado.cl<sup>*</sup>
-                            li: a(href="#") www.presto.cl<sup>*</sup>
-                            li: a(href="#") www.servipag.com<sup>*</sup>
-                .col-md-4
-                    .listas-pago
-                        p.texto-legal Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui. presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros ckca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vi
-
-
+                                    td Metroplanes
+                                    td m<sup>3</sup>
+                                    td Valor
+                                    td Valor x m<sup>3</sup> Plan
+                                    td Aporte m<sup>3</sup> <span> anuales</span>
+                                    td Valor <sup>3</sup> adicional <span>al Plan</span>
         //-                 h3 Contrata ahora tu Metroplan y aprovecha esta increíble promoción.
         //-                 .data
         //-                     h1 obtén <span>CONEXIÓN GRATIS</span>
@@ -375,19 +263,9 @@ html(lang='en')
         //-                         .aprovecha-valor
         //-                             p $ 452.540
 
-        //- section.contacto
-        //-     p.antetitulo Contáctanos
-        //-     h1.titulo-fondo-verde Si estás interesado en alguno de nuestros planes o <span>quieres más información</span>
 
-        //-     p.texto-primario Si estas interesado en cambiarte a Metrogas y quieres mas información ingresa tus datos y te contactaremos a la brevedad
+     
 
-        //-     form
-        //-         input(type="text", placeholder="Nombre")
-        //-         input(type="text", placeholder="Apellido")
-        //-         input(type="text", placeholder="Teléfono")
-        //-         input(type="text", placeholder="Email")
-        //-         input(type="text", placeholder="Dirección")
-        //-         input(type="submit", value="enviar")
 
 
     //- jQuery (necessary for Bootstrap's JavaScript plugins)

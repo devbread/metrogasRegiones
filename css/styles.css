@@ -86,7 +86,9 @@ html {
   clear: both; }
 
 body {
-  font-family: 'montserratblack'; }
+  font-family: 'montserratblack';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 h1 {
   font-family: 'montserratblack';
@@ -156,7 +158,7 @@ h1 {
       text-align: right; }
 
 .metroplanes {
-  padding: 55px; }
+  padding: 55px 55px 0px 55px; }
   .metroplanes .bgc {
     background-color: #3669A3; }
   .metroplanes .metroplanes-box {
@@ -174,6 +176,65 @@ h1 {
   .metroplanes .data-metroplan {
     margin-top: 55px; }
 
+.contenido-metroplanes ul.items-metroplanes {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  float: right; }
+  .contenido-metroplanes ul.items-metroplanes li {
+    display: block;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-family: 'montserratregular', arial;
+    margin-bottom: 16px; }
+  .contenido-metroplanes ul.items-metroplanes .ico-1 {
+    background: url(../img/icon-1.jpg) no-repeat left center;
+    padding-left: 48px;
+    height: 38px;
+    line-height: 16px; }
+  .contenido-metroplanes ul.items-metroplanes .ico-2 {
+    background: url(../img/icon-2.jpg) no-repeat left center;
+    padding-left: 48px;
+    height: 38px;
+    line-height: 38px; }
+  .contenido-metroplanes ul.items-metroplanes .ico-3 {
+    background: url(../img/icon-3.jpg) no-repeat left center;
+    padding-left: 48px;
+    height: 38px;
+    line-height: 38px; }
+  .contenido-metroplanes ul.items-metroplanes .ico-4 {
+    background: url(../img/icon-4.jpg) no-repeat left center;
+    padding-left: 48px;
+    height: 38px;
+    line-height: 38px; }
+  .contenido-metroplanes ul.items-metroplanes .ico-5 {
+    background: url(../img/icon-5.jpg) no-repeat left center;
+    padding-left: 48px;
+    height: 38px;
+    line-height: 38px; }
+
+.fluid-gray {
+  background-color: #EBEBEB; }
+  .fluid-gray .caja-tabla {
+    border: 3px solid #ffffff; }
+    .fluid-gray .caja-tabla h2 {
+      color: #3669A3;
+      font-family: 'montserratbold', arial;
+      text-align: center;
+      font-size: 25px;
+      margin: 45px auto;
+      width: 50%; }
+    .fluid-gray .caja-tabla table {
+      width: 95%;
+      margin: 0 auto;
+      border-radius: 10px; }
+      .fluid-gray .caja-tabla table .cab {
+        background-color: #BDD44D; }
+
+.pagos .listas-pago {
+  padding: 25px 30px;
+  border: 1px solid #3669A3; }
+
 .antetitulo {
   font-family: 'montserratblack',sans-serif;
   color: #cecece;
@@ -190,26 +251,49 @@ h1 {
   margin: 15px 0 30px 0;
   padding-bottom: 10px; }
 
-.metroplan .texto-primario, .header .texto-primario, .concept .texto-primario, .video .texto-primario, .mapa .texto-primario, .video-left .texto-primario, .seguridad .texto-primario, .contacto .texto-primario {
-  font-family: 'montserratlight',sans-serif;
-  color: #9B9B9B;
-  margin-bottom: 25px;
-  font-size: 12px; }
-.metroplan .titulo-fondo-verde, .header .titulo-fondo-verde, .concept .titulo-fondo-verde, .video .titulo-fondo-verde, .mapa .titulo-fondo-verde, .video-left .titulo-fondo-verde, .seguridad .titulo-fondo-verde, .contacto .titulo-fondo-verde {
-  font-family: 'montserratbold',sans-serif;
-  color: #fff;
-  padding: 10px 5px;
-  background-color: #BDD44D;
-  font-size: 20px;
-  display: inline; }
-.metroplan .titulo-fondo-cyan, .header .titulo-fondo-cyan, .concept .titulo-fondo-cyan, .video .titulo-fondo-cyan, .mapa .titulo-fondo-cyan, .video-left .titulo-fondo-cyan, .seguridad .titulo-fondo-cyan, .contacto .titulo-fondo-cyan {
-  font-family: 'montserratbold',sans-serif;
-  color: #fff;
-  padding: 10px 5px;
-  margin-bottom: 35px;
-  display: inline-block;
-  font-size: 20px;
-  background-color: #46A1DB; }
+.metroplanes, .metroplan, .header, .concept, .video, .mapa, .video-left, .seguridad, .contacto, .contenido-metroplanes, .tarifas, .pagos {
+  /* botones */ }
+  .metroplanes .texto-primario, .metroplan .texto-primario, .header .texto-primario, .concept .texto-primario, .video .texto-primario, .mapa .texto-primario, .video-left .texto-primario, .seguridad .texto-primario, .contacto .texto-primario, .contenido-metroplanes .texto-primario, .tarifas .texto-primario, .pagos .texto-primario {
+    font-family: 'montserratlight',sans-serif;
+    color: #9B9B9B;
+    margin-bottom: 25px;
+    font-size: 12px; }
+  .metroplanes .texto-primario-blanco, .metroplan .texto-primario-blanco, .header .texto-primario-blanco, .concept .texto-primario-blanco, .video .texto-primario-blanco, .mapa .texto-primario-blanco, .video-left .texto-primario-blanco, .seguridad .texto-primario-blanco, .contacto .texto-primario-blanco, .contenido-metroplanes .texto-primario-blanco, .tarifas .texto-primario-blanco, .pagos .texto-primario-blanco {
+    font-family: 'montserratlight',sans-serif;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 12px; }
+  .metroplanes .texto-seguridad, .metroplan .texto-seguridad, .header .texto-seguridad, .concept .texto-seguridad, .video .texto-seguridad, .mapa .texto-seguridad, .video-left .texto-seguridad, .seguridad .texto-seguridad, .contacto .texto-seguridad, .contenido-metroplanes .texto-seguridad, .tarifas .texto-seguridad, .pagos .texto-seguridad {
+    font-family: 'montserratlight',sans-serif;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 15px; }
+  .metroplanes .titulo-fondo-verde, .metroplan .titulo-fondo-verde, .header .titulo-fondo-verde, .concept .titulo-fondo-verde, .video .titulo-fondo-verde, .mapa .titulo-fondo-verde, .video-left .titulo-fondo-verde, .seguridad .titulo-fondo-verde, .contacto .titulo-fondo-verde, .contenido-metroplanes .titulo-fondo-verde, .tarifas .titulo-fondo-verde, .pagos .titulo-fondo-verde {
+    font-family: 'montserratbold',sans-serif;
+    color: #fff;
+    padding: 10px 5px;
+    background-color: #BDD44D;
+    font-size: 20px;
+    display: inline; }
+  .metroplanes .titulo-fondo-cyan, .metroplan .titulo-fondo-cyan, .header .titulo-fondo-cyan, .concept .titulo-fondo-cyan, .video .titulo-fondo-cyan, .mapa .titulo-fondo-cyan, .video-left .titulo-fondo-cyan, .seguridad .titulo-fondo-cyan, .contacto .titulo-fondo-cyan, .contenido-metroplanes .titulo-fondo-cyan, .tarifas .titulo-fondo-cyan, .pagos .titulo-fondo-cyan {
+    font-family: 'montserratbold',sans-serif;
+    color: #fff;
+    padding: 15px 5px;
+    margin: 12px 0 35px 0;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #46A1DB; }
+  .metroplanes .texto-legal, .metroplan .texto-legal, .header .texto-legal, .concept .texto-legal, .video .texto-legal, .mapa .texto-legal, .video-left .texto-legal, .seguridad .texto-legal, .contacto .texto-legal, .contenido-metroplanes .texto-legal, .tarifas .texto-legal, .pagos .texto-legal {
+    font-family: 'montserratlight',sans-serif;
+    color: #9B9B9B;
+    margin-bottom: 25px;
+    font-size: 9px; }
+  .metroplanes .btn-primario, .metroplan .btn-primario, .header .btn-primario, .concept .btn-primario, .video .btn-primario, .mapa .btn-primario, .video-left .btn-primario, .seguridad .btn-primario, .contacto .btn-primario, .contenido-metroplanes .btn-primario, .tarifas .btn-primario, .pagos .btn-primario {
+    background: #BDD44D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+    padding: 5px 35px;
+    color: #ffffff; }
 
 .mapa .texto-primario {
   color: #3669A3;
