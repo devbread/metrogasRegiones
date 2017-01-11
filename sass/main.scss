@@ -220,10 +220,75 @@
 
 
 .pagos {
+	.espace{
+		margin-bottom: 100px;
+	} 
 	.listas-pago {
 		padding: 25px 30px;
 		border:1px solid $color-footer;
-		.titulo-lista{}
+		.titulo-lista{
+			color: $color-footer;
+			font-family: 'montserratbold', arial;
+			font-size: 12px;
+			margin-bottom: 30px;
+		}
+		.presencial {
+			margin: 0;
+			padding:0;
+			li{
+				font-size: 12px;
+				color: $color-footer;
+				font-family: 'montserratbold', arial;
+				margin-bottom: 15px;
+			}
+		}
+		.listarespuesta{
+			margin: 25px 0 0 0;
+			padding:0;
+			li{
+				font-family: 'montserratregular',arial;
+				font-size: 10px;
+				color:$color-texto-parrafos;
+				text-align: left;
+				margin-bottom: 15px;
+				line-height: 14px;
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+		.internet{
+			margin: 0;
+			padding: 0;
+			li{
+				margin-bottom: 20px;
+				a{
+					color:$color-celeste;
+					font-family: 'montserratregular',arial;
+					font-size: 12px;
+					text-decoration: underline;
+				}
+			}
+		}
+		.automatico{
+			margin: 0;
+			padding:0;
+			li{
+				font-size: 12px;
+				color: $color-footer;
+				font-family: 'montserratbold', arial;
+				margin-bottom: 15px;
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+			.links-automata{
+				color:$color-celeste;
+				font-family: 'montserratregular',arial;
+				font-size: 12px;
+				text-decoration: underline;
+			}
+		} 
 	}
 } 
 
