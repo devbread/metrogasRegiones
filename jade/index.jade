@@ -46,19 +46,22 @@ html(lang='en')
                 h2 Conéctate y disfruta los beneficios y conveniencia del gas natural:
                 .beneficios.row
                     .beneficios-item.col-md-4
-                        img(src="img/continuo.png", alt="")
-                        h3 continuo
-                        p Contarás con gas natural los 365 días del año. Olvídate de quedarte sin gas, esperar o llamar para que te lo lleven.
+                        img.pull-left.imgM(src="img/icon-365.png", alt="")
+                        .beneBox
+                            h3 continuo
+                            p Contarás con gas natural los 365 días del año. Olvídate de quedarte sin gas, esperar o llamar para que te lo lleven.
                     .beneficios-item.col-md-4
-                        img(src="img/conveniente.png", alt="")
-                        h3 conveniente
-                        p Contamos con distintos planes que te permiten pagar un precio fijo mensual y disfrutar de todos sus beneficios.
+                        img.pull-left.imgM(src="img/icon-money.png", alt="")
+                        .beneBox
+                            h3 conveniente
+                            p Contamos con distintos planes que te permiten pagar un precio fijo mensual y disfrutar de todos sus beneficios.
                     .beneficios-item.col-md-4
-                        img(src="img/natural.png", alt="")
-                        h3 natural
-                        p Es una energía menos contaminante que otros combustibles y además es libre de contaminación intradomiciliaria.
-                h3 El gas natural mejora tu calidad de vida y el aire de tu ciudad
-                p.texto-primario El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
+                        img.pull-left.imgM(src="img/icon-planta.png", alt="")
+                        .beneBox
+                            h3 natural
+                            p Es una energía menos contaminante que otros combustibles y además es libre de contaminación intradomiciliaria.
+                h3.text-center.centroNatural El gas natural mejora tu calidad de <span>vida y el aire</span> de tu ciudad
+                p.texto-primario.centerC El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
                 .line-box-box.row
                     .line-box.col-md-4
                         .line-box-item
@@ -119,8 +122,8 @@ html(lang='en')
             .seguridad-block.row
                 p.antetitulo-foto Metrogas es seguridad
 
-                .col-md-6
-                    p.texto-seguridad Velamos por el bienestar de nuestros clientes y de la toda la comunidad, por ello la seguridad es una de las prioridades de nuestra empresa.
+                .col-md-6(style="padding-left:0;")
+                    p.texto-seguridad.lh Velamos por el <span>bienestar</span> de nuestros clientes y de la toda la comunidad, por ello la <span>seguridad</span> es una de las prioridades de nuestra empresa.
 
                     ul.texto-primario-blanco
                         li Todas las redes y válvulas se instalan de forma subterránea. Estos materiales cumplen los <span>estándares a nivel mundial.</span> Prueba de ello es que en el terremoto de la zona central en 2010 no se produjeron problemas de fuga.
@@ -143,36 +146,38 @@ html(lang='en')
             .row.bgc
                 .metroplanes-box.col-md-6
                     .box-metroplanes
-                        h1 metro
-                            span plan
+                        .logs-metro
+                            img(src="img/metroplan.png", alt="Metroplan")
                         p.texto-primario-blanco Con los Metroplanes pagas un plan fijo mensual, además incluye m3 adicionales por si te pasas del plan. Es ideal para quienes no quieren gastar de más.
                         p.texto-primario-blanco Al contratarlo aprovecha esta increíble promoción.
                         
                         .box-metroplanes-planes.texto-primario-blanco
                             p Incluye
                             ul.plans
-                                li Conexión Gratis <span>hasta</span> $510.000
-                                li
-                                    img(src="", alt="") 
+                                li.arrow Conexión Gratis <span>hasta</span> $510.000
+                                li.arrowB
+                                    img(src="img/icon-ecowood.png", alt="") 
                                     p eco<span>wood</span> 
                                 li giftcard <span>calefacción</span> $89.700
+                            .clearfix
                             a.btn-primario(href="#") Conoce Metroplanes
                 .metroplanes-box.col-md-6
                     .box-metroplanes
-                        h1 plan
-                        span flexible
-                        p.texto-primario-blanco Con este plan pagas lo que consumes con tarifa residencial. Es ideal para familias que no tienen un gasto fijo en gas natural.
-                        p.texto-primario-blanco Al contratarlo aprovecha esta increíble promoción.
+                        .logs-metro
+                            img(src="img/planflexible.png", alt="planflexible")
+                        p.texto-primario-blanco.text-center Con este plan pagas lo que consumes con tarifa residencial. Es ideal para familias que no tienen un gasto fijo en gas natural.
+                        p.texto-primario-blanco.text-center Al contratarlo aprovecha esta increíble promoción.
 
                         
                         .box-metroplanes-planes.texto-primario-blanco
                             p Incluye
                             ul.plans
-                                li Conexión Gratis <span>hasta</span> $510.000
-                                li
-                                    img(src="", alt="") 
+                                li.arrow Conexión Gratis <span>hasta</span> $510.000
+                                li.arrowB
+                                    img(src="img/icon-ecowood.png", alt="") 
                                     p eco<span>wood</span> 
                                 li giftcard <span>calefacción</span> $89.700
+                            .clearfix
                             a.btn-primario(href="#") Conoce Metroplanes
         section.contenido-metroplanes
             .container.metroplanes-cuadro
