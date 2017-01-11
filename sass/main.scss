@@ -27,6 +27,19 @@
 		// height: auto;
 		// margin:0 auto;
 		padding: 55px;
+		.centroNatural{
+			font-family: 'montserratregular',arial;
+			font-size: 15px;
+			width: 40%;
+			margin: 0 auto 25px auto;
+			span {
+				font-family: 'montserratblack', arial;
+			}
+		}
+		.centerC {
+			text-align: center;
+			line-height: 18px;
+		}
 	}
 
 	.line-box-box {
@@ -38,6 +51,8 @@
 				text-align: center;
 				height: 45px;
 				line-height: 45px;
+				font-size: 17px;
+				font-family: 'montserratblack', arial;
 			}
 		} 
 		.line-box {
@@ -50,8 +65,40 @@
 		.line-box-item-texto {
 			background-color: $color-azul-caja;
 			padding: 24px 22px;
+			font-family: 'montserratregular',arial;
+			font-size: 12px;
+			line-height: 18px;
+			height: 120px;
+			text-align: center;
 		}
 	} 
+
+	.beneficios {
+		margin-top: 50px;
+		margin-bottom: 100px;
+
+		.imgM{
+			margin-right: 20px;
+		}
+		.beneBox{
+			width: 70%;
+			text-align: left;
+			float: right;
+			h3{
+				font-family: 'montserratblack', arial;
+				font-size: 14px;
+				text-align: left;
+				text-transform: uppercase;
+				margin-bottom: 15px;
+			}
+			p {
+				font-family: 'montserratregular',arial;
+				font-size: 12px;
+				text-align: left;
+				line-height: 16px;
+			}
+		}
+	}
 } 
 
 
@@ -106,13 +153,34 @@
 		// width: 850px;
 		padding: 55px;
 
-		.texto-seguridad,
-		.texto-seguridad-img {
-
-		}
 
 		.texto-seguridad-img {
 			text-align: right;
+		}
+		.lh {
+			font-family: 'montserratregular',arial;
+			line-height: 21px;
+			font-size: 15px;
+			span{
+				font-family: 'montserratblack', arial;
+			}
+		}
+		.texto-primario-blanco{
+			margin: 0;
+			padding: 0;
+			li{
+				font-family: 'montserratregular',arial;
+				font-size: 12px;
+				text-align: left;
+				line-height: 15px;
+				margin-bottom: 17px;
+				color:$blanco;
+				padding-left: 25px;
+				background: url(../img/arrow-right.png) no-repeat left top;
+				span {
+					font-family: 'montserratblack', arial;
+				}
+			}
 		}
 	}
 }
@@ -122,20 +190,107 @@
 	.bgc {
 		background-color: $color-footer;
 	}
+	h1 {
+		color: $blanco;
+		text-align: right;
+		span{
+			display: block;
+		}
+	}
 	.metroplanes-box {
 		padding: 55px 50px;
 		.box-metroplanes {
 			position: relative;
-			&:after {
-				content: "";
-				width: 1px;
-				position: absolute;
-				background:red;
-				height: 100%;
-				top: 10px;
-				left: 50%;
+			text-align: center;
+			// &:after {
+			// 	content: "";
+			// 	width: 1px;
+			// 	position: absolute;
+			// 	background:red;
+			// 	height: 100%;
+			// 	top: 10px;
+			// 	left: 50%;
+			// }
+			.logs-metro{
+				text-align: center;
+				margin-bottom: 48px;
 			}
+			.box-metroplanes-planes{
+				.plans {
+					margin: 0;
+					padding: 0;
 
+					li {
+						display: inline-block;
+						width: 33.33333333%;
+						float: left;
+						background-color: $color-azul;
+						padding: 10px 8px;
+						font-size: 12px;
+						height: 85px;
+						font-family: 'montserratblack', arial;
+						position: relative;
+						text-transform: uppercase;
+						span{
+							display: block;
+							font-family: 'montserratlight';
+							text-transform: uppercase;
+							margin: 8px 0;
+						}
+						&:nth-child(2) {
+							background-color:$azul-oscuro; 
+						}
+						p{
+							font-family: 'montserratlight';
+							text-transform: uppercase;
+							span{
+								font-family: 'montserratblack', arial;
+								display: inline-block;
+							}
+						}
+					}
+					.arrow {
+						&:after {
+							left: 100%;
+							top: 50%;
+							border: solid transparent;
+							content: " ";
+							height: 0;
+							width: 0;
+							position: absolute;
+							pointer-events: none;
+							border-color: rgba(62, 121, 189, 0);
+							border-left-color: #3E79BD;
+							border-width: 10px;
+							margin-top: -10px;
+							z-index: 99;
+							&:last-child{
+								display: none;
+							}
+						}
+					}
+					.arrowB{
+						&:after {
+							left: 100%;
+							top: 50%;
+							border: solid transparent;
+							content: " ";
+							height: 0;
+							width: 0;
+							position: absolute;
+							pointer-events: none;
+							border-color: rgba(62, 121, 189, 0);
+							border-left-color: #2F5C8F;
+							border-width: 10px;
+							margin-top: -10px;
+							z-index: 99;
+							&:last-child{
+								display: none;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 

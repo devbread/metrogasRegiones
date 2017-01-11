@@ -121,6 +121,16 @@ h1 {
   background: #3669A3 url(../img/bg-nubes.png) no-repeat; }
   .nubes .nubes-block {
     padding: 55px; }
+    .nubes .nubes-block .centroNatural {
+      font-family: 'montserratregular',arial;
+      font-size: 15px;
+      width: 40%;
+      margin: 0 auto 25px auto; }
+      .nubes .nubes-block .centroNatural span {
+        font-family: 'montserratblack', arial; }
+    .nubes .nubes-block .centerC {
+      text-align: center;
+      line-height: 18px; }
   .nubes .line-box-box {
     margin-top: 77px; }
     .nubes .line-box-box .line-box .line-box-item-titulo, .nubes .line-box-box .line-box.nb .line-box-item-titulo {
@@ -128,12 +138,39 @@ h1 {
       color: #ffffff;
       text-align: center;
       height: 45px;
-      line-height: 45px; }
+      line-height: 45px;
+      font-size: 17px;
+      font-family: 'montserratblack', arial; }
     .nubes .line-box-box .line-box.nb {
       margin-right: 0; }
     .nubes .line-box-box .line-box-item-texto {
       background-color: #305D91;
-      padding: 24px 22px; }
+      padding: 24px 22px;
+      font-family: 'montserratregular',arial;
+      font-size: 12px;
+      line-height: 18px;
+      height: 120px;
+      text-align: center; }
+  .nubes .beneficios {
+    margin-top: 50px;
+    margin-bottom: 100px; }
+    .nubes .beneficios .imgM {
+      margin-right: 20px; }
+    .nubes .beneficios .beneBox {
+      width: 70%;
+      text-align: left;
+      float: right; }
+      .nubes .beneficios .beneBox h3 {
+        font-family: 'montserratblack', arial;
+        font-size: 14px;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 15px; }
+      .nubes .beneficios .beneBox p {
+        font-family: 'montserratregular',arial;
+        font-size: 12px;
+        text-align: left;
+        line-height: 16px; }
 
 .video img {
   width: 100%; }
@@ -156,23 +193,103 @@ h1 {
     padding: 55px; }
     .seguridad .seguridad-block .texto-seguridad-img {
       text-align: right; }
+    .seguridad .seguridad-block .lh {
+      font-family: 'montserratregular',arial;
+      line-height: 21px;
+      font-size: 15px; }
+      .seguridad .seguridad-block .lh span {
+        font-family: 'montserratblack', arial; }
+    .seguridad .seguridad-block .texto-primario-blanco {
+      margin: 0;
+      padding: 0; }
+      .seguridad .seguridad-block .texto-primario-blanco li {
+        font-family: 'montserratregular',arial;
+        font-size: 12px;
+        text-align: left;
+        line-height: 15px;
+        margin-bottom: 17px;
+        color: #ffffff;
+        padding-left: 25px;
+        background: url(../img/arrow-right.png) no-repeat left top; }
+        .seguridad .seguridad-block .texto-primario-blanco li span {
+          font-family: 'montserratblack', arial; }
 
 .metroplanes {
   padding: 55px 55px 0px 55px; }
   .metroplanes .bgc {
     background-color: #3669A3; }
+  .metroplanes h1 {
+    color: #ffffff;
+    text-align: right; }
+    .metroplanes h1 span {
+      display: block; }
   .metroplanes .metroplanes-box {
     padding: 55px 50px; }
     .metroplanes .metroplanes-box .box-metroplanes {
-      position: relative; }
-      .metroplanes .metroplanes-box .box-metroplanes:after {
-        content: "";
-        width: 1px;
-        position: absolute;
-        background: red;
-        height: 100%;
-        top: 10px;
-        left: 50%; }
+      position: relative;
+      text-align: center; }
+      .metroplanes .metroplanes-box .box-metroplanes .logs-metro {
+        text-align: center;
+        margin-bottom: 48px; }
+      .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans {
+        margin: 0;
+        padding: 0; }
+        .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans li {
+          display: inline-block;
+          width: 33.33333333%;
+          float: left;
+          background-color: #3E79BD;
+          padding: 10px 8px;
+          font-size: 12px;
+          height: 85px;
+          font-family: 'montserratblack', arial;
+          position: relative;
+          text-transform: uppercase; }
+          .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans li span {
+            display: block;
+            font-family: 'montserratlight';
+            text-transform: uppercase;
+            margin: 8px 0; }
+          .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans li:nth-child(2) {
+            background-color: #2F5C8F; }
+          .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans li p {
+            font-family: 'montserratlight';
+            text-transform: uppercase; }
+            .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans li p span {
+              font-family: 'montserratblack', arial;
+              display: inline-block; }
+        .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans .arrow:after {
+          left: 100%;
+          top: 50%;
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+          border-color: rgba(62, 121, 189, 0);
+          border-left-color: #3E79BD;
+          border-width: 10px;
+          margin-top: -10px;
+          z-index: 99; }
+          .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans .arrow:after:last-child {
+            display: none; }
+        .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans .arrowB:after {
+          left: 100%;
+          top: 50%;
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+          border-color: rgba(62, 121, 189, 0);
+          border-left-color: #2F5C8F;
+          border-width: 10px;
+          margin-top: -10px;
+          z-index: 99; }
+          .metroplanes .metroplanes-box .box-metroplanes .box-metroplanes-planes .plans .arrowB:after:last-child {
+            display: none; }
   .metroplanes .data-metroplan {
     margin-top: 55px; }
 
