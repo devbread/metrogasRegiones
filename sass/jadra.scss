@@ -21,18 +21,21 @@
 		color:$color-texto-parrafos;
 		margin-bottom:25px;
 		font-size: 12px;
+		line-height: 17px;
 	}
 	.texto-primario-blanco{
 		font-family:'montserratlight',sans-serif;
 		color:$blanco;
 		margin-bottom:25px;
 		font-size: 12px;
+		line-height: 17px;
 	}
 	.texto-seguridad{
 		font-family:'montserratlight',sans-serif;
 		color:$blanco;
 		margin-bottom:25px;
 		font-size: 15px;
+		line-height: 17px;
 	}
 	.titulo-fondo-verde{
 		font-family:'montserratbold',sans-serif;
@@ -45,7 +48,7 @@
 	.titulo-fondo-cyan{
 		font-family:'montserratbold',sans-serif;
 		color:#fff;
-		padding:10px 5px;
+		padding:13px 5px;
 		margin:12px 0 35px 0;
 		display: inline-block;
 		font-size: 20px;
@@ -57,6 +60,15 @@
 		margin-bottom:25px;
 		font-size: 9px;
 	}
+	.subtitulo-uno,.texto-prevolante{
+		font-family:'montserratbold',sans-serif;
+		font-size: 25px;
+		color:$color-texto-titulos;
+		text-align:center;
+	}
+	.texto-prevolante{
+		color: $color-texto-parrafos;
+	}
 	/* botones */
 	.btn-primario{
 		background: #BDD44D;
@@ -64,6 +76,11 @@
 		border-radius: 5px;
 		padding:15px 35px;
 		color:$blanco;
+		display: block;
+		width: 100%;
+		font-family: 'Roboto',sans-serif;
+		font-weight: 800;
+		text-align: center;
 	}
 	input[type="submit"].btn-enviar{
 		background: none;
@@ -74,6 +91,57 @@
 		border-radius: 5px;
 		padding:5px 35px;
 		color:$blanco;
+	}
+	.caja-tabla{
+		.table{
+			text-align: center;
+			background-color:$color-footer;
+			tr{
+				
+				th{
+					font-size:12px;
+					text-align: center;
+				}
+				th.primero{
+					border-radius:10px 0 0 0;
+				}
+				th.ultimo{
+					border-radius: 0 10px 0 0 ;
+				}
+				td{
+					font-size: 14px;
+					font-family: 'Montserrat', sans-serif;
+				}
+			}
+
+		}
+	}
+}
+.tarifas{
+	.caja-tablas{
+		border:1px solid $color-verde;
+		padding: 20px; 
+		.table{
+			color:$blanco;
+			border-radius:10px;
+			text-align: center;
+			background-color:$color-footer;
+			th{
+				background-color:$color-verde;
+				font-size:12px;
+				text-align: center;
+			}
+			th.primero{
+				border-radius:10px 10px 0 0;
+			}
+			th.ultimo{
+				border-radius: 0 10px 0 0 ;
+			}
+			td{
+				font-size: 14px;
+				font-family: 'Montserrat', sans-serif;
+			}
+		}
 	}
 }
 
