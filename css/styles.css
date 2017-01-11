@@ -231,6 +231,10 @@ h1 {
       .fluid-gray .caja-tabla table .cab {
         background-color: #BDD44D; }
 
+.pagos .listas-pago {
+  padding: 25px 30px;
+  border: 1px solid #3669A3; }
+
 .antetitulo {
   font-family: 'montserratblack',sans-serif;
   color: #cecece;
