@@ -3,7 +3,7 @@
 	color:$color-antetitulo;
 	font-size:12px;
 	border-bottom: 1px solid $color-antetitulo;
-	margin: 15px 0 30px 0;
+	margin: 80px 0 30px 0;
 	padding-bottom:10px;
 }
 .antetitulo-foto{
@@ -19,7 +19,7 @@
 	.texto-primario{
 		font-family:'montserratlight',sans-serif;
 		color:$color-texto-parrafos;
-		margin-bottom:25px;
+		margin-bottom:22px;
 		font-size: 12px;
 		line-height: 17px;
 	}
@@ -57,8 +57,10 @@
 	.texto-legal{
 		font-family:'montserratlight',sans-serif;
 		color:$color-texto-parrafos;
-		margin-bottom:25px;
 		font-size: 9px;
+		background-color:#F9F9F9;
+		padding:40px;
+		margin-top: 60px;
 	}
 	.subtitulo-uno,.texto-prevolante{
 		font-family:'montserratbold',sans-serif;
@@ -69,6 +71,7 @@
 	.texto-prevolante{
 		color: $color-texto-parrafos;
 	}
+
 	/* botones */
 	.btn-primario{
 		background: #BDD44D;
@@ -84,13 +87,15 @@
 	}
 	input[type="submit"].btn-enviar{
 		background: none;
-   		 border: 0;
+   		border: 0;
     	color: inherit;
 		background: #BDD44D;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.21);
 		border-radius: 5px;
 		padding:5px 35px;
 		color:$blanco;
+		font-family: 'Roboto',sans-serif;
+		font-weight: 800;
 	}
 	.caja-tabla{
 		.table{
@@ -99,8 +104,15 @@
 			tr{
 				
 				th{
+					vertical-align: middle;
 					font-size:12px;
 					text-align: center;
+					border-top:0;
+					padding:18px 5px;
+					border-right:1px solid #A1BB26;
+					&:last-child{
+						border-right:0;
+					}
 				}
 				th.primero{
 					border-radius:10px 0 0 0;
@@ -111,6 +123,11 @@
 				td{
 					font-size: 14px;
 					font-family: 'Montserrat', sans-serif;
+					border-top:1px solid $azul-oscuro;
+					border-right:1px solid $azul-oscuro;
+					&:last-child{
+						border-right:0;
+					}
 				}
 			}
 
@@ -128,8 +145,15 @@
 			background-color:$color-footer;
 			th{
 				background-color:$color-verde;
+				vertical-align: middle;
 				font-size:12px;
 				text-align: center;
+				border-top:0;
+				padding:18px 5px;
+				border-right:1px solid #A1BB26;
+				&:last-child{
+					border-right:0;
+				}
 			}
 			th.primero{
 				border-radius:10px 10px 0 0;
@@ -140,21 +164,48 @@
 			td{
 				font-size: 14px;
 				font-family: 'Montserrat', sans-serif;
+				border-top:1px solid $azul-oscuro;
+				border-right:1px solid $azul-oscuro;
+				&:last-child{
+					border-right:0;
+				}
+			}
+		}
+	}
+}
+/* concept */
+.section-texto{
+	.antetitulo{
+			margin: 80px 0 30px 0;
+	}
+	.sector{
+		margin-top:50px !important;
+	}
+}
+/* video-left */
+.video-left{
+	vertical-align:bottom;
+	.video-left-texto-center{
+		padding:10px 45px 5px 31px;
+	}
+	img{
+		margin-bottom: -3px;
+	}
+}
+.mapa{
+	.mapa-caja{
+		padding:55px;
+		.texto-primario{
+			color:$color-texto-titulos;
+			font-size: 15px;
+			font-family:'montserratbold',sans-serif;
+			span{
+				color:$color-verde;
 			}
 		}
 	}
 }
 
-.mapa{
-	.texto-primario{
-		color:$color-texto-titulos;
-		font-size: 15px;
-		font-family:'montserratbold',sans-serif;
-		span{
-			color:$color-verde;
-		}
-	}
-}
 .nubes{
 	color:$blanco;
 	font-family:'Montserrat';
@@ -165,8 +216,64 @@
 		padding:55px;
 
 	}
+	.data-metroplan{
+		padding:0 15px;
+	}
 	.tabla-metroplanes{
 		color: #fff;
 		padding:55px;
 	}
+}
+/*tarifas*/
+.tarifas{
+	.caja-tarifas{
+		padding:0 55px;
+		.texto-legal{
+			font-family:'montserratlight',sans-serif;
+			color:$color-texto-parrafos;
+			font-size: 9px;
+			margin-top: 30px;
+			background:none;
+			padding:0;
+			margin-bottom: 80px;
+		}
+	}
+
+}
+/*contacto*/
+.contacto{
+	.caja-contacto{
+		background-color:$color-footer;
+		padding:40px 55px 80px 55px;
+		.contenedor-form{
+			padding: 45px 60px;
+			background-color:$color-celeste;
+			height: 480px;
+			border-radius:5px;
+			width: 650px;
+			margin:20px auto;
+			text-align: center;
+			input{
+				width: 100%;
+				margin:10px 0;
+				padding:15px;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 11px;
+				border-radius:5px;
+				border:0;
+				&[type="submit"]{
+					width: 215px;
+					text-align: center;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+/*pagos*/
+.pagos{
+	.caja-pagos{
+		padding:0 55px;
+	}
+	
 }
