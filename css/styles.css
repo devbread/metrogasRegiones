@@ -330,7 +330,7 @@ h1 {
   .metroplanes .titulo-fondo-cyan, .metroplan .titulo-fondo-cyan, .header .titulo-fondo-cyan, .concept .titulo-fondo-cyan, .video .titulo-fondo-cyan, .mapa .titulo-fondo-cyan, .video-left .titulo-fondo-cyan, .seguridad .titulo-fondo-cyan, .contacto .titulo-fondo-cyan, .contenido-metroplanes .titulo-fondo-cyan, .tarifas .titulo-fondo-cyan, .pagos .titulo-fondo-cyan {
     font-family: 'montserratbold',sans-serif;
     color: #fff;
-    padding: 15px 5px;
+    padding: 10px 5px;
     margin: 12px 0 35px 0;
     display: inline-block;
     font-size: 20px;
@@ -344,6 +344,15 @@ h1 {
     background: #BDD44D;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.21);
     border-radius: 5px;
+    padding: 15px 35px;
+    color: #ffffff; }
+  .metroplanes input[type="submit"].btn-enviar, .metroplan input[type="submit"].btn-enviar, .header input[type="submit"].btn-enviar, .concept input[type="submit"].btn-enviar, .video input[type="submit"].btn-enviar, .mapa input[type="submit"].btn-enviar, .video-left input[type="submit"].btn-enviar, .seguridad input[type="submit"].btn-enviar, .contacto input[type="submit"].btn-enviar, .contenido-metroplanes input[type="submit"].btn-enviar, .tarifas input[type="submit"].btn-enviar, .pagos input[type="submit"].btn-enviar {
+    background: none;
+    border: 0;
+    color: inherit;
+    background: #BDD44D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
     padding: 5px 35px;
     color: #ffffff; }
 
@@ -351,6 +360,8 @@ h1 {
   color: #3669A3;
   font-size: 15px;
   font-family: 'montserratbold',sans-serif; }
+  .mapa .texto-primario span {
+    color: #BDD44D; }
 
 .nubes {
   color: #ffffff;
