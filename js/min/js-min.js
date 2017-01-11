@@ -1,0 +1,1 @@
+$(document).ready(function(){$.fn.equalCols=function(){var t=0;$(this).each(function(){var i=$(this).height();i>t&&(t=i)}),$(this).height(t)},$(".listas-pago").equalCols()});

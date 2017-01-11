@@ -231,9 +231,61 @@ h1 {
       .fluid-gray .caja-tabla table .cab {
         background-color: #BDD44D; }
 
+.pagos .espace {
+  margin-bottom: 100px; }
 .pagos .listas-pago {
   padding: 25px 30px;
   border: 1px solid #3669A3; }
+  .pagos .listas-pago .titulo-lista {
+    color: #3669A3;
+    font-family: 'montserratbold', arial;
+    font-size: 12px;
+    margin-bottom: 30px; }
+  .pagos .listas-pago .presencial {
+    margin: 0;
+    padding: 0; }
+    .pagos .listas-pago .presencial li {
+      font-size: 12px;
+      color: #3669A3;
+      font-family: 'montserratbold', arial;
+      margin-bottom: 15px; }
+  .pagos .listas-pago .listarespuesta {
+    margin: 25px 0 0 0;
+    padding: 0; }
+    .pagos .listas-pago .listarespuesta li {
+      font-family: 'montserratregular',arial;
+      font-size: 10px;
+      color: #9B9B9B;
+      text-align: left;
+      margin-bottom: 15px;
+      line-height: 14px; }
+      .pagos .listas-pago .listarespuesta li:last-child {
+        margin-bottom: 0; }
+  .pagos .listas-pago .internet {
+    margin: 0;
+    padding: 0; }
+    .pagos .listas-pago .internet li {
+      margin-bottom: 20px; }
+      .pagos .listas-pago .internet li a {
+        color: #46A1DB;
+        font-family: 'montserratregular',arial;
+        font-size: 12px;
+        text-decoration: underline; }
+  .pagos .listas-pago .automatico {
+    margin: 0;
+    padding: 0; }
+    .pagos .listas-pago .automatico li {
+      font-size: 12px;
+      color: #3669A3;
+      font-family: 'montserratbold', arial;
+      margin-bottom: 15px; }
+      .pagos .listas-pago .automatico li:last-child {
+        margin-bottom: 0; }
+    .pagos .listas-pago .automatico .links-automata {
+      color: #46A1DB;
+      font-family: 'montserratregular',arial;
+      font-size: 12px;
+      text-decoration: underline; }
 
 .antetitulo {
   font-family: 'montserratblack',sans-serif;
