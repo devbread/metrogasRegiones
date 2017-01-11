@@ -22,7 +22,7 @@ html(lang='en')
                 .caja.col-md-12
                     p.antetitulo-foto Metrogas en la zona sur
             .row
-                .caja.col-md-8
+                .caja.col-md-6
                     h1.titulo-fondo-verde En Puerto Montt
                     h1.titulo-fondo-cyan Metrogas te conviene
         section.concept
@@ -137,9 +137,9 @@ html(lang='en')
 
      
         section.metroplanes
+            p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
             .row
                 .col-md-8
-                    p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
                     h1.titulo-fondo-verde Conoce nuestros planes
                     h1.titulo-fondo-cyan Tenemos la mejor alternativa para tu hogar
 
@@ -206,15 +206,15 @@ html(lang='en')
                 .row.tabla-metroplanes
                     .col-md-12
                         .caja-tabla
-                            h2 Elige y contrata el Metroplan que más te acomode
-                            table.table
+                            h2.subtitulo-uno Elige y contrata el Metroplan que más te acomode
+                            table(border="1" cellpadding="0" cellspacing="0").table
                                 tr.cab
-                                    th Metroplanes
+                                    th.primero Metroplanes
                                     th m<sup>3</sup>
                                     th Valor
                                     th Valor x m<sup>3</sup> Plan
-                                    th Aporte m<sup>3</sup> <span> anuales</span>
-                                    th Valor <sup>3</sup> adicional <span>al Plan</span>
+                                    th Aporte m<sup>3</sup> <span> anuales <br>adicionales</span>
+                                    th.ultimo Valor <sup>3</sup> adicional <br> <span>al Plan</span>
                                 tr
                                     td Metroplan 20
                                     td 20
@@ -222,14 +222,30 @@ html(lang='en')
                                     td $ 765
                                     td 20
                                     td $ 765
-                            h3.texto-prevolante Contrata ahora tu Metroplan y aprovecha esta increíble promoción.
+                                tr
+                                    td Metroplan 20
+                                    td 20
+                                    td $ 15.900
+                                    td $ 765
+                                    td 20
+                                    td $ 765
+                                tr
+                                    td Metroplan 20
+                                    td 20
+                                    td $ 15.900
+                                    td $ 765
+                                    td 20
+                                    td $ 765
+                            h3.texto-prevolante Contrata ahora tu Metroplan <br> y aprovecha esta increíble promoción.
                             .volante
                                 img(src="img/volante.jpg", alt="")
         section.contacto
             p.antetitulo-foto
-            h1.titulo-fondo-verde
-            h1.titulo-fondo-cyan
-            p.texto-primario-blanco
+            .row
+                .col-md-10
+                    h1.titulo-fondo-verde Si estás interesado en alguno de nuestros planes o 
+                    h1.titulo-fondo-cyan quieres más información
+                p.texto-primario-blanco
             form
                 input(type="text", placeholder="Nombre")
                 input(type="text", placeholder="Apellido")
@@ -240,14 +256,16 @@ html(lang='en')
 
         section.tarifas
             p.antetitulo
-            h1.titulo-fondo-verde
-            h1.titulo-fondo-cyan
+            .row
+                .col-md-4
+                    h1.titulo-fondo-verde Conoce las tarifas
+                    h1.titulo-fondo-cyan según tramo de conexión
             .caja-tablas
                 .row
                     .col-md-4
-                        table.table
+                        table(border="0" cellpadding="0" cellspacing="0").table
                             tr
-                                th Tramos en m3
+                                th.primero Tramos en m3
                             tr
                                 td de 0 a5
                             tr
@@ -272,7 +290,7 @@ html(lang='en')
                     .col-md-4
                         table.table
                             tr
-                                th Valor por m3S
+                                th.primero Valor por m3S
                             tr
                                 td $ 1.146
                             tr
@@ -295,7 +313,7 @@ html(lang='en')
                     .col-md-4
                         table.table
                             tr
-                                th Costo por Tramo
+                                th.primero Costo por Tramo
 
                             tr
                                 td de $33.000 a $38.880
