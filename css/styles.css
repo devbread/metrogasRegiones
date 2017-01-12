@@ -85,9 +85,6 @@ html {
 .clearfix {
   clear: both; }
 
-img, video {
-  display: block; }
-
 body {
   font-family: 'montserratblack';
   -webkit-font-smoothing: antialiased;
@@ -448,14 +445,51 @@ h1 {
     top: 0;
     left: 0;
     z-index: -1;
-    background: rgba(54, 105, 163, 0.4); }
-  .metroambientalistas ul.social {
+    background: rgba(35, 69, 107, 0.5); }
+  .metroambientalistas ul.list-ambiental {
     margin: 0;
     padding: 0; }
-    .metroambientalistas ul.social li {
-      background: #F9F9F9;
-      box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.21);
-      border-radius: 4.8px; }
+    .metroambientalistas ul.list-ambiental li {
+      font-family: 'montserratbold', arial;
+      font-size: 11px;
+      background: url(../img/arrow-green-left.png) no-repeat left center;
+      padding-left: 22px;
+      color: #ffffff;
+      height: 12px;
+      margin-bottom: 25px; }
+  .metroambientalistas .sociales {
+    width: 90%;
+    margin-top: 15px; }
+    .metroambientalistas .sociales ul {
+      margin: 0;
+      padding: 0; }
+      .metroambientalistas .sociales ul li {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 13px;
+        position: relative;
+        background: #F9F9F9;
+        box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.21);
+        -webkit-border-top-right-radius: 5px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px; }
+        .metroambientalistas .sociales ul li a {
+          font-family: 'Roboto', sans-serif;
+          font-weight: bold;
+          font-size: 13px; }
+          .metroambientalistas .sociales ul li a:after {
+            content: url(../img/f.png);
+            left: 0;
+            top: 0;
+            background: #3669A3;
+            position: absolute;
+            padding: 9px 20px; }
 
 .container {
   padding-right: 0 !important;
@@ -765,7 +799,7 @@ a.tab-fixed {
         text-decoration: none; }
 
 .quienes {
-  margin-bottom: 80px; }
+  padding: 55px; }
   .quienes .caja-quienes {
     width: 35%; }
     .quienes .caja-quienes .titulo-fondo-verde {
@@ -793,3 +827,6 @@ a.tab-fixed {
     font-family: 'montserratlight', arial;
     line-height: 17px;
     color: #9B9B9B; }
+
+.espace {
+  margin: 55px 0; }
