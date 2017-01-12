@@ -24,7 +24,7 @@ a.tab-fixed{
 .antetitulo{
 	font-family:'montserratblack',sans-serif;
 	color:$color-antetitulo;
-	font-size:12px;
+	font-size:14px;
 	border-bottom: 1px solid $color-antetitulo;
 	margin: 0 0 30px 0;
 	padding-bottom:10px;
@@ -32,7 +32,7 @@ a.tab-fixed{
 .antetitulo-foto{
 	font-family:'montserratblack',sans-serif;
 	color:$blanco;
-	font-size:12px;
+	font-size:14px;
 	border-bottom: 1px solid $blanco;
 	margin: 15px 0 30px 0;
 	padding-bottom:10px;
@@ -43,7 +43,7 @@ a.tab-fixed{
 		font-family:'montserratlight',sans-serif;
 		color:$color-texto-parrafos;
 		margin-bottom:22px;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 17px;
 		span{
 			color:$color-verde;
@@ -54,7 +54,7 @@ a.tab-fixed{
 		font-family:'montserratlight',sans-serif;
 		color:$blanco;
 		margin-bottom:25px;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 17px;
 		span{
 			font-family:'montserratbold',sans-serif !important;
@@ -214,6 +214,7 @@ a.tab-fixed{
 	.caja-tablas{
 		border:2px solid $color-verde;
 		padding: 20px; 
+		text-align: center;
 		.table{
 			color:$blanco;
 			border-radius:10px;
@@ -287,6 +288,9 @@ a.tab-fixed{
 	color:$blanco;
 	font-family:'Montserrat';
 	font-size:13px;
+	.beneBox p{
+		font-size: 14px;
+	}
 }
 .contenido-metroplanes{
 	.metroplanes-cuadro{
