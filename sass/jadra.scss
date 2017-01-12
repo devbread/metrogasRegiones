@@ -38,7 +38,7 @@ a.tab-fixed{
 	padding-bottom:10px;
 }
 
-.metroplanes,.metroambientalistas,.bggray,.quienes,.metroplan,.header,.concept,.video,.mapa,.video-left,.seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
+.metroplanes,.metroambientalistas,.bggray,.quienes,.metroplan,.header,.concept,.video,.mapa,.video-left,.bloque-seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
 	.texto-primario{
 		font-family:'montserratlight',sans-serif;
 		color:$color-texto-parrafos;
@@ -168,6 +168,15 @@ a.tab-fixed{
 
 		}
 	}
+	.nopadding{
+		padding-left:0 !important;
+		padding-right:0 !important;
+
+	}
+}
+/* videos */
+.video,.video-left{
+	margin:50px auto;
 }
 /*header*/
 .header{
@@ -181,6 +190,25 @@ a.tab-fixed{
 		}
 	}
 }
+
+/* seguridad */
+.bloque-seguridad{
+	.block-seguridad{
+		background:#3669A3 url(../img/bg-nubes.png);
+		padding:55px;
+		position:relative;
+		img{
+			width: 100%;
+			position:absolute;
+			top:-55px;
+			left:40px;
+		}
+	}
+	.fondo-seguridad{
+		background-color:red;
+	}
+}
+/* tarifas */
 .tarifas{
 	padding:55px 0 0 0;
 	.caja-tablas{
