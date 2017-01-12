@@ -19,7 +19,7 @@
 	background-color: $bg-gray;
 	padding: 30px 55px 60px 55px;
 	.texto-caja-bggray{
-		width: 100%;
+		width: 70%;
 	}
 	
 
@@ -80,6 +80,10 @@
 		font-size: 15px;
 		font-family: 'montserratbold', arial;
 	}
+	.box-textos-quienes{
+		width: 350px;
+		margin-top: 25px;
+	} 
 	.textos-quienes{
 		font-size: 12px;
 		text-align: left;

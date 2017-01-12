@@ -485,7 +485,8 @@ h1 {
         .metroambientalistas .sociales ul li a {
           font-family: 'Roboto', sans-serif;
           font-weight: bold;
-          font-size: 13px; }
+          font-size: 13px;
+          text-decoration: none; }
           .metroambientalistas .sociales ul li a:after {
             content: url(../img/f.png);
             left: 0;
@@ -799,7 +800,7 @@ a.tab-fixed {
   background-color: #EBEBEB;
   padding: 30px 55px 60px 55px; }
   .bggray .texto-caja-bggray {
-    width: 100%; }
+    width: 70%; }
   .bggray .fotos-row {
     margin-top: 10px; }
     .bggray .fotos-row .imagen-thums {
@@ -845,6 +846,9 @@ a.tab-fixed {
     color: #3669A3;
     font-size: 15px;
     font-family: 'montserratbold', arial; }
+  .quienes .box-textos-quienes {
+    width: 350px;
+    margin-top: 25px; }
   .quienes .textos-quienes {
     font-size: 12px;
     text-align: left;
