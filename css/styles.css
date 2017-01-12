@@ -85,6 +85,9 @@ html {
 .clearfix {
   clear: both; }
 
+.imgblock {
+  display: block; }
+
 body {
   font-family: 'montserratblack';
   -webkit-font-smoothing: antialiased;
