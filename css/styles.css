@@ -521,7 +521,7 @@ a.tab-fixed {
 .antetitulo {
   font-family: 'montserratblack',sans-serif;
   color: #cecece;
-  font-size: 12px;
+  font-size: 14px;
   border-bottom: 1px solid #cecece;
   margin: 0 0 30px 0;
   padding-bottom: 10px; }
@@ -529,7 +529,7 @@ a.tab-fixed {
 .antetitulo-foto {
   font-family: 'montserratblack',sans-serif;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
   border-bottom: 1px solid #ffffff;
   margin: 15px 0 30px 0;
   padding-bottom: 10px; }
@@ -540,7 +540,7 @@ a.tab-fixed {
     font-family: 'montserratlight',sans-serif;
     color: #9B9B9B;
     margin-bottom: 22px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 17px; }
     .metroplanes .texto-primario span, .metroambientalistas .texto-primario span, .bggray .texto-primario span, .quienes .texto-primario span, .metroplan .texto-primario span, .header .texto-primario span, .concept .texto-primario span, .video .texto-primario span, .mapa .texto-primario span, .video-left .texto-primario span, .bloque-seguridad .texto-primario span, .contacto .texto-primario span, .contenido-metroplanes .texto-primario span, .tarifas .texto-primario span, .pagos .texto-primario span {
       color: #BDD44D;
@@ -549,7 +549,7 @@ a.tab-fixed {
     font-family: 'montserratlight',sans-serif;
     color: #ffffff;
     margin-bottom: 25px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 17px; }
     .metroplanes .texto-primario-blanco span, .metroambientalistas .texto-primario-blanco span, .bggray .texto-primario-blanco span, .quienes .texto-primario-blanco span, .metroplan .texto-primario-blanco span, .header .texto-primario-blanco span, .concept .texto-primario-blanco span, .video .texto-primario-blanco span, .mapa .texto-primario-blanco span, .video-left .texto-primario-blanco span, .bloque-seguridad .texto-primario-blanco span, .contacto .texto-primario-blanco span, .contenido-metroplanes .texto-primario-blanco span, .tarifas .texto-primario-blanco span, .pagos .texto-primario-blanco span {
       font-family: 'montserratbold',sans-serif !important; }
@@ -671,7 +671,8 @@ a.tab-fixed {
   padding: 55px 0 0 0; }
   .tarifas .caja-tablas {
     border: 2px solid #BDD44D;
-    padding: 20px; }
+    padding: 20px;
+    text-align: center; }
     .tarifas .caja-tablas .table {
       color: #ffffff;
       border-radius: 10px;
@@ -729,6 +730,8 @@ a.tab-fixed {
   color: #ffffff;
   font-family: 'Montserrat';
   font-size: 13px; }
+  .nubes .beneBox p {
+    font-size: 14px; }
 
 .contenido-metroplanes .metroplanes-cuadro {
   padding: 55px; }
