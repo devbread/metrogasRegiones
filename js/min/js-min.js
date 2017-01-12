@@ -1,1 +1,1 @@
-$(document).ready(function(){$.fn.equalCols=function(){var t=0;$(this).each(function(){var i=$(this).height();i>t&&(t=i)}),$(this).height(t)},$(".listas-pago").equalCols()});
+$(document).ready(function(){$.fn.equalCols=function(){var e=0;$(this).each(function(){var t=$(this).height();t>e&&(e=t)}),$(this).height(e)},$(".listas-pago").equalCols(),$(".expand-one,.closer-a").click(function(){$(".content-one").slideToggle("fast"),event.preventDefault()}),$(".expand-two,.closer-b").click(function(){$(".content-two").slideToggle("fast"),event.preventDefault()})});

@@ -485,7 +485,8 @@ h1 {
         .metroambientalistas .sociales ul li a {
           font-family: 'Roboto', sans-serif;
           font-weight: bold;
-          font-size: 13px; }
+          font-size: 13px;
+          text-decoration: none; }
           .metroambientalistas .sociales ul li a:after {
             content: url(../img/f.png);
             left: 0;
@@ -613,29 +614,34 @@ a.tab-fixed {
     color: #ffffff;
     font-family: 'Roboto',sans-serif;
     font-weight: 800; }
-  .metroplanes .caja-tabla .table, .metroambientalistas .caja-tabla .table, .bggray .caja-tabla .table, .quienes .caja-tabla .table, .metroplan .caja-tabla .table, .header .caja-tabla .table, .concept .caja-tabla .table, .video .caja-tabla .table, .mapa .caja-tabla .table, .video-left .caja-tabla .table, .bloque-seguridad .caja-tabla .table, .contacto .caja-tabla .table, .contenido-metroplanes .caja-tabla .table, .tarifas .caja-tabla .table, .pagos .caja-tabla .table {
-    text-align: center;
-    background-color: #3669A3; }
-    .metroplanes .caja-tabla .table tr th, .metroambientalistas .caja-tabla .table tr th, .bggray .caja-tabla .table tr th, .quienes .caja-tabla .table tr th, .metroplan .caja-tabla .table tr th, .header .caja-tabla .table tr th, .concept .caja-tabla .table tr th, .video .caja-tabla .table tr th, .mapa .caja-tabla .table tr th, .video-left .caja-tabla .table tr th, .bloque-seguridad .caja-tabla .table tr th, .contacto .caja-tabla .table tr th, .contenido-metroplanes .caja-tabla .table tr th, .tarifas .caja-tabla .table tr th, .pagos .caja-tabla .table tr th {
-      vertical-align: middle;
-      font-size: 12px;
+  .metroplanes .caja-tabla, .metroambientalistas .caja-tabla, .bggray .caja-tabla, .quienes .caja-tabla, .metroplan .caja-tabla, .header .caja-tabla, .concept .caja-tabla, .video .caja-tabla, .mapa .caja-tabla, .video-left .caja-tabla, .bloque-seguridad .caja-tabla, .contacto .caja-tabla, .contenido-metroplanes .caja-tabla, .tarifas .caja-tabla, .pagos .caja-tabla {
+    text-align: center; }
+    .metroplanes .caja-tabla .table, .metroambientalistas .caja-tabla .table, .bggray .caja-tabla .table, .quienes .caja-tabla .table, .metroplan .caja-tabla .table, .header .caja-tabla .table, .concept .caja-tabla .table, .video .caja-tabla .table, .mapa .caja-tabla .table, .video-left .caja-tabla .table, .bloque-seguridad .caja-tabla .table, .contacto .caja-tabla .table, .contenido-metroplanes .caja-tabla .table, .tarifas .caja-tabla .table, .pagos .caja-tabla .table {
       text-align: center;
-      border-top: 0;
-      padding: 18px 5px;
-      border-right: 1px solid #A1BB26; }
-      .metroplanes .caja-tabla .table tr th:last-child, .metroambientalistas .caja-tabla .table tr th:last-child, .bggray .caja-tabla .table tr th:last-child, .quienes .caja-tabla .table tr th:last-child, .metroplan .caja-tabla .table tr th:last-child, .header .caja-tabla .table tr th:last-child, .concept .caja-tabla .table tr th:last-child, .video .caja-tabla .table tr th:last-child, .mapa .caja-tabla .table tr th:last-child, .video-left .caja-tabla .table tr th:last-child, .bloque-seguridad .caja-tabla .table tr th:last-child, .contacto .caja-tabla .table tr th:last-child, .contenido-metroplanes .caja-tabla .table tr th:last-child, .tarifas .caja-tabla .table tr th:last-child, .pagos .caja-tabla .table tr th:last-child {
-        border-right: 0; }
-    .metroplanes .caja-tabla .table tr th.primero, .metroambientalistas .caja-tabla .table tr th.primero, .bggray .caja-tabla .table tr th.primero, .quienes .caja-tabla .table tr th.primero, .metroplan .caja-tabla .table tr th.primero, .header .caja-tabla .table tr th.primero, .concept .caja-tabla .table tr th.primero, .video .caja-tabla .table tr th.primero, .mapa .caja-tabla .table tr th.primero, .video-left .caja-tabla .table tr th.primero, .bloque-seguridad .caja-tabla .table tr th.primero, .contacto .caja-tabla .table tr th.primero, .contenido-metroplanes .caja-tabla .table tr th.primero, .tarifas .caja-tabla .table tr th.primero, .pagos .caja-tabla .table tr th.primero {
-      border-radius: 10px 0 0 0; }
-    .metroplanes .caja-tabla .table tr th.ultimo, .metroambientalistas .caja-tabla .table tr th.ultimo, .bggray .caja-tabla .table tr th.ultimo, .quienes .caja-tabla .table tr th.ultimo, .metroplan .caja-tabla .table tr th.ultimo, .header .caja-tabla .table tr th.ultimo, .concept .caja-tabla .table tr th.ultimo, .video .caja-tabla .table tr th.ultimo, .mapa .caja-tabla .table tr th.ultimo, .video-left .caja-tabla .table tr th.ultimo, .bloque-seguridad .caja-tabla .table tr th.ultimo, .contacto .caja-tabla .table tr th.ultimo, .contenido-metroplanes .caja-tabla .table tr th.ultimo, .tarifas .caja-tabla .table tr th.ultimo, .pagos .caja-tabla .table tr th.ultimo {
-      border-radius: 0 10px 0 0; }
-    .metroplanes .caja-tabla .table tr td, .metroambientalistas .caja-tabla .table tr td, .bggray .caja-tabla .table tr td, .quienes .caja-tabla .table tr td, .metroplan .caja-tabla .table tr td, .header .caja-tabla .table tr td, .concept .caja-tabla .table tr td, .video .caja-tabla .table tr td, .mapa .caja-tabla .table tr td, .video-left .caja-tabla .table tr td, .bloque-seguridad .caja-tabla .table tr td, .contacto .caja-tabla .table tr td, .contenido-metroplanes .caja-tabla .table tr td, .tarifas .caja-tabla .table tr td, .pagos .caja-tabla .table tr td {
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
-      border-top: 1px solid #2F5C8F;
-      border-right: 1px solid #2F5C8F; }
-      .metroplanes .caja-tabla .table tr td:last-child, .metroambientalistas .caja-tabla .table tr td:last-child, .bggray .caja-tabla .table tr td:last-child, .quienes .caja-tabla .table tr td:last-child, .metroplan .caja-tabla .table tr td:last-child, .header .caja-tabla .table tr td:last-child, .concept .caja-tabla .table tr td:last-child, .video .caja-tabla .table tr td:last-child, .mapa .caja-tabla .table tr td:last-child, .video-left .caja-tabla .table tr td:last-child, .bloque-seguridad .caja-tabla .table tr td:last-child, .contacto .caja-tabla .table tr td:last-child, .contenido-metroplanes .caja-tabla .table tr td:last-child, .tarifas .caja-tabla .table tr td:last-child, .pagos .caja-tabla .table tr td:last-child {
-        border-right: 0; }
+      background-color: #3669A3; }
+      .metroplanes .caja-tabla .table tr th, .metroambientalistas .caja-tabla .table tr th, .bggray .caja-tabla .table tr th, .quienes .caja-tabla .table tr th, .metroplan .caja-tabla .table tr th, .header .caja-tabla .table tr th, .concept .caja-tabla .table tr th, .video .caja-tabla .table tr th, .mapa .caja-tabla .table tr th, .video-left .caja-tabla .table tr th, .bloque-seguridad .caja-tabla .table tr th, .contacto .caja-tabla .table tr th, .contenido-metroplanes .caja-tabla .table tr th, .tarifas .caja-tabla .table tr th, .pagos .caja-tabla .table tr th {
+        vertical-align: middle;
+        font-size: 12px;
+        text-align: center;
+        border-top: 0;
+        padding: 18px 5px;
+        border-right: 1px solid #A1BB26; }
+        .metroplanes .caja-tabla .table tr th:last-child, .metroambientalistas .caja-tabla .table tr th:last-child, .bggray .caja-tabla .table tr th:last-child, .quienes .caja-tabla .table tr th:last-child, .metroplan .caja-tabla .table tr th:last-child, .header .caja-tabla .table tr th:last-child, .concept .caja-tabla .table tr th:last-child, .video .caja-tabla .table tr th:last-child, .mapa .caja-tabla .table tr th:last-child, .video-left .caja-tabla .table tr th:last-child, .bloque-seguridad .caja-tabla .table tr th:last-child, .contacto .caja-tabla .table tr th:last-child, .contenido-metroplanes .caja-tabla .table tr th:last-child, .tarifas .caja-tabla .table tr th:last-child, .pagos .caja-tabla .table tr th:last-child {
+          border-right: 0; }
+      .metroplanes .caja-tabla .table tr th.primero, .metroambientalistas .caja-tabla .table tr th.primero, .bggray .caja-tabla .table tr th.primero, .quienes .caja-tabla .table tr th.primero, .metroplan .caja-tabla .table tr th.primero, .header .caja-tabla .table tr th.primero, .concept .caja-tabla .table tr th.primero, .video .caja-tabla .table tr th.primero, .mapa .caja-tabla .table tr th.primero, .video-left .caja-tabla .table tr th.primero, .bloque-seguridad .caja-tabla .table tr th.primero, .contacto .caja-tabla .table tr th.primero, .contenido-metroplanes .caja-tabla .table tr th.primero, .tarifas .caja-tabla .table tr th.primero, .pagos .caja-tabla .table tr th.primero {
+        border-radius: 10px 0 0 0; }
+      .metroplanes .caja-tabla .table tr th.ultimo, .metroambientalistas .caja-tabla .table tr th.ultimo, .bggray .caja-tabla .table tr th.ultimo, .quienes .caja-tabla .table tr th.ultimo, .metroplan .caja-tabla .table tr th.ultimo, .header .caja-tabla .table tr th.ultimo, .concept .caja-tabla .table tr th.ultimo, .video .caja-tabla .table tr th.ultimo, .mapa .caja-tabla .table tr th.ultimo, .video-left .caja-tabla .table tr th.ultimo, .bloque-seguridad .caja-tabla .table tr th.ultimo, .contacto .caja-tabla .table tr th.ultimo, .contenido-metroplanes .caja-tabla .table tr th.ultimo, .tarifas .caja-tabla .table tr th.ultimo, .pagos .caja-tabla .table tr th.ultimo {
+        border-radius: 0 10px 0 0; }
+      .metroplanes .caja-tabla .table tr td, .metroambientalistas .caja-tabla .table tr td, .bggray .caja-tabla .table tr td, .quienes .caja-tabla .table tr td, .metroplan .caja-tabla .table tr td, .header .caja-tabla .table tr td, .concept .caja-tabla .table tr td, .video .caja-tabla .table tr td, .mapa .caja-tabla .table tr td, .video-left .caja-tabla .table tr td, .bloque-seguridad .caja-tabla .table tr td, .contacto .caja-tabla .table tr td, .contenido-metroplanes .caja-tabla .table tr td, .tarifas .caja-tabla .table tr td, .pagos .caja-tabla .table tr td {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        border-top: 1px solid #2F5C8F;
+        border-right: 1px solid #2F5C8F; }
+        .metroplanes .caja-tabla .table tr td:last-child, .metroambientalistas .caja-tabla .table tr td:last-child, .bggray .caja-tabla .table tr td:last-child, .quienes .caja-tabla .table tr td:last-child, .metroplan .caja-tabla .table tr td:last-child, .header .caja-tabla .table tr td:last-child, .concept .caja-tabla .table tr td:last-child, .video .caja-tabla .table tr td:last-child, .mapa .caja-tabla .table tr td:last-child, .video-left .caja-tabla .table tr td:last-child, .bloque-seguridad .caja-tabla .table tr td:last-child, .contacto .caja-tabla .table tr td:last-child, .contenido-metroplanes .caja-tabla .table tr td:last-child, .tarifas .caja-tabla .table tr td:last-child, .pagos .caja-tabla .table tr td:last-child {
+          border-right: 0; }
+    .metroplanes .caja-tabla .volante img, .metroambientalistas .caja-tabla .volante img, .bggray .caja-tabla .volante img, .quienes .caja-tabla .volante img, .metroplan .caja-tabla .volante img, .header .caja-tabla .volante img, .concept .caja-tabla .volante img, .video .caja-tabla .volante img, .mapa .caja-tabla .volante img, .video-left .caja-tabla .volante img, .bloque-seguridad .caja-tabla .volante img, .contacto .caja-tabla .volante img, .contenido-metroplanes .caja-tabla .volante img, .tarifas .caja-tabla .volante img, .pagos .caja-tabla .volante img {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.21);
+      margin-bottom: 25px; }
   .metroplanes .nopadding, .metroambientalistas .nopadding, .bggray .nopadding, .quienes .nopadding, .metroplan .nopadding, .header .nopadding, .concept .nopadding, .video .nopadding, .mapa .nopadding, .video-left .nopadding, .bloque-seguridad .nopadding, .contacto .nopadding, .contenido-metroplanes .nopadding, .tarifas .nopadding, .pagos .nopadding {
     padding-left: 0 !important;
     padding-right: 0 !important; }
@@ -754,7 +760,7 @@ a.tab-fixed {
 
 /*contacto*/
 .contacto .caja-contacto {
-  background: url(../img/contacto-bg.jpg) center center no-repeat;
+  background: url(../img/contacto-bg.jpg) top center no-repeat;
   padding: 50px 55px 80px 55px; }
   .contacto .caja-contacto .contenedor-form {
     padding: 45px 60px;
@@ -802,7 +808,7 @@ a.tab-fixed {
   background-color: #EBEBEB;
   padding: 30px 55px 60px 55px; }
   .bggray .texto-caja-bggray {
-    width: 100%; }
+    width: 70%; }
   .bggray .fotos-row {
     margin-top: 10px; }
     .bggray .fotos-row .imagen-thums {
@@ -848,6 +854,9 @@ a.tab-fixed {
     color: #3669A3;
     font-size: 15px;
     font-family: 'montserratbold', arial; }
+  .quienes .box-textos-quienes {
+    width: 350px;
+    margin-top: 25px; }
   .quienes .textos-quienes {
     font-size: 12px;
     text-align: left;
