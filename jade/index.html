@@ -9,7 +9,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container"><a href class="tab-fixed">Conoce nuestros planes</a>
+    <div class="container"><a href="#myAnchor" rel="" id="anchor1" class="anchorLink tab-fixed">Conoce nuestros planes</a>
       <section class="header">
         <div class="row">
           <div class="caja col-sm-12">
@@ -162,7 +162,7 @@
           </div>
         </div>
       </section>
-      <section class="metroplanes">
+      <section id="myAnchor" class="metroplanes">
         <p class="antetitulo">Conéctate a la conveniencia del gas natural Metrogas.</p>
         <div class="row">
           <div class="col-sm-8">
@@ -186,7 +186,7 @@
                   <li class="gifcardL">giftcard <span class="calefa">calefacción</span> $89.700</li>
                 </ul>
                 <div class="clearfix"></div>
-              </div><a href="#" class="btn-primario">Conoce Metroplanes</a>
+              </div><a href="#" class="btn-primario expand-one">Conoce Metroplanes</a>
             </div>
           </div>
           <div class="metroplanes-box col-sm-6">
@@ -204,12 +204,12 @@
                   <li class="gifcardL">giftcard <span class="calefa">calefacción</span> $89.700</li>
                 </ul>
                 <div class="clearfix"></div>
-              </div><a href="#" class="btn-primario">Conoce Metroplanes</a>
+              </div><a href="#" class="btn-primario expand-two">Conoce Metroplanes</a>
             </div>
           </div>
         </div>
       </section>
-      <section class="contenido-metroplanes">
+      <section style="display:none;" class="contenido-metroplanes content-one">
         <div class="metroplanes-cuadro">
           <div class="row">
             <div class="data-metroplan">
@@ -276,6 +276,40 @@
                 <h3 class="texto-prevolante">Contrata ahora tu Metroplan <br> y aprovecha esta increíble promoción.</h3>
                 <div class="volante"><img src="img/volante.jpg" alt=""></div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="display:none;" class="contenido-metroplanes content-two">
+        <div class="metroplanes-cuadro">
+          <div class="row">
+            <div class="data-metroplan">
+              <p class="antetitulo">Tarifa Flexible</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6"> 
+              <h1 class="titulo-fondo-verde">Descubre los Metroplanes</h1>
+              <h1 class="titulo-fondo-cyan">y elige el que más te acomode</h1>
+              <p class="texto-primario">Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados, que además vienen con metros cúbicos adicionales de regalo, por si te pasas del plan.</p>
+              <p class="texto-primario">Existen varios Metroplanes para que elijas el que más se ajuste a tu consumo y no te salgas de tu presupuesto para el gas</p>
+            </div>
+            <div class="col-sm-6"> 
+              <ul class="items-metroplanes">
+                <li class="ico-1">Ahorra hasta un 30% en comparación al gas licuado medidor (GLM).</li>
+                <li class="ico-2">Controlas tu gasto en gas, sabiendo lo que vas a pagar.</li>
+                <li class="ico-3">Obtén un plan fijo durante 12 meses.</li>
+                <li class="ico-4">Recibes m3 gratis por si te pasas del plan.</li>
+                <li class="ico-5">No pagas cargo fijo por 12 meses.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid fluid-gray">
+          <div class="row tabla-metroplanes">
+            <div class="col-sm-12 nopadding">
+              <h3 class="texto-prevolante">Contrata ahora tu Metroplan <br> y aprovecha esta increíble promoción.</h3>
+              <div class="volante"><img src="img/volante.jpg" alt=""></div>
             </div>
           </div>
         </div>
@@ -507,6 +541,7 @@
       </section>
       
     </div>
+    <script src="js/jadra.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/js.js"></script>
