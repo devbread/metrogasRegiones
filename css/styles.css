@@ -469,7 +469,8 @@ a.tab-fixed {
   padding: 15px 25px;
   border-radius: 10px 10px 0 0;
   background-color: #F6A623;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   /* Rectangle 18: */
   box-shadow: 0 2px 33px 0 rgba(74, 73, 74, 0.6);
   z-index: 90;
