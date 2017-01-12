@@ -53,7 +53,8 @@
 }
 
 .quienes {
-	margin-bottom: 80px;
+	
+	padding:55px;
 	.caja-quienes{
 		width: 35%;
 		.titulo-fondo-verde{
@@ -86,4 +87,8 @@
 		line-height: 17px;
 		color:$color-texto-parrafos;
 	}		
+}
+
+.espace {
+	margin:55px 0;
 }
