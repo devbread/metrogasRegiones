@@ -11,6 +11,10 @@ html {
  	clear: both;
  }
 
+img,video{
+	display: block;
+}
+
 body {
 	font-family: 'montserratblack';
 	-webkit-font-smoothing: antialiased;
