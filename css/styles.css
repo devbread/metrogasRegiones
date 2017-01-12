@@ -462,7 +462,7 @@ h1 {
   color: #cecece;
   font-size: 12px;
   border-bottom: 1px solid #cecece;
-  margin: 15px 0 30px 0;
+  margin: 80px 0 30px 0;
   padding-bottom: 10px; }
 
 .antetitulo-foto {
@@ -478,7 +478,7 @@ h1 {
   .metroplanes .texto-primario, .metroplan .texto-primario, .header .texto-primario, .concept .texto-primario, .video .texto-primario, .mapa .texto-primario, .video-left .texto-primario, .seguridad .texto-primario, .contacto .texto-primario, .contenido-metroplanes .texto-primario, .tarifas .texto-primario, .pagos .texto-primario {
     font-family: 'montserratlight',sans-serif;
     color: #9B9B9B;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     font-size: 12px;
     line-height: 17px; }
   .metroplanes .texto-primario-blanco, .metroplan .texto-primario-blanco, .header .texto-primario-blanco, .concept .texto-primario-blanco, .video .texto-primario-blanco, .mapa .texto-primario-blanco, .video-left .texto-primario-blanco, .seguridad .texto-primario-blanco, .contacto .texto-primario-blanco, .contenido-metroplanes .texto-primario-blanco, .tarifas .texto-primario-blanco, .pagos .texto-primario-blanco {
@@ -511,8 +511,10 @@ h1 {
   .metroplanes .texto-legal, .metroplan .texto-legal, .header .texto-legal, .concept .texto-legal, .video .texto-legal, .mapa .texto-legal, .video-left .texto-legal, .seguridad .texto-legal, .contacto .texto-legal, .contenido-metroplanes .texto-legal, .tarifas .texto-legal, .pagos .texto-legal {
     font-family: 'montserratlight',sans-serif;
     color: #9B9B9B;
-    margin-bottom: 25px;
-    font-size: 9px; }
+    font-size: 9px;
+    background-color: #F9F9F9;
+    padding: 40px;
+    margin-top: 60px; }
   .metroplanes .subtitulo-uno, .metroplanes .texto-prevolante, .metroplan .subtitulo-uno, .metroplan .texto-prevolante, .header .subtitulo-uno, .header .texto-prevolante, .concept .subtitulo-uno, .concept .texto-prevolante, .video .subtitulo-uno, .video .texto-prevolante, .mapa .subtitulo-uno, .mapa .texto-prevolante, .video-left .subtitulo-uno, .video-left .texto-prevolante, .seguridad .subtitulo-uno, .seguridad .texto-prevolante, .contacto .subtitulo-uno, .contacto .texto-prevolante, .contenido-metroplanes .subtitulo-uno, .contenido-metroplanes .texto-prevolante, .tarifas .subtitulo-uno, .tarifas .texto-prevolante, .pagos .subtitulo-uno, .pagos .texto-prevolante {
     font-family: 'montserratbold',sans-serif;
     font-size: 25px;
@@ -539,20 +541,32 @@ h1 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.21);
     border-radius: 5px;
     padding: 5px 35px;
-    color: #ffffff; }
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 800; }
   .metroplanes .caja-tabla .table, .metroplan .caja-tabla .table, .header .caja-tabla .table, .concept .caja-tabla .table, .video .caja-tabla .table, .mapa .caja-tabla .table, .video-left .caja-tabla .table, .seguridad .caja-tabla .table, .contacto .caja-tabla .table, .contenido-metroplanes .caja-tabla .table, .tarifas .caja-tabla .table, .pagos .caja-tabla .table {
     text-align: center;
     background-color: #3669A3; }
     .metroplanes .caja-tabla .table tr th, .metroplan .caja-tabla .table tr th, .header .caja-tabla .table tr th, .concept .caja-tabla .table tr th, .video .caja-tabla .table tr th, .mapa .caja-tabla .table tr th, .video-left .caja-tabla .table tr th, .seguridad .caja-tabla .table tr th, .contacto .caja-tabla .table tr th, .contenido-metroplanes .caja-tabla .table tr th, .tarifas .caja-tabla .table tr th, .pagos .caja-tabla .table tr th {
+      vertical-align: middle;
       font-size: 12px;
-      text-align: center; }
+      text-align: center;
+      border-top: 0;
+      padding: 18px 5px;
+      border-right: 1px solid #A1BB26; }
+      .metroplanes .caja-tabla .table tr th:last-child, .metroplan .caja-tabla .table tr th:last-child, .header .caja-tabla .table tr th:last-child, .concept .caja-tabla .table tr th:last-child, .video .caja-tabla .table tr th:last-child, .mapa .caja-tabla .table tr th:last-child, .video-left .caja-tabla .table tr th:last-child, .seguridad .caja-tabla .table tr th:last-child, .contacto .caja-tabla .table tr th:last-child, .contenido-metroplanes .caja-tabla .table tr th:last-child, .tarifas .caja-tabla .table tr th:last-child, .pagos .caja-tabla .table tr th:last-child {
+        border-right: 0; }
     .metroplanes .caja-tabla .table tr th.primero, .metroplan .caja-tabla .table tr th.primero, .header .caja-tabla .table tr th.primero, .concept .caja-tabla .table tr th.primero, .video .caja-tabla .table tr th.primero, .mapa .caja-tabla .table tr th.primero, .video-left .caja-tabla .table tr th.primero, .seguridad .caja-tabla .table tr th.primero, .contacto .caja-tabla .table tr th.primero, .contenido-metroplanes .caja-tabla .table tr th.primero, .tarifas .caja-tabla .table tr th.primero, .pagos .caja-tabla .table tr th.primero {
       border-radius: 10px 0 0 0; }
     .metroplanes .caja-tabla .table tr th.ultimo, .metroplan .caja-tabla .table tr th.ultimo, .header .caja-tabla .table tr th.ultimo, .concept .caja-tabla .table tr th.ultimo, .video .caja-tabla .table tr th.ultimo, .mapa .caja-tabla .table tr th.ultimo, .video-left .caja-tabla .table tr th.ultimo, .seguridad .caja-tabla .table tr th.ultimo, .contacto .caja-tabla .table tr th.ultimo, .contenido-metroplanes .caja-tabla .table tr th.ultimo, .tarifas .caja-tabla .table tr th.ultimo, .pagos .caja-tabla .table tr th.ultimo {
       border-radius: 0 10px 0 0; }
     .metroplanes .caja-tabla .table tr td, .metroplan .caja-tabla .table tr td, .header .caja-tabla .table tr td, .concept .caja-tabla .table tr td, .video .caja-tabla .table tr td, .mapa .caja-tabla .table tr td, .video-left .caja-tabla .table tr td, .seguridad .caja-tabla .table tr td, .contacto .caja-tabla .table tr td, .contenido-metroplanes .caja-tabla .table tr td, .tarifas .caja-tabla .table tr td, .pagos .caja-tabla .table tr td {
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif; }
+      font-family: 'Montserrat', sans-serif;
+      border-top: 1px solid #2F5C8F;
+      border-right: 1px solid #2F5C8F; }
+      .metroplanes .caja-tabla .table tr td:last-child, .metroplan .caja-tabla .table tr td:last-child, .header .caja-tabla .table tr td:last-child, .concept .caja-tabla .table tr td:last-child, .video .caja-tabla .table tr td:last-child, .mapa .caja-tabla .table tr td:last-child, .video-left .caja-tabla .table tr td:last-child, .seguridad .caja-tabla .table tr td:last-child, .contacto .caja-tabla .table tr td:last-child, .contenido-metroplanes .caja-tabla .table tr td:last-child, .tarifas .caja-tabla .table tr td:last-child, .pagos .caja-tabla .table tr td:last-child {
+        border-right: 0; }
 
 .tarifas .caja-tablas {
   border: 1px solid #BDD44D;
@@ -564,22 +578,48 @@ h1 {
     background-color: #3669A3; }
     .tarifas .caja-tablas .table th {
       background-color: #BDD44D;
+      vertical-align: middle;
       font-size: 12px;
-      text-align: center; }
+      text-align: center;
+      border-top: 0;
+      padding: 18px 5px;
+      border-right: 1px solid #A1BB26; }
+      .tarifas .caja-tablas .table th:last-child {
+        border-right: 0; }
     .tarifas .caja-tablas .table th.primero {
       border-radius: 10px 10px 0 0; }
     .tarifas .caja-tablas .table th.ultimo {
       border-radius: 0 10px 0 0; }
     .tarifas .caja-tablas .table td {
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif; }
+      font-family: 'Montserrat', sans-serif;
+      border-top: 1px solid #2F5C8F;
+      border-right: 1px solid #2F5C8F; }
+      .tarifas .caja-tablas .table td:last-child {
+        border-right: 0; }
 
-.mapa .texto-primario {
-  color: #3669A3;
-  font-size: 15px;
-  font-family: 'montserratbold',sans-serif; }
-  .mapa .texto-primario span {
-    color: #BDD44D; }
+/* concept */
+.section-texto .antetitulo {
+  margin: 80px 0 30px 0; }
+.section-texto .sector {
+  margin-top: 50px !important; }
+
+/* video-left */
+.video-left {
+  vertical-align: bottom; }
+  .video-left .video-left-texto-center {
+    padding: 10px 45px 5px 31px; }
+  .video-left img {
+    margin-bottom: -3px; }
+
+.mapa .mapa-caja {
+  padding: 55px; }
+  .mapa .mapa-caja .texto-primario {
+    color: #3669A3;
+    font-size: 15px;
+    font-family: 'montserratbold',sans-serif; }
+    .mapa .mapa-caja .texto-primario span {
+      color: #BDD44D; }
 
 .nubes {
   color: #ffffff;
@@ -588,9 +628,52 @@ h1 {
 
 .contenido-metroplanes .metroplanes-cuadro {
   padding: 55px; }
+.contenido-metroplanes .data-metroplan {
+  padding: 0 15px; }
 .contenido-metroplanes .tabla-metroplanes {
   color: #fff;
   padding: 55px; }
+
+/*tarifas*/
+.tarifas .caja-tarifas {
+  padding: 0 55px; }
+  .tarifas .caja-tarifas .texto-legal {
+    font-family: 'montserratlight',sans-serif;
+    color: #9B9B9B;
+    font-size: 9px;
+    margin-top: 30px;
+    background: none;
+    padding: 0;
+    margin-bottom: 80px; }
+
+/*contacto*/
+.contacto .caja-contacto {
+  background-color: #3669A3;
+  padding: 40px 55px 80px 55px; }
+  .contacto .caja-contacto .contenedor-form {
+    padding: 45px 60px;
+    background-color: #46A1DB;
+    height: 480px;
+    border-radius: 5px;
+    width: 650px;
+    margin: 20px auto;
+    text-align: center; }
+    .contacto .caja-contacto .contenedor-form input {
+      width: 100%;
+      margin: 10px 0;
+      padding: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      border-radius: 5px;
+      border: 0; }
+      .contacto .caja-contacto .contenedor-form input[type="submit"] {
+        width: 215px;
+        text-align: center;
+        font-size: 15px; }
+
+/*pagos*/
+.pagos .caja-pagos {
+  padding: 0 55px; }
 
 .container {
   max-width: 960px !important;

@@ -32,8 +32,8 @@ html(lang='en')
                         img(src="img/02.jpg", alt="Desde hace 20 años expertos en gas natural")
                 .col-md-6
                     .section-texto
+                        p.antetitulo ¿Quiénes somos?
                         .sector
-                            p.antetitulo ¿Quiénes somos?
                             h1.titulo-fondo-verde Desde hace 20 años 
                             h1.titulo-fondo-cyan expertos en gas natural   
                             p.texto-primario Hoy abastecemos a más de <span>3 millones</span> de personas en la zona central. 
@@ -61,7 +61,7 @@ html(lang='en')
                             h3 natural
                             p Es una energía menos contaminante que otros combustibles y además es libre de contaminación intradomiciliaria.
                 h3.text-center.centroNatural El gas natural mejora tu calidad de <span>vida y el aire</span> de tu ciudad
-                p.texto-primario.centerC El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
+                p.texto-primario.center El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
                 .line-box-box.row
                     .line-box.col-md-4
                         .line-box-item
@@ -93,17 +93,18 @@ html(lang='en')
                 .col-md-6.nopadding
                     img(src="img/play.jpg", alt="") 
         section.mapa
-            p.antetitulo Más cerca de ti
-            .row
-                .col-md-9
-                    h1.titulo-fondo-verde Zonas donde se encontrará disponible la conexión a       
-                    h1.titulo-fondo-cyan nuestra red de gas natural
-            .row
-                .col-md-6
-                    p.texto-primario En una primera etapa los  sectores beneficiados con la llegada del gas natural de Metrogas serán <span>Valle Los Volcanes y Mirador de Bahía.</span>
+            .mapa-caja
+                p.antetitulo Más cerca de ti
+                .row
+                    .col-md-9
+                        h1.titulo-fondo-verde Zonas donde se encontrará disponible la conexión a       
+                        h1.titulo-fondo-cyan nuestra red de gas natural
+                .row
+                    .col-md-6
+                        p.texto-primario En una primera etapa los  sectores beneficiados con la llegada del gas natural de Metrogas serán <span>Valle Los Volcanes y Mirador de Bahía.</span>
 
-            #mapa
-                img(src="img/mapa.jpg", alt="Poligonos Puerto Montt")
+                #mapa
+                    img(src="img/mapa.jpg", alt="Poligonos Puerto Montt")
 
         section.video-left
             .row
@@ -180,7 +181,7 @@ html(lang='en')
                             .clearfix
                         a.btn-primario(href="#") Conoce Metroplanes
         section.contenido-metroplanes
-            .container.metroplanes-cuadro
+            .metroplanes-cuadro
                 .row
                     .data-metroplan
                         p.antetitulo Metroplanes
@@ -240,153 +241,164 @@ html(lang='en')
                             .volante
                                 img(src="img/volante.jpg", alt="")
         section.contacto
-            p.antetitulo-foto
-            .row
-                .col-md-10
-                    h1.titulo-fondo-verde Si estás interesado en alguno de nuestros planes o 
-                    h1.titulo-fondo-cyan quieres más información
-                p.texto-primario-blanco
-            form
-                input(type="text", placeholder="Nombre")
-                input(type="text", placeholder="Apellido")
-                input(type="text", placeholder="Teléfono")
-                input(type="text", placeholder="Email")
-                input(type="text", placeholder="Dirección")
-                input(type="submit", value="enviar", class="btn-enviar")
-
+            .container-fluid.caja-contacto
+                p.antetitulo-foto Contáctanos
+                .row
+                    .col-md-10
+                        h1.titulo-fondo-verde Si estás interesado en alguno de nuestros planes o 
+                        h1.titulo-fondo-cyan quieres más información
+                .row
+                    .col-md-5
+                        p.texto-primario-blanco Si estas interesado en cambiarte a Metrogas y quieres mas información ingresa tus datos y te contactaremos a la brevedad
+                .contenedor-form
+                    form
+                        .col-md-12
+                            input(type="text", placeholder="Nombre")
+                        .col-md-12
+                            input(type="text", placeholder="Apellido")
+                        .col-md-12
+                            input(type="text", placeholder="Teléfono")
+                        .col-md-12
+                            input(type="text", placeholder="Email")
+                        .col-md-12
+                            input(type="text", placeholder="Dirección")
+                        .col-md-12
+                            input(type="submit", value="enviar", class="btn-enviar")
         section.tarifas
-            p.antetitulo
-            .row
-                .col-md-4
-                    h1.titulo-fondo-verde Conoce las tarifas
-                    h1.titulo-fondo-cyan según tramo de conexión
-            .caja-tablas
+            .caja-tarifas
+                p.antetitulo Nuestras tarifas
                 .row
                     .col-md-4
-                        table(border="0" cellpadding="0" cellspacing="0").table
-                            tr
-                                th.primero Tramos en m3
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
-                            tr
-                                td de 0 a5
+                        h1.titulo-fondo-verde Conoce las tarifas
+                        h1.titulo-fondo-cyan según tramo de conexión
+                .caja-tablas
+                    .row
+                        .col-md-4
+                            table(border="0" cellpadding="0" cellspacing="0").table
+                                tr
+                                    th.primero Tramos en m3
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
+                                tr
+                                    td de 0 a5
 
-                    .col-md-4
-                        table.table
-                            tr
-                                th.primero Valor por m3S
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146
-                            tr
-                                td $ 1.146 
+                        .col-md-4
+                            table.table
+                                tr
+                                    th.primero Valor por m3S
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146
+                                tr
+                                    td $ 1.146 
 
-                    .col-md-4
-                        table.table
-                            tr
-                                th.primero Costo por Tramo
+                        .col-md-4
+                            table.table
+                                tr
+                                    th.primero Costo por Tramo
 
-                            tr
-                                td de $33.000 a $38.880
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
-                            tr
-                                td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.880
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
+                                tr
+                                    td de $33.000 a $38.8
 
-            p.texto-legal La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.
+                p.texto-legal La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.
 
         section.pagos
-            p.antetitulo Nuestras tarifas
-            .row.espace
-                .col-md-4
-                    .listas-pago
-                        p.titulo-lista PAGO PRESENCIAL
-                        ul.presencial
-                            li Oficina comercial de Metrogas
-                            li ServiEstado y Caja Vecina (2) 
-                            li Unired (Caja Unimarc) (4)
-                            li Servipag Express (4)
-                            li Sencillito (4)
-                            li Servipag Ventanillas (5)
-                            li Servifácil (Cajas Líder) (6)
-                        ul.listarespuesta
-                            li (1) Pago con efectivo, tarjetas de crédito y débito bancarias
-                            li (2) ServiEstado: Pago con cheque o efectivo y medios de pago BancoEstado. Caja Vecina: Pago solo con efectivo y medios de pago BancoEstado
-                            li (3) Pago con cheque, tarjeta de crédito y débito bancarias
-                            li (4) Pago sólo con efectivo 
-                            li (5) Pago efectivo - Cheque - Tarjetas Cencosud- Johnsons
-                            li (6) Pago efectivo - Tarjetas Presto.
-                .col-md-4
-                    .listas-pago.column
-                        p.titulo-lista PAGO POR INTERNET
-                        ul.internet
-                            li: a(href="http://www.metrogas.cl", target="_blank") www.metrogas.cl*
-                            li: a(href="http://www.santander.cl", target="_blank") www.santander.cl*
-                            li: a(href="http://www.bancoestado.cl", target="_blank") www.bancoestado.cl*
-                            li: a(href="http://www.presto.cl", target="_blank") www.presto.cl*
-                            li: a(href="http://www.servipag.com", target="_blank") www.servipag.com*
-                .col-md-4
-                    .listas-pago
-                        p.titulo-lista PAGO AUTOMÁTICO
-                        ul.automatico
-                            li Banco Santander
-                            li Banco de Chile
-                            li Banco Estado
-                            li Banco Falabella
-                            li Banco BCI
-                            li Banco CorpBanca
-                            li Banco Itaú
-                            li Banco Security
-                            li Banco Scotiabank
-                            li Banco BICE
-                            li Banco BBVA
-                            li Tarjeta de Crédito Bancaria (PAT):
-                            li: a.links-automata(href="http://www.metrogas.cl", target="_blank") www.metrogas.cl*
-                            li: a.links-automata(href="http://www.santander.cl", target="_blank") www.santander.cl
-                            li: a.links-automata(href="http://www.bancoestado.cl", target="_blank") www.bancoestado.cl
-                            li: a.links-automata(href="http://www.presto.cl", target="_blank") www.presto.cl
-                            li: a.links-automata(href="http://www.servipag.com", target="_blank") www.servipag.com
+            .caja-pagos
+                p.antetitulo Centros de pago
+                .row
+                    .col-md-4
+                        .listas-pago
+                            p.titulo-lista PAGO PRESENCIAL
+                            ul.presencial
+                                li Oficina comercial de Metrogas
+                                li ServiEstado y Caja Vecina (2) 
+                                li Unired (Caja Unimarc) (4)
+                                li Servipag Express (4)
+                                li Sencillito (4)
+                                li Servipag Ventanillas (5)
+                                li Servifácil (Cajas Líder) (6)
+                            ul.listarespuesta
+                                li (1) Pago con efectivo, tarjetas de crédito y débito bancarias
+                                li (2) ServiEstado: Pago con cheque o efectivo y medios de pago BancoEstado. Caja Vecina: Pago solo con efectivo y medios de pago BancoEstado
+                                li (3) Pago con cheque, tarjeta de crédito y débito bancarias
+                                li (4) Pago sólo con efectivo 
+                                li (5) Pago efectivo - Cheque - Tarjetas Cencosud- Johnsons
+                                li (6) Pago efectivo - Tarjetas Presto.
+                    .col-md-4
+                        .listas-pago.column
+                            p.titulo-lista PAGO POR INTERNET
+                            ul.internet
+                                li: a(href="http://www.metrogas.cl", target="_blank") www.metrogas.cl*
+                                li: a(href="http://www.santander.cl", target="_blank") www.santander.cl*
+                                li: a(href="http://www.bancoestado.cl", target="_blank") www.bancoestado.cl*
+                                li: a(href="http://www.presto.cl", target="_blank") www.presto.cl*
+                                li: a(href="http://www.servipag.com", target="_blank") www.servipag.com*
+                    .col-md-4
+                        .listas-pago
+                            p.titulo-lista PAGO AUTOMÁTICO
+                            ul.automatico
+                                li Banco Santander
+                                li Banco de Chile
+                                li Banco Estado
+                                li Banco Falabella
+                                li Banco BCI
+                                li Banco CorpBanca
+                                li Banco Itaú
+                                li Banco Security
+                                li Banco Scotiabank
+                                li Banco BICE
+                                li Banco BBVA
+                                li Tarjeta de Crédito Bancaria (PAT):
+                                li: a.links-automata(href="http://www.metrogas.cl", target="_blank") www.metrogas.cl*
+                                li: a.links-automata(href="http://www.santander.cl", target="_blank") www.santander.cl
+                                li: a.links-automata(href="http://www.bancoestado.cl", target="_blank") www.bancoestado.cl
+                                li: a.links-automata(href="http://www.presto.cl", target="_blank") www.presto.cl
+                                li: a.links-automata(href="http://www.servipag.com", target="_blank") www.servipag.com
             
             p.texto-legal Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui. presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros ckca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vi
 
