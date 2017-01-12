@@ -18,39 +18,103 @@ html(lang='en')
   body
 
     .container
-        header.bggray
-            .row
-                .col-md-12
-                    p.antetitulo Metrogas en tu región
-                    .texto-caja-bggray
-                        h1.titulo-fondo-verde Cámbiate a Metrogas
-                        h1.titulo-fondo-cyan Conéctate a la conveniencia del gas natural
-                .fotos-row
-                    .col-md-4
-                        .imagen-thums
-                            img.img-responsive(src="img/03.jpg", alt="Metropolitana")
-                        a.btn-primario-fotos(href="#") Metropolitana
-                    .col-md-4
-                        .imagen-thums
-                            img.img-responsive(src="img/04.jpg", alt="Rancagua")
-                        a.btn-primario-fotos(href="#") Rancagua / Machalí
-                    .col-md-4
-                        .imagen-thums
-                            img.img-responsive(src="img/05.jpg", alt="Machalí")
-                        a.btn-primario-fotos(href="#") Puerto Montt
-        section.quienes
-            p.antetitulo Quiénes somos
-            .caja-quienes
-                h1.titulo-fondo-verde En Puerto Montt
-                h1.titulo-fondo-cyan Metrogas te conviene
-            .row
-                .col-md-6
-                    p.color-quienes Somos expertos en gas natural
-                    p.textos-quienes Somos líderes en la distribución de gas natural en la zona central del país, sumando más de 600 mil clientes en las regiones Metropolitana y de O’Higgins. Más de 20 años de experiencia nos han permitido conocer de cerca las necesidades de nuestros clientes y ser una alternativa confiable para la cocina, calefacción y agua caliente.
-                .col-md-6
-                    p.color-quienes ¿Qué es el gas natural?
-                    p.textos-quienes El gas natural es el energético fósil más amigable con el medio ambiente, ya que su combustión emite un 30% menos de dióxido de carbono que el petróleo y 45% menos que el carbón, por lo que su uso contribuye a reducir las emisiones de efecto invernadero y los índices de contaminación intradomiciliaria.
-                    p.textos-quienes En Santiago 5.000 fuentes fijas se transformaron al gas natural, permitiendo que en 8 años se redujera las emisiones de CO2 en 1.400.000 ton CO2/año.
+        .container-all
+            header.bggray
+                .row
+                    .col-sm-12
+                        p.antetitulo Metrogas en tu región
+                        .texto-caja-bggray
+                            h1.titulo-fondo-verde Cámbiate a Metrogas
+                            h1.titulo-fondo-cyan Conéctate a la conveniencia del gas natural
+                    .fotos-row
+                        .col-sm-4
+                            .imagen-thums
+                                img.img-responsive(src="img/03.jpg", alt="Metropolitana")
+                            a.btn-primario-fotos(href="#") Metropolitana
+                        .col-sm-4
+                            .imagen-thums
+                                img.img-responsive(src="img/04.jpg", alt="Rancagua")
+                            a.btn-primario-fotos(href="#") Rancagua / Machalí
+                        .col-sm-4
+                            .imagen-thums
+                                img.img-responsive(src="img/05.jpg", alt="Machalí")
+                            a.btn-primario-fotos(href="#") Puerto Montt
+            section.quienes
+                p.antetitulo Quiénes somos
+                .caja-quienes
+                    h1.titulo-fondo-verde En Puerto Montt
+                    h1.titulo-fondo-cyan Metrogas te conviene
+                .row
+                    .col-sm-6
+                        p.color-quienes Somos expertos en gas natural
+                        p.textos-quienes Somos líderes en la distribución de gas natural en la zona central del país, sumando más de 600 mil clientes en las regiones Metropolitana y de O’Higgins. Más de 20 años de experiencia nos han permitido conocer de cerca las necesidades de nuestros clientes y ser una alternativa confiable para la cocina, calefacción y agua caliente.
+                    .col-sm-6
+                        p.color-quienes ¿Qué es el gas natural?
+                        p.textos-quienes El gas natural es el energético fósil más amigable con el medio ambiente, ya que su combustión emite un 30% menos de dióxido de carbono que el petróleo y 45% menos que el carbón, por lo que su uso contribuye a reducir las emisiones de efecto invernadero y los índices de contaminación intradomiciliaria.
+                        p.textos-quienes En Santiago 5.000 fuentes fijas se transformaron al gas natural, permitiendo que en 8 años se redujera las emisiones de CO2 en 1.400.000 ton CO2/año.
+            section.nubes
+                .nubes-block
+                    p.antetitulo-foto ¿Por qué elegir Metrogas?
+                    .beneficios.row
+                        .beneficios-item.col-sm-4
+                            img.pull-left.imgM(src="img/icon-365.png", alt="")
+                            .beneBox
+                                h3 continuo
+                                p Contarás con gas natural los 365 días del año. Olvídate de quedarte sin gas, esperar o llamar para que te lo lleven.
+                        .beneficios-item.col-sm-4
+                            img.pull-left.imgM(src="img/icon-money.png", alt="")
+                            .beneBox
+                                h3 conveniente
+                                p Contamos con distintos planes que te permiten pagar un precio fijo mensual y disfrutar de todos sus beneficios.
+                        .beneficios-item.col-sm-4
+                            img.pull-left.imgM(src="img/icon-planta.png", alt="")
+                            .beneBox
+                                h3 100% natural
+                                p Es una energía menos contaminante que otros combustibles y además es libre de contaminación intradomiciliaria.
+
+            section.video
+                .row
+                    .col-sm-6.texto-caja
+                        h1.titulo-fondo-verde Somos líderes 
+                        h1.titulo-fondo-cyan en calidad de servicio
+                        p.texto-primario Estamos comprometidos con entregar un servicio de calidad, centrado en las personas y en ofrecer soluciones concretas, efectivas y oportunas. Contamos con varios canales para brindarle a nuestros clientes una atención de calidad, cuando y donde la requieran: 
+
+                        ul.calidad
+                            li Call Center para atención técnica y comercial.
+                            li Atención telefónica 24/7 ante emergencias.
+                            li Servicio técnico.
+                            li Local de atención a clientes.
+
+                    .col-sm-6.nopadding
+                        img(src="img/telefonista.jpg", alt="Somos líderes en calidad de servicio")
+
+            section.metroambientalistas
+                p.antetitulo-foto ¿Por qué elegir Metrogas?
+                .row
+                    .col-sm-6
+                        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nesciunt qui veritatis voluptas quos adipisci, sed delectus! Sapiente et, iste alias, dolores esse quae fugiat, nesciunt aperiam repellendus laboriosam tenetur.
+                        h1.titulo-fondo-verde Proyecto educativo  
+                        h1.titulo-fondo-cyan Brigada Metroambientalista
+                        p Al estar conectado al gas natural de Metrogas, aportas al cuidado del medio ambiente, porque estás eligiendo:
+                        ul.list-ambiental
+                            li Energía amigable con el medio ambiente que cuida tu ciudad.
+                            li Energía que disminuye la contaminación al interior de tu hogar.
+                        .box-texto-ambientalista
+                            p Además de distribuir un combustible amigable con el medio ambiente, uno de nuestros focos en materia de sustentabilidad es promover la conciencia sobre la importancia de la eficiencia energética y el cuidado del medio ambiente. 
+
+                            p Por esto, desarrollamos el proyecto educativo Brigada Metroambientalista, la cual busca incentivar y apoyar la labor formativa en materia de cuidado del medio ambiente y eficiencia energética.
+
+                            p Más de 30 mil alumnos ya han participado en esta iniciativa, que cuenta con el Patrocinio del Ministerio de Medio Ambiente y de la Agencia Chilena de Eficiencia Energética.
+                .row
+                    .col-sm-9
+                        ul.social
+                            li
+                                a(href="https://www.facebook.com/Metroambientalistas/", alt="Metroambientalistas", target="_blank") Metroambientalistas
+                            li
+                                a(href="https://es-la.facebook.com/brigadametroambientalista/", alt="brigadametroambientalista", target="_blank") Brigada Metroambientalistas
+
+
+
 
 
 
@@ -59,18 +123,18 @@ html(lang='en')
 
         //- section.header
         //-     .row
-        //-         .caja.col-md-12
+        //-         .caja.col-sm-12
         //-             p.antetitulo-foto Metrogas en la zona sur
         //-     .row
-        //-         .caja.col-md-6
+        //-         .caja.col-sm-6
         //-             h1.titulo-fondo-verde En Puerto Montt
         //-             h1.titulo-fondo-cyan Metrogas te conviene
         //- section.concept
         //-     .row
-        //-         .col-md-6
+        //-         .col-sm-6
         //-             .concept-foto
         //-                 img(src="img/02.jpg", alt="Desde hace 20 años expertos en gas natural")
-        //-         .col-md-6
+        //-         .col-sm-6
         //-             .section-texto
         //-                 .sector
         //-                     p.antetitulo ¿Quiénes somos?
@@ -85,17 +149,17 @@ html(lang='en')
 
         //-         h2 Conéctate y disfruta los beneficios y conveniencia del gas natural:
         //-         .beneficios.row
-        //-             .beneficios-item.col-md-4
+        //-             .beneficios-item.col-sm-4
         //-                 img.pull-left.imgM(src="img/icon-365.png", alt="")
         //-                 .beneBox
         //-                     h3 continuo
         //-                     p Contarás con gas natural los 365 días del año. Olvídate de quedarte sin gas, esperar o llamar para que te lo lleven.
-        //-             .beneficios-item.col-md-4
+        //-             .beneficios-item.col-sm-4
         //-                 img.pull-left.imgM(src="img/icon-money.png", alt="")
         //-                 .beneBox
         //-                     h3 conveniente
         //-                     p Contamos con distintos planes que te permiten pagar un precio fijo mensual y disfrutar de todos sus beneficios.
-        //-             .beneficios-item.col-md-4
+        //-             .beneficios-item.col-sm-4
         //-                 img.pull-left.imgM(src="img/icon-planta.png", alt="")
         //-                 .beneBox
         //-                     h3 natural
@@ -103,19 +167,19 @@ html(lang='en')
         //-         h3.text-center.centroNatural El gas natural mejora tu calidad de <span>vida y el aire</span> de tu ciudad
         //-         p.texto-primario.centerC El gas natural es una mezcla de gases livianos sobre la base de metano, proveniente de un proceso natural en napas subterráneas de diversas partes del mundo. El gas natural no tiene monóxido de carbono y es el combustible fósil que genera las menores emisiones de dióxido de carbono, contribuyendo de esta forma a disminuir el calentamiento global y también disminuir los índices de contaminación al interior de tu hogar. 
         //-         .line-box-box.row
-        //-             .line-box.col-md-4
+        //-             .line-box.col-sm-4
         //-                 .line-box-item
         //-                     .line-box-item-titulo
         //-                         p Más liviano que el aire
         //-                     .line-box-item-texto
         //-                         p En caso de fuga se disipa en la atmósfera disminuyendo el peligro de explosión y es menos inflamable.
-        //-             .line-box.col-md-4
+        //-             .line-box.col-sm-4
         //-                 .line-box-item
         //-                     .line-box-item-titulo
         //-                         p Puro
         //-                     .line-box-item-texto
         //-                         p Alarga la vida útil de los artefactos ya que su combustión completa no deja residuo.
-        //-             .line-box.col-md-4
+        //-             .line-box.col-sm-4
         //-                 .line-box-item
         //-                     .line-box-item-titulo
         //-                         p No es tóxico
@@ -124,22 +188,22 @@ html(lang='en')
 
         //- section.video
         //-     .row
-        //-         .col-md-6.texto-caja
+        //-         .col-sm-6.texto-caja
         //-             h1.titulo-fondo-verde ¿Cómo llega el gas natural de 
         //-             h1.titulo-fondo-cyan metrogas a puerto montt?
         //-             p.texto-primario El gas natural que llega a Chile proviene de distintas partes del mundo, para lo cual se utiliza tecnología de vanguardia que permite su traslado por mar y tierra hasta tu ciudad. 
 
         //-             p.texto-primario Revisa en este video para conocer más sobre el viaje el gas natural. 
-        //-         .col-md-6.nopadding
+        //-         .col-sm-6.nopadding
         //-             img(src="img/play.jpg", alt="") 
         //- section.mapa
         //-     p.antetitulo Más cerca de ti
         //-     .row
-        //-         .col-md-9
+        //-         .col-sm-9
         //-             h1.titulo-fondo-verde Zonas donde se encontrará disponible la conexión a       
         //-             h1.titulo-fondo-cyan nuestra red de gas natural
         //-     .row
-        //-         .col-md-6
+        //-         .col-sm-6
         //-             p.texto-primario En una primera etapa los  sectores beneficiados con la llegada del gas natural de Metrogas serán <span>Valle Los Volcanes y Mirador de Bahía.</span>
 
         //-     #mapa
@@ -147,9 +211,9 @@ html(lang='en')
 
         //- section.video-left
         //-     .row
-        //-         .video-left-video.col-md-6
+        //-         .video-left-video.col-sm-6
         //-             img(src="img/play.jpg", alt="")
-        //-         .video-left-texto.col-md-6
+        //-         .video-left-texto.col-sm-6
         //-             .video-left-texto-center
         //-                 h1.titulo-fondo-verde ¿Cómo trabajamos en tu 
         //-                 h1.titulo-fondo-cyan sector y en tu casa?
@@ -162,7 +226,7 @@ html(lang='en')
         //-     .seguridad-block.row
         //-         p.antetitulo-foto Metrogas es seguridad
 
-        //-         .col-md-6(style="padding-left:0;")
+        //-         .col-sm-6(style="padding-left:0;")
         //-             p.texto-seguridad.lh Velamos por el <span>bienestar</span> de nuestros clientes y de la toda la comunidad, por ello la <span>seguridad</span> es una de las prioridades de nuestra empresa.
 
         //-             ul.texto-primario-blanco
@@ -171,7 +235,7 @@ html(lang='en')
         //-                 li Una casa con gas natural es <span>más segura</span>, ya que al conectarse a nuestra red cumple con la normativa que establece la Superintendencia de Electricidad y Combustible (SEC).
         //-                 li Ubicamos la planta satélite de regasificación (PSR) en una zona industrial segura, no inundable en caso de Tsunami. 
         //-                 li Contamos con <span>protocolos de emergencia con Bomberos y Carabineros</span> con un canal de comunicación, con el fin de dar prioridad a dichos llamados en caso de emergencia.
-        //-         .texto-seguridad-img.col-md-6
+        //-         .texto-seguridad-img.col-sm-6
         //-             img(src="img/seguridad.jpg", alt="Metrogas es Seguridad")
 
 
@@ -179,12 +243,12 @@ html(lang='en')
         //- section.metroplanes
         //-     p.antetitulo Conéctate a la conveniencia del gas natural Metrogas.
         //-     .row
-        //-         .col-md-8
+        //-         .col-sm-8
         //-             h1.titulo-fondo-verde Conoce nuestros planes
         //-             h1.titulo-fondo-cyan Tenemos la mejor alternativa para tu hogar
 
         //-     .row.bgc
-        //-         .metroplanes-box.col-md-6
+        //-         .metroplanes-box.col-sm-6
         //-             .box-metroplanes
         //-                 .logs-metro
         //-                     img(src="img/metroplan.png", alt="Metroplan")
@@ -201,7 +265,7 @@ html(lang='en')
         //-                         li.gifcardL giftcard <span class="calefa">calefacción</span> $89.700
         //-                     .clearfix
         //-                 a.btn-primario(href="#") Conoce Metroplanes
-        //-         .metroplanes-box.col-md-6
+        //-         .metroplanes-box.col-sm-6
         //-             .box-metroplanes
         //-                 .logs-metro
         //-                     img(src="img/planflexible.png", alt="planflexible")
@@ -225,7 +289,7 @@ html(lang='en')
         //-             .data-metroplan
         //-                 p.antetitulo Metroplanes
         //-         .row
-        //-             .col-md-6  
+        //-             .col-sm-6  
         //-                 h1.titulo-fondo-verde Descubre los Metroplanes
         //-                 h1.titulo-fondo-cyan y elige el que más te acomode
         //-                 p.texto-primario Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados, que además vienen con metros cúbicos adicionales de regalo, por si te pasas del plan.
@@ -235,7 +299,7 @@ html(lang='en')
 
 
                             
-        //-             .col-md-6  
+        //-             .col-sm-6  
         //-                ul.items-metroplanes
         //-                 li.ico-1 Ahorra hasta un 30% en comparación al gas licuado medidor (GLM).
         //-                 li.ico-2 Controlas tu gasto en gas, sabiendo lo que vas a pagar.
@@ -244,7 +308,7 @@ html(lang='en')
         //-                 li.ico-5 No pagas cargo fijo por 12 meses.
         //-     .container-fluid.fluid-gray
         //-         .row.tabla-metroplanes
-        //-             .col-md-12
+        //-             .col-sm-12
         //-                 .caja-tabla
         //-                     h2.subtitulo-uno Elige y contrata el Metroplan que más te acomode
         //-                     table(border="1" cellpadding="0" cellspacing="0").table
@@ -282,7 +346,7 @@ html(lang='en')
         //- section.contacto
         //-     p.antetitulo-foto
         //-     .row
-        //-         .col-md-10
+        //-         .col-sm-10
         //-             h1.titulo-fondo-verde Si estás interesado en alguno de nuestros planes o 
         //-             h1.titulo-fondo-cyan quieres más información
         //-         p.texto-primario-blanco
@@ -297,12 +361,12 @@ html(lang='en')
         //- section.tarifas
         //-     p.antetitulo
         //-     .row
-        //-         .col-md-4
+        //-         .col-sm-4
         //-             h1.titulo-fondo-verde Conoce las tarifas
         //-             h1.titulo-fondo-cyan según tramo de conexión
         //-     .caja-tablas
         //-         .row
-        //-             .col-md-4
+        //-             .col-sm-4
         //-                 table(border="0" cellpadding="0" cellspacing="0").table
         //-                     tr
         //-                         th.primero Tramos en m3
@@ -327,7 +391,7 @@ html(lang='en')
         //-                     tr
         //-                         td de 0 a5
 
-        //-             .col-md-4
+        //-             .col-sm-4
         //-                 table.table
         //-                     tr
         //-                         th.primero Valor por m3S
@@ -350,7 +414,7 @@ html(lang='en')
         //-                     tr
         //-                         td $ 1.146 
 
-        //-             .col-md-4
+        //-             .col-sm-4
         //-                 table.table
         //-                     tr
         //-                         th.primero Costo por Tramo
@@ -379,7 +443,7 @@ html(lang='en')
         //- section.pagos
         //-     p.antetitulo Nuestras tarifas
         //-     .row.espace
-        //-         .col-md-4
+        //-         .col-sm-4
         //-             .listas-pago
         //-                 p.titulo-lista PAGO PRESENCIAL
         //-                 ul.presencial
@@ -397,7 +461,7 @@ html(lang='en')
         //-                     li (4) Pago sólo con efectivo 
         //-                     li (5) Pago efectivo - Cheque - Tarjetas Cencosud- Johnsons
         //-                     li (6) Pago efectivo - Tarjetas Presto.
-        //-         .col-md-4
+        //-         .col-sm-4
         //-             .listas-pago.column
         //-                 p.titulo-lista PAGO POR INTERNET
         //-                 ul.internet
@@ -406,7 +470,7 @@ html(lang='en')
         //-                     li: a(href="http://www.bancoestado.cl", target="_blank") www.bancoestado.cl*
         //-                     li: a(href="http://www.presto.cl", target="_blank") www.presto.cl*
         //-                     li: a(href="http://www.servipag.com", target="_blank") www.servipag.com*
-        //-         .col-md-4
+        //-         .col-sm-4
         //-             .listas-pago
         //-                 p.titulo-lista PAGO AUTOMÁTICO
         //-                 ul.automatico

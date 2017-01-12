@@ -1,36 +1,31 @@
 .container {
+	max-width: 960px !important;
 	width: 960px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.container-all {
+	max-width: 960px !important;
+	position: relative;
+	a.pestana {
+		position: fixed;
+		left: 0;
+		z-index: 99;
+	}
 }
 
 .bggray {
 	background-color: $bg-gray;
 	padding: 30px 55px 60px 55px;
-
 	.texto-caja-bggray{
 		width: 100%;
-		.titulo-fondo-verde{
-			font-family:'montserratbold',sans-serif;
-			color:#fff;
-			padding:10px 5px;
-			background-color: $color-verde-claro;
-			font-size: 28px;
-			display: inline;
-		}
-		.titulo-fondo-cyan{
-			font-family:'montserratbold',sans-serif;
-			color:#fff;
-			padding:13px 5px;
-			margin:12px 0 35px 0;
-			display: inline-block;
-			font-size: 28px;
-			background-color: $color-celeste;
-		}
 	}
 	
 
 	.fotos-row{
 		margin-top: 10px;
-		float: left;
+
 		.imagen-thums{
 			border:4px solid $blanco;
 			margin-bottom: 22px;
@@ -50,11 +45,15 @@
 			font-family: 'Roboto',sans-serif;
 			font-weight: 800;
 			text-align: center;
+			&:hover{
+				text-decoration: none;
+			}
 		}
 	}
 }
 
 .quienes {
+	margin-bottom: 80px;
 	.caja-quienes{
 		width: 35%;
 		.titulo-fondo-verde{
