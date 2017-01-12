@@ -16,4 +16,19 @@ $(document).ready(function(){
     //Se aplica el método con el selector '.column'
     $('.listas-pago').equalCols();
 
+
+
+    //collapse
+$('.expand-one,.closer-a').click(function(){
+    $('.content-one').slideToggle('fast');
+    event.preventDefault();
+});
+
+$('.expand-two,.closer-b').click(function(){
+    $('.content-two').slideToggle('fast');
+    event.preventDefault();
+});
+
+
+
 });

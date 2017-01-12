@@ -5,7 +5,7 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     //-meta(name='viewport', content='width=device-width, initial-scale=1')
     //- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-    title Bootstrap
+    title Puerto Montt
     //- Bootstrap
     link(href='css/bootstrap.min.css', rel='stylesheet')
     link(href='css/styles.css', rel='stylesheet')
@@ -21,7 +21,7 @@ html(lang='en')
         .container-all
             header.bggray
                 .row
-                    .col-sm-9
+                    .col-sm-12
                         p.antetitulo Metrogas en tu región
                         .texto-caja-bggray
                             h1.titulo-fondo-verde Cámbiate a Metrogas
@@ -47,11 +47,13 @@ html(lang='en')
                 .row
                     .col-sm-6
                         p.color-quienes Somos expertos en gas natural
-                        p.textos-quienes Somos líderes en la distribución de gas natural en la zona central del país, sumando más de 600 mil clientes en las regiones Metropolitana y de O’Higgins. Más de 20 años de experiencia nos han permitido conocer de cerca las necesidades de nuestros clientes y ser una alternativa confiable para la cocina, calefacción y agua caliente.
+                        .box-textos-quienes
+                            p.textos-quienes Somos líderes en la distribución de gas natural en la zona central del país, sumando más de 600 mil clientes en las regiones Metropolitana y de O’Higgins. Más de 20 años de experiencia nos han permitido conocer de cerca las necesidades de nuestros clientes y ser una alternativa confiable para la cocina, calefacción y agua caliente.
                     .col-sm-6
                         p.color-quienes ¿Qué es el gas natural?
-                        p.textos-quienes El gas natural es el energético fósil más amigable con el medio ambiente, ya que su combustión emite un 30% menos de dióxido de carbono que el petróleo y 45% menos que el carbón, por lo que su uso contribuye a reducir las emisiones de efecto invernadero y los índices de contaminación intradomiciliaria.
-                        p.textos-quienes En Santiago 5.000 fuentes fijas se transformaron al gas natural, permitiendo que en 8 años se redujera las emisiones de CO2 en 1.400.000 ton CO2/año.
+                        .box-textos-quienes
+                            p.textos-quienes El gas natural es el energético fósil más amigable con el medio ambiente, ya que su combustión emite un 30% menos de dióxido de carbono que el petróleo y 45% menos que el carbón, por lo que su uso contribuye a reducir las emisiones de efecto invernadero y los índices de contaminación intradomiciliaria.
+                            p.textos-quienes En Santiago 5.000 fuentes fijas se transformaron al gas natural, permitiendo que en 8 años se redujera las emisiones de CO2 en 1.400.000 ton CO2/año.
             section.nubes.espace
                 .nubes-block
                     p.antetitulo-foto ¿Por qué elegir Metrogas?
@@ -85,7 +87,7 @@ html(lang='en')
                             li Servicio técnico.
                             li Local de atención a clientes.
 
-                    .col-sm-6.nopadding
+                    .col-sm-6
                         img(src="img/telefonista.jpg", alt="Somos líderes en calidad de servicio")
 
             section.metroambientalistas
