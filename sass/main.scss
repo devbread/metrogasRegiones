@@ -1,5 +1,4 @@
 
-
 .concept {
 
 	.concept-foto, 
@@ -110,7 +109,22 @@
 	.texto-caja{
 	    padding: 10px 57px;
 	    margin-top: 70px;
-	} 
+	}
+	.calidad {
+		margin: 0;
+		padding:0;
+
+		li{
+			color: $color-texto-parrafos;
+			font-family:'montserratbold',sans-serif;
+			font-size: 11px;
+			text-align: left;
+			background: url(../img/arrow-green-left.png) no-repeat left center;
+			padding-left: 25px;
+			padding-top: 1px;
+			margin-bottom: 12px;
+		}
+	}
 } 
 
 
@@ -467,3 +481,32 @@
 	}
 } 
 
+
+.metroambientalistas {
+	background: url(../img/nino.jpg) no-repeat;
+	position: relative;
+	height: 876px;
+	z-index: 0;
+	padding: 55px;
+	&:after{
+		content: "";
+		width: 510px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background: rgba($color-footer,0.4);
+	
+	}
+
+	ul.social{
+		margin: 0;
+		padding: 0;
+		li {
+			background: #F9F9F9;
+			box-shadow: 0 8px 15px 0 rgba(0,0,0,0.21);
+			border-radius: 4.8px;
+		}
+	} 
+}
