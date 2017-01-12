@@ -133,6 +133,7 @@ a.tab-fixed{
 		font-weight: 800;
 	}
 	.caja-tabla{
+		text-align: center;
 		.table{
 			text-align: center;
 			background-color:$color-footer;
@@ -166,6 +167,12 @@ a.tab-fixed{
 				}
 			}
 
+		}
+		.volante{
+			img{
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.21);
+				margin-bottom: 25px;
+			}
 		}
 	}
 	.nopadding{
@@ -324,7 +331,7 @@ a.tab-fixed{
 /*contacto*/
 .contacto{
 	.caja-contacto{
-		background:url(../img/contacto-bg.jpg) center center no-repeat;
+		background:url(../img/contacto-bg.jpg) top center no-repeat;
 		padding:50px 55px 80px 55px;
 		.contenedor-form{
 			padding: 45px 60px;
