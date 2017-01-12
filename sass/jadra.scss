@@ -1,9 +1,32 @@
+.container{
+	padding-right:0 !important;
+	padding-left:0 !important;
+}
+a.tab-fixed{
+	position:fixed;
+	width:250px;
+	height:40px;
+	margin: 200px 0 0 815px;
+	padding: 15px 25px;
+	border-radius:10px 10px 0 0;
+	background-color:$color-naranjo;
+	transform:rotate(-90deg);
+	/* Rectangle 18: */
+	box-shadow: 0 2px 33px 0 rgba(74,73,74,0.60);
+	z-index:90;
+	color:$blanco;
+	font-size:13px;
+	text-transform:uppercase;
+	text-decoration:none;
+	cursor:pointer;
+
+}
 .antetitulo{
 	font-family:'montserratblack',sans-serif;
 	color:$color-antetitulo;
 	font-size:12px;
 	border-bottom: 1px solid $color-antetitulo;
-	margin: 80px 0 30px 0;
+	margin: 0 0 30px 0;
 	padding-bottom:10px;
 }
 .antetitulo-foto{
@@ -15,13 +38,17 @@
 	padding-bottom:10px;
 }
 
-.metroplanes,.metroplan,.header,.concept,.video,.mapa,.video-left,.seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
+.metroplanes,.metroambientalistas,.bggray,.quienes,.metroplan,.header,.concept,.video,.mapa,.video-left,.seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
 	.texto-primario{
 		font-family:'montserratlight',sans-serif;
 		color:$color-texto-parrafos;
 		margin-bottom:22px;
 		font-size: 12px;
 		line-height: 17px;
+		span{
+			color:$color-verde;
+			font-family:'montserratbold',sans-serif;
+		}
 	}
 	.texto-primario-blanco{
 		font-family:'montserratlight',sans-serif;
@@ -29,6 +56,9 @@
 		margin-bottom:25px;
 		font-size: 12px;
 		line-height: 17px;
+		span{
+			font-family:'montserratbold',sans-serif !important;
+		}
 	}
 	.texto-seguridad{
 		font-family:'montserratlight',sans-serif;
@@ -40,7 +70,7 @@
 	.titulo-fondo-verde{
 		font-family:'montserratbold',sans-serif;
 		color:#fff;
-		padding:10px 5px;
+		padding:10px 10px;
 		background-color: $color-verde-claro;
 		font-size: 20px;
 		display: inline;
@@ -48,7 +78,7 @@
 	.titulo-fondo-cyan{
 		font-family:'montserratbold',sans-serif;
 		color:#fff;
-		padding:13px 5px;
+		padding:13px 10px;
 		margin:12px 0 35px 0;
 		display: inline-block;
 		font-size: 20px;
@@ -67,9 +97,11 @@
 		font-size: 25px;
 		color:$color-texto-titulos;
 		text-align:center;
+		margin: 20px 0 0 0;
 	}
 	.texto-prevolante{
 		color: $color-texto-parrafos;
+		margin: 75px 0 40px 0;
 	}
 
 	/* botones */
@@ -84,6 +116,9 @@
 		font-family: 'Roboto',sans-serif;
 		font-weight: 800;
 		text-align: center;
+		&:hover{
+			text-decoration: none;
+		}
 	}
 	input[type="submit"].btn-enviar{
 		background: none;
@@ -134,9 +169,22 @@
 		}
 	}
 }
+/*header*/
+.header{
+	.caja{
+		padding: 15px 55px 0px 55px;
+		.titulo-fondo-verde{
+			font-size: 28px;
+		}
+		.titulo-fondo-cyan{
+			font-size: 28px;
+		}
+	}
+}
 .tarifas{
+	padding:55px 0 0 0;
 	.caja-tablas{
-		border:1px solid $color-verde;
+		border:2px solid $color-verde;
 		padding: 20px; 
 		.table{
 			color:$blanco;
@@ -194,15 +242,16 @@
 }
 .mapa{
 	.mapa-caja{
+		background-color:#F9F9F9;
 		padding:55px;
-		.texto-primario{
+		/* .texto-primario{
 			color:$color-texto-titulos;
 			font-size: 15px;
 			font-family:'montserratbold',sans-serif;
 			span{
 				color:$color-verde;
 			}
-		}
+		} */
 	}
 }
 
@@ -243,16 +292,19 @@
 /*contacto*/
 .contacto{
 	.caja-contacto{
-		background-color:$color-footer;
-		padding:40px 55px 80px 55px;
+		background:url(../img/contacto-bg.jpg) center center no-repeat;
+		padding:50px 55px 80px 55px;
 		.contenedor-form{
 			padding: 45px 60px;
 			background-color:$color-celeste;
 			height: 480px;
-			border-radius:5px;
 			width: 650px;
 			margin:20px auto;
 			text-align: center;
+			/* Rectangle: */
+			background: rgba(54,105,163,0.70);
+			box-shadow: 0 2px 27px 0 rgba(0,0,0,0.24);
+			border-radius: 10px;
 			input{
 				width: 100%;
 				margin:10px 0;
