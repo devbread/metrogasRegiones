@@ -6,6 +6,7 @@
     <title>Bootstrap</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/lity.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
@@ -110,7 +111,7 @@
             <p class="texto-primario">El <strong>gas natural</strong> que llega a Chile proviene de distintas partes del mundo, para lo cual se utiliza tecnología de vanguardia que permite su traslado por mar y tierra hasta tu ciudad. </p>
             <p class="texto-primario">Revisa en este video para conocer más sobre el viaje el gas natural. </p>
           </div>
-          <div class="col-sm-6"><img src="img/play.jpg" alt=""></div>
+          <div class="col-sm-6"><a href="https://youtu.be/VNvhSr1k-i4" data-lity=""><img src="img/play.jpg" alt=""></a></div>
         </div>
       </section>
       <section class="mapa">
@@ -130,9 +131,10 @@
           <div id="mapa"><img src="img/mapa.jpg" alt="Poligonos Puerto Montt"></div>
         </div>
       </section>
+      
       <section class="video-left">
         <div class="row">
-          <div class="video-left-video col-sm-6"><img src="img/play.jpg" alt=""></div>
+          <div class="video-left-video col-sm-6"><a href="https://youtu.be/VNvhSr1k-i4" data-lity=""><img src="img/play.jpg" alt=""></a></div>
           <div class="video-left-texto col-sm-6">
             <div class="video-left-texto-center">
               <h1 class="titulo-fondo-verde">¿Cómo trabajamos en tu </h1>
@@ -176,8 +178,8 @@
           <div class="metroplanes-box col-sm-6">
             <div class="box-metroplanes">
               <div class="logs-metro"><img src="img/metroplan.png" alt="Metroplan"></div>
-              <p class="texto-primario-blanco">Con los Metroplanes pagas un plan fijo mensual, además incluye m3 adicionales por si te pasas del plan. Es ideal para quienes no quieren gastar de más.</p>
-              <p class="texto-primario-blanco">Al contratarlo aprovecha esta increíble promoción.</p>
+              <p class="texto-primario-blanco">Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados que además vienen con metros cúbicos adicionales de regalo por si te pasas del plan.</p>
+              <p class="texto-primario-blanco">Existen varios Metroplanes para que elijas el que más se ajusta a tu consumo y no te salgas de tu presupuesto.</p>
               <div class="box-metroplanes-planes texto-primario-blanco">
                 <p>Incluye</p>
                 <ul class="plans">
@@ -188,14 +190,14 @@
                   <li class="gifcardL">giftcard <span class="calefa">calefacción</span> $89.700</li>
                 </ul>
                 <div class="clearfix"></div>
-              </div><a href="#" class="btn-primario expand-one">Conoce Metroplanes</a>
+              </div><a href="#one" class="btn-primario expand-one">Conoce Metroplanes</a>
             </div>
           </div>
           <div class="metroplanes-box col-sm-6">
             <div class="box-metroplanes">
               <div class="logs-metro"><img src="img/planflexible.png" alt="planflexible"></div>
-              <p class="texto-primario-blanco text-center">Con este plan pagas lo que consumes con tarifa residencial. Es ideal para familias que no tienen un gasto fijo en gas natural.<br><br></p>
-              <p class="texto-primario-blanco text-center">Al contratarlo aprovecha esta increíble promoción.</p>
+              <p class="texto-primario-blanco text-center">Con este plan pagas lo que consumes con tarifa residencial con un 10% de descuento por 12 meses. Ideal para familias que no tienen un presupuesto fijo en energía.<br><br></p>
+              <p class="texto-primario-blanco text-center">Al contratarlo aprovecha esta increíble promoción.</p><br>
               <div class="box-metroplanes-planes texto-primario-blanco">
                 <p>Incluye</p>
                 <ul class="plans">
@@ -203,15 +205,15 @@
                   <li class="arrowB"><img src="img/icon-ecowood.png" alt="">
                     <p>eco<span>wood</span> </p>
                   </li>
-                  <li class="gifcardL">giftcard <span class="calefa">calefacción</span> $89.700</li>
+                  <li class="gifcardL">giftcard <span class="calefa">calefacción</span> 150m<sup>3</sup></li>
                 </ul>
                 <div class="clearfix"></div>
-              </div><a href="#" class="btn-primario expand-two">Conoce Metroplanes</a>
+              </div><a href="#two" class="btn-primario expand-two">Conoce Plan Flexible</a>
             </div>
           </div>
         </div>
       </section>
-      <section style="display:none;" class="contenido-metroplanes content-one">
+      <section id="one" style="display:none;" class="contenido-metroplanes content-one">
         <div class="metroplanes-cuadro">
           <div class="row">
             <div class="data-metroplan">
@@ -253,36 +255,68 @@
                   <tr>
                     <td>Metroplan 20</td>
                     <td>20</td>
-                    <td>$ 15.900</td>
-                    <td>$ 765</td>
+                    <td>$ 16.400</td>
+                    <td>$ 820</td>
                     <td>20</td>
-                    <td>$ 765</td>
+                    <td>$ 820</td>
                   </tr>
                   <tr>
-                    <td>Metroplan 20</td>
-                    <td>20</td>
-                    <td>$ 15.900</td>
-                    <td>$ 765</td>
-                    <td>20</td>
-                    <td>$ 765</td>
+                    <td>Metroplan 25</td>
+                    <td>25</td>
+                    <td>$ 20.300</td>
+                    <td>$ 812</td>
+                    <td>25</td>
+                    <td>$ 812</td>
                   </tr>
                   <tr>
-                    <td>Metroplan 20</td>
-                    <td>20</td>
-                    <td>$ 15.900</td>
-                    <td>$ 765</td>
-                    <td>20</td>
-                    <td>$ 765</td>
+                    <td>Metroplan 30</td>
+                    <td>30</td>
+                    <td>$ 24.200</td>
+                    <td>$ 807</td>
+                    <td>30</td>
+                    <td>$ 807</td>
+                  </tr>
+                  <tr>
+                    <td>Metroplan 35</td>
+                    <td>35</td>
+                    <td>$ 28.000</td>
+                    <td>$ 800</td>
+                    <td>35</td>
+                    <td>$ 800</td>
+                  </tr>
+                  <tr>
+                    <td>Metroplan 40</td>
+                    <td>40</td>
+                    <td>$ 31.900</td>
+                    <td>$ 798</td>
+                    <td>40</td>
+                    <td>$ 798</td>
+                  </tr>
+                  <tr>
+                    <td>Metroplan 50</td>
+                    <td>50</td>
+                    <td>$ 39.700</td>
+                    <td>$ 794</td>
+                    <td>50</td>
+                    <td>$ 794</td>
+                  </tr>
+                  <tr>
+                    <td>Metroplan 60</td>
+                    <td>60</td>
+                    <td>$ 47.400</td>
+                    <td>$ 790</td>
+                    <td>60</td>
+                    <td>$ 790</td>
                   </tr>
                 </table>
                 <h3 class="texto-prevolante">Contrata ahora tu Metroplan <br> y aprovecha esta increíble promoción.</h3>
-                <div class="volante"><img src="img/volante.jpg" alt=""></div>
+                <div class="volante"><img src="img/volante.jpg" alt=""><a href="#myAnchor" class="closer-a">cerrar </a></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section style="display:none;" class="contenido-metroplanes content-two">
+      <section id="two" style="display:none;" class="contenido-metroplanes content-two">
         <div class="metroplanes-cuadro">
           <div class="row">
             <div class="data-metroplan">
@@ -311,7 +345,7 @@
             <div class="col-sm-12 nopadding">
               <div class="caja-tabla">
                 <h3 class="subtitulo-uno">Conéctate a Metrogas y aprovecha <br> esta increíble promoción:</h3>
-                <div class="volante"><img src="img/volante2.jpg" alt=""></div>
+                <div class="volante"><img src="img/volante2.jpg" alt=""><a href="#myAnchor" class="closer-b">cerrar </a></div>
               </div>
             </div>
           </div>
@@ -355,204 +389,12 @@
           </div>
         </div>
       </section>
-      <section class="tarifas">
-        <div class="caja-tarifas">
-          <p class="antetitulo">Nuestras tarifas</p>
-          <div class="row">
-            <div class="col-sm-4">
-              <h1 class="titulo-fondo-verde">Conoce las tarifas</h1>
-              <h1 class="titulo-fondo-cyan">según tramo de conexión</h1>
-            </div>
-          </div>
-          <div class="caja-tablas">
-            <div class="row">
-              <div class="col-sm-4">
-                <table border="0" cellpadding="0" cellspacing="0" class="table">
-                  <tr>
-                    <th class="primero">Tramos en m3</th>
-                  </tr>
-                  <tr>
-                    <td>de 0 a 5</td>
-                  </tr>
-                  <tr>
-                    <td>de 5 a 10</td>
-                  </tr>
-                  <tr>
-                    <td>de 10 a 25</td>
-                  </tr>
-                  <tr>
-                    <td>de 25 a 40</td>
-                  </tr>
-                  <tr>
-                    <td>de 40 a 60</td>
-                  </tr>
-                  <tr>
-                    <td>de 130 a 170</td>
-                  </tr>
-                  <tr>
-                    <td>de 170 a 700</td>
-                  </tr>
-                  <tr>
-                    <td>de 700 a 900</td>
-                  </tr>
-                  <tr>
-                    <td>de 900 o más</td>
-                  </tr>
-                  <tr>
-                    <td>de 0 a5</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="col-sm-4">
-                <table class="table">
-                  <tr>
-                    <th class="primero">Valor por m3S</th>
-                  </tr>
-                  <tr>
-                    <td>$ 1.146</td>
-                  </tr>
-                  <tr>
-                    <td>$ 906</td>
-                  </tr>
-                  <tr>
-                    <td>$ 904</td>
-                  </tr>
-                  <tr>
-                    <td>$ 612</td>
-                  </tr>
-                  <tr>
-                    <td>$ 294</td>
-                  </tr>
-                  <tr>
-                    <td>$ 628</td>
-                  </tr>
-                  <tr>
-                    <td>$ 629</td>
-                  </tr>
-                  <tr>
-                    <td>$ 628</td>
-                  </tr>
-                  <tr>
-                    <td>$ 527</td>
-                  </tr>
-                  <tr>
-                    <td>$ 607</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="col-sm-4">
-                <table class="table">
-                  <tr>
-                    <th class="primero">Costo por Tramo</th>
-                  </tr>
-                  <tr>
-                    <td>de $0 a $5.730</td>
-                  </tr>
-                  <tr>
-                    <td>de $5.730 a $10.260</td>
-                  </tr>
-                  <tr>
-                    <td>de $10.260 a $23.820</td>
-                  </tr>
-                  <tr>
-                    <td>de $23.820 a $33.000</td>
-                  </tr>
-                  <tr>
-                    <td>de $33.000 a $38.880</td>
-                  </tr>
-                  <tr>
-                    <td>de $38.880 a $82.840</td>
-                  </tr>
-                  <tr>
-                    <td>de $82.840 a $108.000</td>
-                  </tr>
-                  <tr>
-                    <td>de $108.000 a $440.839</td>
-                  </tr>
-                  <tr>
-                    <td>de $440.839 a $546.240</td>
-                  </tr>
-                  <tr>
-                    <td>de de $546.240 o más</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-          <p class="texto-legal">La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.</p>
-        </div>
-      </section>
-      <section class="pagos">
-        <div class="caja-pagos">
-          <p class="antetitulo">Centros de pago</p>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="listas-pago">
-                <p class="titulo-lista">PAGO PRESENCIAL</p>
-                <ul class="presencial">
-                  <li>Oficina comercial de Metrogas</li>
-                  <li>ServiEstado y Caja Vecina (2) </li>
-                  <li>Unired (Caja Unimarc) (4)</li>
-                  <li>Servipag Express (4)</li>
-                  <li>Sencillito (4)</li>
-                  <li>Servipag Ventanillas (5)</li>
-                  <li>Servifácil (Cajas Líder) (6)</li>
-                </ul>
-                <ul class="listarespuesta">
-                  <li>(1) Pago con efectivo, tarjetas de crédito y débito bancarias</li>
-                  <li>(2) ServiEstado: Pago con cheque o efectivo y medios de pago BancoEstado. Caja Vecina: Pago solo con efectivo y medios de pago BancoEstado</li>
-                  <li>(3) Pago con cheque, tarjeta de crédito y débito bancarias</li>
-                  <li>(4) Pago sólo con efectivo </li>
-                  <li>(5) Pago efectivo - Cheque - Tarjetas Cencosud- Johnsons</li>
-                  <li>(6) Pago efectivo - Tarjetas Presto.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="listas-pago column">
-                <p class="titulo-lista">PAGO POR INTERNET</p>
-                <ul class="internet">
-                  <li><a href="http://www.metrogas.cl" target="_blank">www.metrogas.cl*</a></li>
-                  <li><a href="http://www.santander.cl" target="_blank">www.santander.cl*</a></li>
-                  <li><a href="http://www.bancoestado.cl" target="_blank">www.bancoestado.cl*</a></li>
-                  <li><a href="http://www.presto.cl" target="_blank">www.presto.cl*</a></li>
-                  <li><a href="http://www.servipag.com" target="_blank">www.servipag.com*</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="listas-pago">
-                <p class="titulo-lista">PAGO AUTOMÁTICO</p>
-                <ul class="automatico">
-                  <li>Banco Santander</li>
-                  <li>Banco de Chile</li>
-                  <li>Banco Estado</li>
-                  <li>Banco Falabella</li>
-                  <li>Banco BCI</li>
-                  <li>Banco CorpBanca</li>
-                  <li>Banco Itaú</li>
-                  <li>Banco Security</li>
-                  <li>Banco Scotiabank</li>
-                  <li>Banco BICE</li>
-                  <li>Banco BBVA</li>
-                  <li>Tarjeta de Crédito Bancaria (PAT):</li>
-                  <li><a href="http://www.metrogas.cl" target="_blank" class="links-automata">www.metrogas.cl*</a></li>
-                  <li><a href="http://www.santander.cl" target="_blank" class="links-automata">www.santander.cl</a></li>
-                  <li><a href="http://www.bancoestado.cl" target="_blank" class="links-automata">www.bancoestado.cl</a></li>
-                  <li><a href="http://www.presto.cl" target="_blank" class="links-automata">www.presto.cl</a></li>
-                  <li><a href="http://www.servipag.com" target="_blank" class="links-automata">www.servipag.com</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="texto-legal">Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui.Donec sed odio dui. presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros ckca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vi</p>
-      </section>
       
     </div>
     <script src="js/jadra.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/js.js"></script>
+    <script src="js/lity.js"></script>
   </body>
 </html>
