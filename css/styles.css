@@ -124,6 +124,8 @@ h1 {
   background: #3669A3 url(../img/bg-nubes.png) no-repeat; }
   .nubes .nubes-block {
     padding: 55px; }
+    .nubes .nubes-block .nube-titulo {
+      font-family: 'Montserrat',sans-serif; }
     .nubes .nubes-block .centroNatural {
       font-family: 'montserratregular',arial;
       font-size: 15px;
@@ -360,7 +362,7 @@ h1 {
     background: url(../img/icon-2.jpg) no-repeat left center;
     padding-left: 48px;
     height: 38px;
-    line-height: 38px; }
+    line-height: 16px; }
   .contenido-metroplanes ul.items-metroplanes .ico-3 {
     background: url(../img/icon-3.jpg) no-repeat left center;
     padding-left: 48px;

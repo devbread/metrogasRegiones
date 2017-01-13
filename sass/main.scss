@@ -26,6 +26,9 @@
 		// height: auto;
 		// margin:0 auto;
 		padding: 55px;
+		.nube-titulo {
+			font-family:'Montserrat',sans-serif;
+		}
 		.centroNatural{
 			font-family: 'montserratregular',arial;
 			font-size: 15px;
@@ -387,7 +390,7 @@
 			background: url(../img/icon-2.jpg) no-repeat left center;
 			padding-left: 48px;
 			height: 38px;
-			line-height: 38px;
+			line-height: 16px;
 		}
 		.ico-3 {
 			background: url(../img/icon-3.jpg) no-repeat left center;
