@@ -20,13 +20,22 @@ $(document).ready(function(){
 
     //collapse
 $('.expand-one,.closer-a').click(function(){
-    $('.content-one').slideToggle('fast');
+    $('.content-one').slideToggle('slow');
     event.preventDefault();
 });
 
 $('.expand-two,.closer-b').click(function(){
-    $('.content-two').slideToggle('fast');
+    $('.content-two').slideToggle('slow');
     event.preventDefault();
+});
+
+//anchor
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    });
+    return false;
 });
 
 

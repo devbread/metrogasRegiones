@@ -96,3 +96,21 @@
 .espace {
 	margin:55px 0;
 }
+
+.content-one, .content-two{
+	.volante {
+		.closer-a,
+		.closer-b {
+			background-color: $color-footer;
+			padding: 10px 20px;
+			color: $blanco;
+			display: block !important;
+			clear: both;
+			text-align: center;
+			width: 15%;
+			margin: 10px auto 10px auto;
+			border-radius:5px;
+			text-decoration: none;
+		}
+	}
+} 

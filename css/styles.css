@@ -732,7 +732,7 @@ a.tab-fixed {
 
 .mapa .mapa-caja {
   background-color: #F9F9F9;
-  padding: 55px;
+  padding: 55px 55px 15px 55px;
   /* .texto-primario{
   	color:$color-texto-titulos;
   	font-size: 15px;
@@ -883,3 +883,17 @@ a.tab-fixed {
 
 .espace {
   margin: 55px 0; }
+
+.content-one .volante .closer-a,
+.content-one .volante .closer-b, .content-two .volante .closer-a,
+.content-two .volante .closer-b {
+  background-color: #3669A3;
+  padding: 10px 20px;
+  color: #ffffff;
+  display: block !important;
+  clear: both;
+  text-align: center;
+  width: 15%;
+  margin: 10px auto 10px auto;
+  border-radius: 5px;
+  text-decoration: none; }
