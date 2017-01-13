@@ -373,21 +373,19 @@ h1 {
 
 .fluid-gray {
   background-color: #EBEBEB; }
-  .fluid-gray .caja-tabla {
-    border: 3px solid #ffffff; }
-    .fluid-gray .caja-tabla h2 {
-      color: #3669A3;
-      font-family: 'montserratbold', arial;
-      text-align: center;
-      font-size: 25px;
-      margin: 45px auto;
-      width: 50%; }
-    .fluid-gray .caja-tabla table {
-      width: 95%;
-      margin: 0 auto;
-      border-radius: 10px; }
-      .fluid-gray .caja-tabla table .cab {
-        background-color: #BDD44D; }
+  .fluid-gray .caja-tabla h2 {
+    color: #3669A3;
+    font-family: 'montserratbold', arial;
+    text-align: center;
+    font-size: 25px;
+    margin: 45px auto;
+    width: 50%; }
+  .fluid-gray .caja-tabla table {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px; }
+    .fluid-gray .caja-tabla table .cab {
+      background-color: #BDD44D; }
 
 .pagos .espace {
   margin-bottom: 100px; }
