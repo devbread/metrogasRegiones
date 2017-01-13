@@ -127,15 +127,19 @@ h1 {
     .nubes .nubes-block .centroNatural {
       font-family: 'montserratregular',arial;
       font-size: 15px;
-      width: 40%;
-      margin: 0 auto 25px auto; }
+      width: 34%;
+      margin: 0 auto 25px auto;
+      line-height: 22px; }
       .nubes .nubes-block .centroNatural span {
         font-family: 'montserratblack', arial; }
     .nubes .nubes-block .centerC {
       text-align: center;
       line-height: 18px; }
     .nubes .nubes-block .fz {
-      font-size: 14px !important; }
+      font-size: 14px !important;
+      line-height: 16px !important;
+      width: 82%;
+      margin: 0 auto; }
   .nubes .line-box-box {
     margin-top: 77px; }
     .nubes .line-box-box .line-box .line-box-item-titulo, .nubes .line-box-box .line-box.nb .line-box-item-titulo {
@@ -149,7 +153,7 @@ h1 {
     .nubes .line-box-box .line-box.nb {
       margin-right: 0; }
     .nubes .line-box-box .line-box-item-texto {
-      background-color: #305D91;
+      background-color: rgba(48, 93, 145, 0.7);
       padding: 24px 22px;
       font-family: 'montserratregular',arial;
       font-size: 14px;
@@ -250,7 +254,9 @@ h1 {
     .metroplanes h1 span {
       display: block; }
   .metroplanes .metroplanes-box {
-    padding: 55px 50px; }
+    padding: 0px 50px;
+    border-right: 1px solid rgba(35, 69, 107, 0.5);
+    margin: 50px 0; }
     .metroplanes .metroplanes-box .box-metroplanes {
       position: relative;
       text-align: center; }
@@ -896,4 +902,5 @@ a.tab-fixed {
   width: 15%;
   margin: 10px auto 10px auto;
   border-radius: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-bottom: 30px; }
