@@ -29,8 +29,9 @@
 		.centroNatural{
 			font-family: 'montserratregular',arial;
 			font-size: 15px;
-			width: 40%;
+			width: 34%;
 			margin: 0 auto 25px auto;
+			line-height: 22px;
 			span {
 				font-family: 'montserratblack', arial;
 			}
@@ -41,6 +42,9 @@
 		}
 		.fz{
 			font-size: 14px !important;
+			line-height: 16px !important;
+			width: 82%;
+			margin: 0 auto;
 		}
 	}
 
@@ -65,7 +69,7 @@
 		}
 
 		.line-box-item-texto {
-			background-color: $color-azul-caja;
+			background-color: rgba($color-azul-caja,.7);
 			padding: 24px 22px;
 			font-family: 'montserratregular',arial;
 			font-size: 14px;
@@ -224,6 +228,7 @@
 	padding: 55px 55px 0px 55px;
 	.bgc {
 		background-color: $color-footer;
+
 	}
 	h1 {
 		color: $blanco;
@@ -233,7 +238,9 @@
 		}
 	}
 	.metroplanes-box {
-		padding: 55px 50px;
+		padding: 0px 50px;
+		border-right: 1px solid rgba(#23456B,0.5);
+		margin: 50px 0;
 
 		.box-metroplanes {
 			position: relative;
