@@ -324,15 +324,15 @@ html(lang='en')
                 .contenedor-form
                     form
                         .col-sm-12
-                            input(type="text", placeholder="Nombre")
+                            input(type="text", placeholder="Nombre" required)
                         .col-sm-12
-                            input(type="text", placeholder="Apellido")
+                            input(type="text", placeholder="Apellido" required)
                         .col-sm-12
-                            input(type="text", placeholder="Teléfono")
+                            input(type="text", placeholder="Teléfono" required maxlength="12" minlength="9")
                         .col-sm-12
-                            input(type="text", placeholder="Email")
+                            input(type="text", placeholder="Email" required)
                         .col-sm-12
-                            input(type="text", placeholder="Dirección")
+                            input(type="text", placeholder="Dirección" required)
                         .col-sm-12
                             input(type="submit", value="enviar", class="btn-enviar")
         //-section.tarifas
