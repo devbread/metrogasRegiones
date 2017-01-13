@@ -38,7 +38,7 @@ a.tab-fixed{
 	padding-bottom:10px;
 }
 
-.metroplanes,.metroambientalistas,.bggray,.quienes,.metroplan,.header,.concept,.video,.mapa,.video-left,.bloque-seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
+.metroplanes,.nubes,.metroambientalistas,.bggray,.quienes,.metroplan,.header,.concept,.video,.mapa,.video-left,.bloque-seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
 	.texto-primario{
 		font-family:'montserratlight',sans-serif;
 		color:$color-texto-parrafos;
@@ -46,7 +46,7 @@ a.tab-fixed{
 		font-size: 14px;
 		line-height: 17px;
 		span{
-			color:$color-verde;
+			color:$color-texto-parrafos;
 			font-family:'montserratbold',sans-serif;
 		}
 	}
@@ -258,9 +258,12 @@ a.tab-fixed{
 	}
 }
 /* concept */
+.concept-foto{
+	margin:50px 0;
+}
 .section-texto{
 	.antetitulo{
-			margin: 50px 0 30px 0;
+			margin: 80px 0 30px 0;
 	}
 	.sector{
 		margin-top:50px !important;
