@@ -9,6 +9,7 @@ html(lang='en')
     //- Bootstrap
     link(href='css/bootstrap.min.css', rel='stylesheet')
     link(href='css/styles.css', rel='stylesheet')
+    link(href='css/lity.min.css', rel='stylesheet')
     link(href='css/font-awesome.min.css', rel='stylesheet')
     //- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
     //- WARNING: Respond.js doesn't work if you view the page via file://
@@ -92,7 +93,8 @@ html(lang='en')
 
                     p.texto-primario Revisa en este video para conocer más sobre el viaje el gas natural. 
                 .col-sm-6
-                    img(src="img/play.jpg", alt="") 
+                    a(href='https://youtu.be/VNvhSr1k-i4', data-lity='')
+                        img(src="img/play.jpg", alt="") 
         section.mapa
             .mapa-caja
                 p.antetitulo Más cerca de ti
@@ -106,11 +108,15 @@ html(lang='en')
 
                 #mapa
                     img(src="img/mapa.jpg", alt="Poligonos Puerto Montt")
+        //- #mapa(style="width:960px; height:450px;")
+        //-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47838.800340490954!2d-72.98312336234893!3d-41.46254151367265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96183a4d6920f407%3A0x86a3f15a79a5c9df!2sPuerto+Montt%2C+X+Regi%C3%B3n!5e0!3m2!1ses!2scl!4v1484257226570" width="960" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 
         section.video-left
             .row
                 .video-left-video.col-sm-6
-                    img(src="img/play.jpg", alt="")
+                    a(href='https://youtu.be/VNvhSr1k-i4', data-lity='')
+                        img(src="img/play.jpg", alt="")
                 .video-left-texto.col-sm-6
                     .video-left-texto-center
                         h1.titulo-fondo-verde ¿Cómo trabajamos en tu 
@@ -152,8 +158,8 @@ html(lang='en')
                     .box-metroplanes
                         .logs-metro
                             img(src="img/metroplan.png", alt="Metroplan")
-                        p.texto-primario-blanco Con los Metroplanes pagas un plan fijo mensual, además incluye m3 adicionales por si te pasas del plan. Es ideal para quienes no quieren gastar de más.
-                        p.texto-primario-blanco Al contratarlo aprovecha esta increíble promoción.
+                        p.texto-primario-blanco Los Metroplanes consisten en contratar por un cargo fijo mensual una cantidad de metros cúbicos de gas natural determinados que además vienen con metros cúbicos adicionales de regalo por si te pasas del plan.
+                        p.texto-primario-blanco Existen varios Metroplanes para que elijas el que más se ajusta a tu consumo y no te salgas de tu presupuesto.
                         
                         .box-metroplanes-planes.texto-primario-blanco
                             p Incluye
@@ -164,12 +170,12 @@ html(lang='en')
                                     p eco<span>wood</span> 
                                 li.gifcardL giftcard <span class="calefa">calefacción</span> $89.700
                             .clearfix
-                        a.btn-primario.expand-one(href="#") Conoce Metroplanes
+                        a.btn-primario.expand-one(href="#one") Conoce Metroplanes
                 .metroplanes-box.col-sm-6
                     .box-metroplanes
                         .logs-metro
                             img(src="img/planflexible.png", alt="planflexible")
-                        p.texto-primario-blanco.text-center Con este plan pagas lo que consumes con tarifa residencial. Es ideal para familias que no tienen un gasto fijo en gas natural.<br><br>
+                        p.texto-primario-blanco.text-center Con este plan pagas lo que consumes con tarifa residencial con un 10% de descuento por 12 meses. Ideal para familias que no tienen un presupuesto fijo en energía.<br><br>
                         p.texto-primario-blanco.text-center Al contratarlo aprovecha esta increíble promoción.
                         <br>
                         
@@ -180,16 +186,16 @@ html(lang='en')
                                 li.arrowB
                                     img(src="img/icon-ecowood.png", alt="") 
                                     p eco<span>wood</span> 
-                                li.gifcardL giftcard <span class="calefa">calefacción</span> $89.700
+                                li.gifcardL giftcard <span class="calefa">calefacción</span> 150m<sup>3</sup>
                             .clearfix
-                        a.btn-primario.expand-two(href="#") Conoce Metroplanes
+                        a.btn-primario.expand-two(href="#two") Conoce Plan Flexible
         //- .content-one(style="display:none;")
         //-     p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ullam, officiis voluptates, quaerat consequuntur provident voluptas labore perferendis facere natus sit architecto rerum! Possimus laudantium, earum doloribus impedit fuga fugit!
         //-     a.closer-a(href="#") cerrar
         //- .content-two(style="display:none;")
         //-     p  Gordo  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quod iure aperiam eaque odit consectetur a ex optio nulla, neque dicta modi non, quaerat omnis. Commodi cupiditate optio dolorem repellendus!
         //-     a.closer-b(href="#") cerrar
-        section.contenido-metroplanes.content-one(style="display:none;")
+        section.contenido-metroplanes.content-one#one(style="display:none;")
             .metroplanes-cuadro
                 .row
                     .data-metroplan
@@ -228,28 +234,57 @@ html(lang='en')
                                 tr
                                     td Metroplan 20
                                     td 20
-                                    td $ 15.900
-                                    td $ 765
+                                    td $ 16.400
+                                    td $ 820
                                     td 20
-                                    td $ 765
+                                    td $ 820
                                 tr
-                                    td Metroplan 20
-                                    td 20
-                                    td $ 15.900
-                                    td $ 765
-                                    td 20
-                                    td $ 765
+                                    td Metroplan 25
+                                    td 25
+                                    td $ 20.300
+                                    td $ 812
+                                    td 25
+                                    td $ 812
                                 tr
-                                    td Metroplan 20
-                                    td 20
-                                    td $ 15.900
-                                    td $ 765
-                                    td 20
-                                    td $ 765
+                                    td Metroplan 30
+                                    td 30
+                                    td $ 24.200
+                                    td $ 807
+                                    td 30
+                                    td $ 807
+                                tr
+                                    td Metroplan 35
+                                    td 35
+                                    td $ 28.000
+                                    td $ 800
+                                    td 35
+                                    td $ 800
+                                tr
+                                    td Metroplan 40
+                                    td 40
+                                    td $ 31.900
+                                    td $ 798
+                                    td 40
+                                    td $ 798
+                                tr
+                                    td Metroplan 50
+                                    td 50
+                                    td $ 39.700
+                                    td $ 794
+                                    td 50
+                                    td $ 794
+                                tr
+                                    td Metroplan 60
+                                    td 60
+                                    td $ 47.400
+                                    td $ 790
+                                    td 60
+                                    td $ 790
                             h3.texto-prevolante Contrata ahora tu Metroplan <br> y aprovecha esta increíble promoción.
                             .volante
-                                img(src="img/volante.jpg", alt="") 
-        section.contenido-metroplanes.content-two(style="display:none;")
+                                img(src="img/volante.jpg", alt="")
+                                a.closer-a(href="#myAnchor") cerrar 
+        section.contenido-metroplanes.content-two#two(style="display:none;")
             .metroplanes-cuadro
                 .row
                     .data-metroplan
@@ -274,6 +309,7 @@ html(lang='en')
                             h3.subtitulo-uno Conéctate a Metrogas y aprovecha <br> esta increíble promoción:
                             .volante
                                 img(src="img/volante2.jpg", alt="")
+                                a.closer-b(href="#myAnchor") cerrar 
                                 
         section.contacto
             .container-fluid.caja-contacto
@@ -299,11 +335,11 @@ html(lang='en')
                             input(type="text", placeholder="Dirección")
                         .col-sm-12
                             input(type="submit", value="enviar", class="btn-enviar")
-        section.tarifas
+        //-section.tarifas
             .caja-tarifas
                 p.antetitulo Nuestras tarifas
                 .row
-                    .col-sm-4
+                    .col-sm-6
                         h1.titulo-fondo-verde Conoce las tarifas
                         h1.titulo-fondo-cyan según tramo de conexión
                 .caja-tablas
@@ -397,7 +433,7 @@ html(lang='en')
 
                 p.texto-legal La presente tarifa es escalonada y aplicable para consumos de 30 días en m3S, y no refleja los cambios de tarifas durante un periodo de facturación.  En caso de cambio de tarifas durante un periodo de facturación, se utiliza una tarifa equivalente para el periodo, promediando en forma ponderada cada tarifa sobre la base del número de días de vigencia de cada una de ellas en el periodo correspondiente. Artículo 50° del Decreto N° 67/2004, de Economía, que aprueba el Reglamento de Servicio de Gas de Red. m3S: Unidad de medida que corresponde a metros cúbicos estándar (medidos a 15ºC y a una presión de 101,325 kPa), considerando un poder calorífico nominal de  9.300  kca/m3S y un período de 30 días. Valores indicados incluyen IVA. Mes: Se considera como mes a un período de 30 días.
 
-        section.pagos
+        //-section.pagos
             .caja-pagos
                 p.antetitulo Centros de pago
                 .row
@@ -505,3 +541,4 @@ html(lang='en')
     //- Include all compiled plugins (below), or include individual files as needed
     script(src='js/bootstrap.min.js')
     script(src='js/js.js')
+    script(src='js/lity.js')
