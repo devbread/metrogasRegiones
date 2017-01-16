@@ -814,6 +814,10 @@ a.tab-fixed {
 .pagos .caja-pagos {
   padding: 0 55px; }
 
+/* Metroambientalistas */
+.metroambientalistas {
+  padding: 35px 55px !important; }
+
 .container {
   max-width: 960px !important;
   width: 960px !important;
