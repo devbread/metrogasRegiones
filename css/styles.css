@@ -455,8 +455,7 @@ h1 {
   background: url(../img/nino.jpg) no-repeat;
   position: relative;
   height: 876px;
-  z-index: 0;
-  padding: 55px; }
+  z-index: 0; }
   .metroambientalistas:after {
     content: "";
     width: 510px;
