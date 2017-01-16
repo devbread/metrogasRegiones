@@ -19,14 +19,16 @@ $(document).ready(function(){
 
 
     //collapse
-$('.expand-one,.closer-a').click(function(){
+$('.expand-one,.closer-a').click(function(e){
+    e.stopPropagation();
     $('.content-one').slideToggle('slow');
-    event.preventDefault();
+    // event.preventDefault();
 });
 
-$('.expand-two,.closer-b').click(function(){
+$('.expand-two,.closer-b').click(function(e){
+    e.stopPropagation();
     $('.content-two').slideToggle('slow');
-    event.preventDefault();
+    // event.preventDefault();
 });
 
 //anchor
